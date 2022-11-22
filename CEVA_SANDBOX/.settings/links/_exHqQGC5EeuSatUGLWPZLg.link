@@ -1,0 +1,88 @@
+{
+  "itemId" : "_exHqQGC5EeuSatUGLWPZLg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_M_3qUWSXEeuhINcUYE6Rhg",
+      "name" : "contextDirBI_INDUS"
+    }, {
+      "id" : "_LsABIGJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_um_VQGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_5JG4k1wBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5JG4lFwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_5JG4llwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_M_3qUGSXEeuhINcUYE6Rhg",
+      "name" : "fileInclusion"
+    }, {
+      "id" : "_0Xb18GC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_M_3qU2SXEeuhINcUYE6Rhg",
+      "name" : "contextDirBI_INDUS"
+    }, {
+      "id" : "_LsABIWJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_unCYkGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_5g3RUVwBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5g3RUlwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_5g3RVFwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_M_3qUmSXEeuhINcUYE6Rhg",
+      "name" : "fileInclusion"
+    }, {
+      "id" : "_0Xb18WC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_M_3qVWSXEeuhINcUYE6Rhg",
+      "name" : "contextDirBI_INDUS"
+    }, {
+      "id" : "_LsAoMGJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_unC_oGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_5g3RZ1wBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5g3RaFwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_5g3RalwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_M_3qVGSXEeuhINcUYE6Rhg",
+      "name" : "fileInclusion"
+    }, {
+      "id" : "_0Xb18mC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  } ]
+}

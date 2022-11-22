@@ -1,0 +1,25 @@
+{
+  "itemId" : "_Upda8GrDEeuBouJ47zCs7g",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_0Xb18GC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_0Xb18WC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_0Xb18mC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  } ]
+}

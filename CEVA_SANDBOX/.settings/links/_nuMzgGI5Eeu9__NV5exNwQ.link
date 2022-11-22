@@ -1,0 +1,196 @@
+{
+  "itemId" : "_nuMzgGI5Eeu9__NV5exNwQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_GMV3IDicEeuQIYwLt3bWGw",
+    "parameterList" : [ {
+      "id" : "_MmJHQzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHQTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHTDibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_MmJHSDibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHSTibEeuQIYwLt3bWGw",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_MmJHTjibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MmJHVzibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHTTibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_VTwKAE94EeuNKpzAoxZhnQ",
+      "name" : "flagCommit"
+    }, {
+      "id" : "_MmJHWjibEeuQIYwLt3bWGw",
+      "name" : "OriginDir"
+    }, {
+      "id" : "_MAWtZE-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPBcc"
+    }, {
+      "id" : "_MAWtY0-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPCc"
+    }, {
+      "id" : "_MAWtZU-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPFrom"
+    }, {
+      "id" : "_MAWtYU-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPPort"
+    }, {
+      "id" : "_MAWtYE-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPServer"
+    }, {
+      "id" : "_uMEwMFABEeumof0Pj5eVDw",
+      "name" : "SMTPSubject"
+    }, {
+      "id" : "_MAWtYk-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPTo"
+    }, {
+      "id" : "_MmJHRTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHRDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHQjibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_GMV3IDicEeuQIYwLt3bWGw",
+    "parameterList" : [ {
+      "id" : "_MmJHYTibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHXzibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHajibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_MmJHZjibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHZzibEeuQIYwLt3bWGw",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_MmJHbDibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MmJHdTibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHazibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_VTwKAU94EeuNKpzAoxZhnQ",
+      "name" : "flagCommit"
+    }, {
+      "id" : "_MmJHeDibEeuQIYwLt3bWGw",
+      "name" : "OriginDir"
+    }, {
+      "id" : "_MAWta0-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPBcc"
+    }, {
+      "id" : "_MAWtak-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPCc"
+    }, {
+      "id" : "_MAWtbE-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPFrom"
+    }, {
+      "id" : "_MAWtaE-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPPort"
+    }, {
+      "id" : "_MAWtZ0-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPServer"
+    }, {
+      "id" : "_uMOhMFABEeumof0Pj5eVDw",
+      "name" : "SMTPSubject"
+    }, {
+      "id" : "_MAWtaU-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPTo"
+    }, {
+      "id" : "_MmJHYzibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHYjibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHYDibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_GMV3IDicEeuQIYwLt3bWGw",
+    "parameterList" : [ {
+      "id" : "_MmJHfzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHfTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHiDibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_MmJHhDibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHhTibEeuQIYwLt3bWGw",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_MmJHijibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MmJHkzibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHiTibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_VTwKAk94EeuNKpzAoxZhnQ",
+      "name" : "flagCommit"
+    }, {
+      "id" : "_MmJHljibEeuQIYwLt3bWGw",
+      "name" : "OriginDir"
+    }, {
+      "id" : "_MAWtck-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPBcc"
+    }, {
+      "id" : "_MAWtcU-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPCc"
+    }, {
+      "id" : "_MAWtc0-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPFrom"
+    }, {
+      "id" : "_MAWtb0-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPPort"
+    }, {
+      "id" : "_MAWtbk-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPServer"
+    }, {
+      "id" : "_uMOhMVABEeumof0Pj5eVDw",
+      "name" : "SMTPSubject"
+    }, {
+      "id" : "_MAWtcE-3Eeu6xcKriFb6Tg",
+      "name" : "SMTPTo"
+    }, {
+      "id" : "_MmJHgTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHgDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHfjibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    } ]
+  } ]
+}

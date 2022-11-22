@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_3ilRwMoBEeu3M8ut3oR1RQ">
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilRwcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="clist" prompt="clist?" promptNeeded="false" type="id_String" value="268.7.171.42.20.31.32.44.380.47.51" xmi:id="_3ilRwsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilRw8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\QBASE_OLD_LC\config\" xmi:id="_3ilRxMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\QBASE_OLD_LC\context\" xmi:id="_3ilRxcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="convertCsv" prompt="convertCsv?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilRxsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="csvDelimiter" prompt="csvDelimiter?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilRx8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="Debug" prompt="Debug?" promptNeeded="false" type="id_String" value="True" xmi:id="_3ilRyMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="QBASE_OLD_LC.ini" xmi:id="_3ilRycoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_3ilRysoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileExtractJDE" prompt="FileExtractJDE?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilRy8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileExtractQB" prompt="FileExtractQB?" promptNeeded="false" type="id_String" value="Qbase_Old_LC" xmi:id="_3ilRzMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileOrderError" prompt="FileOrderError?" promptNeeded="false" type="id_String" value="Qbase_Old_LC_errors.csv" xmi:id="_3ilRzcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileOrderSuccess" prompt="FileOrderSuccess?" promptNeeded="false" type="id_String" value="Qbase_Old_LC_success.csv" xmi:id="_3ilRzsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="fileRowSeparator" prompt="fileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_3ilRz8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="fileTempSeparator" prompt="fileTempSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_3ilR0MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileUpdateQB" prompt="FileUpdateQB?" promptNeeded="false" type="id_String" value="Qbase_Old_LC_update.csv" xmi:id="_3ilR0coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="flagLoad" prompt="flagLoad?" promptNeeded="false" type="id_String" value="&quot;Y&quot;" xmi:id="_3ilR0soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ParamFileQB" prompt="ParamFileQB?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR08oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\QBASE_OLD_LC\tmp\" xmi:id="_3ilR1MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR1coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="dpg3nc8nvikywcxvqtiyc4ciikp" xmi:id="_3ilR1soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_String" value="q13A1793!" xmi:id="_3ilR18oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" type="id_String" value="bknq39ef9" xmi:id="_3ilR2MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR2coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="it.qbase@ceva.com" xmi:id="_3ilR2soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="refDir" prompt="refDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\CEVA_MASTER\config\" xmi:id="_3ilR28oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="structured" prompt="structured?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR3MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR3coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\QBASE_OLD_LC\tmp\" xmi:id="_3ilR3soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="xslFile" prompt="xslFile?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\CEVA_MASTER\ParamFiles\templateXSLCsvImportV2.xsl" xmi:id="_3ilR38oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="targetDir" prompt="targetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\QBASE_OLD_LC\target\" xmi:id="_6b0xgMqKEeudg9eZUQYQNQ"/>
+    <contextParameter comment="" name="FileNameTGT" prompt="FileNameTGT?" promptNeeded="false" type="id_String" value="Qbase_Old_LC_Target.csv" xmi:id="_6b0xgcqKEeudg9eZUQYQNQ"/>
+    <contextParameter comment="" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" type="id_String" value="&quot;UFT-8&quot;" xmi:id="_cJIokMqqEeudg9eZUQYQNQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_3ilR4MoBEeu3M8ut3oR1RQ">
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR4coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="clist" prompt="clist?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR4soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR48oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\QBASE_OLD_LC\config\" xmi:id="_3ilR5MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR5coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="convertCsv" prompt="convertCsv?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR5soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="csvDelimiter" prompt="csvDelimiter?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR58oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="Debug" prompt="Debug?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR6MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="QBASE_OLD_LC.ini" xmi:id="_3ilR6coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_3ilR6soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileExtractJDE" prompt="FileExtractJDE?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR68oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileExtractQB" prompt="FileExtractQB?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR7MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileOrderError" prompt="FileOrderError?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR7coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileOrderSuccess" prompt="FileOrderSuccess?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR7soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="fileRowSeparator" prompt="fileRowSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR78oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="fileTempSeparator" prompt="fileTempSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR8MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileUpdateQB" prompt="FileUpdateQB?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR8coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="flagLoad" prompt="flagLoad?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR8soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ParamFileQB" prompt="ParamFileQB?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR88oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR9MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR9coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR9soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR98oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR-MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR-coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR-soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="refDir" prompt="refDir?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR-8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="structured" prompt="structured?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR_MoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR_coBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR_soBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="xslFile" prompt="xslFile?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilR_8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="targetDir" prompt="targetDir?" promptNeeded="false" type="id_String" value="" xmi:id="_6b0xgsqKEeudg9eZUQYQNQ"/>
+    <contextParameter comment="" name="FileNameTGT" prompt="FileNameTGT?" promptNeeded="false" type="id_String" value="" xmi:id="_6b0xg8qKEeudg9eZUQYQNQ"/>
+    <contextParameter comment="" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" type="id_String" value="&quot;UFT-8&quot;" xmi:id="_cJIokcqqEeudg9eZUQYQNQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_3ilSAMoBEeu3M8ut3oR1RQ">
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSAcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="clist" prompt="clist?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSAsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSA8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSBMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSBcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="convertCsv" prompt="convertCsv?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSBsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="csvDelimiter" prompt="csvDelimiter?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSB8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="Debug" prompt="Debug?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSCMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSCcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSCsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileExtractJDE" prompt="FileExtractJDE?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSC8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileExtractQB" prompt="FileExtractQB?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSDMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileOrderError" prompt="FileOrderError?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSDcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileOrderSuccess" prompt="FileOrderSuccess?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSDsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="fileRowSeparator" prompt="fileRowSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSD8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="fileTempSeparator" prompt="fileTempSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSEMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="FileUpdateQB" prompt="FileUpdateQB?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSEcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="flagLoad" prompt="flagLoad?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSEsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ParamFileQB" prompt="ParamFileQB?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSE8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSFMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSFcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSFsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSF8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSGMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSGcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSGsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="refDir" prompt="refDir?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSG8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="structured" prompt="structured?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSHMoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSHcoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSHsoBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="xslFile" prompt="xslFile?" promptNeeded="false" type="id_String" value="" xmi:id="_3ilSH8oBEeu3M8ut3oR1RQ"/>
+    <contextParameter comment="" name="targetDir" prompt="targetDir?" promptNeeded="false" type="id_String" value="" xmi:id="_6b1YkMqKEeudg9eZUQYQNQ"/>
+    <contextParameter comment="" name="FileNameTGT" prompt="FileNameTGT?" promptNeeded="false" type="id_String" value="" xmi:id="_6b1YkcqKEeudg9eZUQYQNQ"/>
+    <contextParameter comment="" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" type="id_String" value="" xmi:id="_cJIoksqqEeudg9eZUQYQNQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_137a7920-8bca-4c22-869c-bc3c6a0baf8f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>CALw14UbeyGMxbT5srf4xQg3XG6Xmk460bft+ROh7dhsSgoXuC7gP7fGF3w3PQqIrak+a55NqlpZ&#13;
+hsbQtwRUtA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_45e33dfc-8051-456b-9350-70aaf0abb5cb"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qRyyjqH96r1g1sJHa3ZoFnYMeRpG5kyhWcj4C0GQyZHwjarZJFzqIbCP+3Idn+0CUjF3y3kHDYXJ&#13;
+OzMun89jFA==</DigestValue></Reference></SignedInfo><SignatureValue>XNSqbP3xGUX6Qd6e5IdgUUTNbQP4b6IoNY6TGK7yVP3B2maP79IyjCunpGVuSf64lynRGutA/HiR&#13;
+dVGxolTPp6MhW6YZkh0j8zSRRlsBXN2aGgp6+INslwJqVhsi6WqO+0xY1dH+ACE8p1pbOOw7gCcg&#13;
+Kf1HqrZ7t2X1Sb2k9rtGLhVsl6/TJn3p1bZWnMBgu3naVoZWKd3RswuolGylCvuLPw6PTNnal3D/&#13;
+MB0JxyZLIVt+Qv4Y7rC6o8jQg5Qt4xFtACnGxEDNWhx33HdSoTWGE9fXCQuBS2ybdrS5tzDFMOVM&#13;
+LxgIjOnYghMyWpgZUQ6LHzN7BzX9RGU3rP9EtQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_45e33dfc-8051-456b-9350-70aaf0abb5cb" Target="#_137a7920-8bca-4c22-869c-bc3c6a0baf8f"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

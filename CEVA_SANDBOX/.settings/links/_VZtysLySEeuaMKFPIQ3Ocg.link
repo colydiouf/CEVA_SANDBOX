@@ -1,0 +1,51 @@
+{
+  "itemId" : "_VZtysLySEeuaMKFPIQ3Ocg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XJrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XJLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XI7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XIbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XJ7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XJbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XIrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_v-vF4JOHEeuoSbNYT2NFHg",
+    "parameterList" : [ {
+      "id" : "_53mrU_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_53mrVfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_53mrUfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_53mrUvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_53mrVvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_53mrVPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Mois_MM"
+    } ]
+  } ]
+}

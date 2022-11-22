@@ -1,0 +1,310 @@
+{
+  "itemId" : "__bgP0MLwEeuw8rSxiG7euQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_PcwnUMN9Eeu02OoAki_WLA",
+    "parameterList" : [ {
+      "id" : "_6Ig1JfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Login"
+    }, {
+      "id" : "_6Ig1IfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Password"
+    }, {
+      "id" : "_6Ig1JvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Schema"
+    }, {
+      "id" : "_6Ig1IvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Server"
+    }, {
+      "id" : "_6Ig1JPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Port"
+    }, {
+      "id" : "_6Ig1I_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_AdditionalParams"
+    }, {
+      "id" : "_6Ig1J_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_KKmUsMN-Eeu02OoAki_WLA",
+    "parameterList" : [ {
+      "id" : "_6PdKpPaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Port"
+    }, {
+      "id" : "_6PdKo_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_6PdKpvaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Schema"
+    }, {
+      "id" : "_6PdKofaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Password"
+    }, {
+      "id" : "_6PdKp_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Sid"
+    }, {
+      "id" : "_6PdKpfaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Login"
+    }, {
+      "id" : "_6PdKovaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Server"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_it0mcMILEeuoKfiVTBjWLw",
+    "parameterList" : [ {
+      "id" : "_MmJHQTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHRTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHTDibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_VTwKAE94EeuNKpzAoxZhnQ",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_MmJHRDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHSDibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHTjibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_ZDG5sMOBEeu2qpBtx1Xa6A",
+      "name" : "JobStatut"
+    }, {
+      "id" : "_MmJHQjibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    }, {
+      "id" : "_spQ64L00EeuG6a6mWKqYsg",
+      "name" : "LookupDir"
+    }, {
+      "id" : "_MmJHVzibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHQzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHTTibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_GGmOAM9WEeuulfiSNNZLfQ",
+      "name" : "file_BI_COMPOSANTE_COUT"
+    }, {
+      "id" : "_MmJHSTibEeuQIYwLt3bWGw",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_GGmOAc9WEeuulfiSNNZLfQ",
+      "name" : "file_EXCL_LIBELLE_ARTICLE"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_PcwnUMN9Eeu02OoAki_WLA",
+    "parameterList" : [ {
+      "id" : "_6Ig1NfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Login"
+    }, {
+      "id" : "_6Ig1MfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Password"
+    }, {
+      "id" : "_6Ig1NvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Schema"
+    }, {
+      "id" : "_6Ig1MvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Server"
+    }, {
+      "id" : "_6Ig1NPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Port"
+    }, {
+      "id" : "_6Ig1M_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_AdditionalParams"
+    }, {
+      "id" : "_6Ig1N_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_KKmUsMN-Eeu02OoAki_WLA",
+    "parameterList" : [ {
+      "id" : "_6PdKtPaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Port"
+    }, {
+      "id" : "_6PdKs_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_6PdKtvaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Schema"
+    }, {
+      "id" : "_6PdKsfaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Password"
+    }, {
+      "id" : "_6PdKt_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Sid"
+    }, {
+      "id" : "_6PdKtfaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Login"
+    }, {
+      "id" : "_6PdKsvaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Server"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_it0mcMILEeuoKfiVTBjWLw",
+    "parameterList" : [ {
+      "id" : "_MmJHfTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHgTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHiDibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_VTwKAk94EeuNKpzAoxZhnQ",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_MmJHgDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHhDibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHijibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_ZDG5ssOBEeu2qpBtx1Xa6A",
+      "name" : "JobStatut"
+    }, {
+      "id" : "_MmJHfjibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    }, {
+      "id" : "_spQ65r00EeuG6a6mWKqYsg",
+      "name" : "LookupDir"
+    }, {
+      "id" : "_MmJHkzibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHfzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHiTibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_GGmOBM9WEeuulfiSNNZLfQ",
+      "name" : "file_BI_COMPOSANTE_COUT"
+    }, {
+      "id" : "_MmJHhTibEeuQIYwLt3bWGw",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_GGmOBc9WEeuulfiSNNZLfQ",
+      "name" : "file_EXCL_LIBELLE_ARTICLE"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_PcwnUMN9Eeu02OoAki_WLA",
+    "parameterList" : [ {
+      "id" : "_6Ig1LfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Login"
+    }, {
+      "id" : "_6Ig1KfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Password"
+    }, {
+      "id" : "_6Ig1LvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Schema"
+    }, {
+      "id" : "_6Ig1KvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Server"
+    }, {
+      "id" : "_6Ig1LPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Port"
+    }, {
+      "id" : "_6Ig1K_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_AdditionalParams"
+    }, {
+      "id" : "_6Ig1L_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_INDUS_TGT_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_KKmUsMN-Eeu02OoAki_WLA",
+    "parameterList" : [ {
+      "id" : "_6PdKrPaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Port"
+    }, {
+      "id" : "_6PdKq_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_6PdKrvaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Schema"
+    }, {
+      "id" : "_6PdKqfaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Password"
+    }, {
+      "id" : "_6PdKr_aWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Sid"
+    }, {
+      "id" : "_6PdKrfaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Login"
+    }, {
+      "id" : "_6PdKqvaWEeuL7P7Fn1UmUQ",
+      "name" : "DW5_WORKTMP_Server"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_it0mcMILEeuoKfiVTBjWLw",
+    "parameterList" : [ {
+      "id" : "_MmJHXzibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHYzibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHajibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_VTwKAU94EeuNKpzAoxZhnQ",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_MmJHYjibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHZjibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHbDibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_ZDG5scOBEeu2qpBtx1Xa6A",
+      "name" : "JobStatut"
+    }, {
+      "id" : "_MmJHYDibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    }, {
+      "id" : "_spQ64700EeuG6a6mWKqYsg",
+      "name" : "LookupDir"
+    }, {
+      "id" : "_MmJHdTibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHYTibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHazibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_GGmOAs9WEeuulfiSNNZLfQ",
+      "name" : "file_BI_COMPOSANTE_COUT"
+    }, {
+      "id" : "_MmJHZzibEeuQIYwLt3bWGw",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_GGmOA89WEeuulfiSNNZLfQ",
+      "name" : "file_EXCL_LIBELLE_ARTICLE"
+    } ]
+  } ]
+}

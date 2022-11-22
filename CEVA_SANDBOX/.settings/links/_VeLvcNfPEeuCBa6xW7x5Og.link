@@ -1,0 +1,385 @@
+{
+  "itemId" : "_VeLvcNfPEeuCBa6xW7x5Og",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_-RzOMNKFEeulX9nOlsK5Aw",
+    "parameterList" : [ {
+      "id" : "_-SET8dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_AdditionalParams"
+    }, {
+      "id" : "_-SET99KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Login"
+    }, {
+      "id" : "_-SET8tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Password"
+    }, {
+      "id" : "_-SET89KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Port"
+    }, {
+      "id" : "_-SET9tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Schema"
+    }, {
+      "id" : "_-SET9dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Server"
+    }, {
+      "id" : "_-SET9NKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_LkoB4CT9EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_amtW87irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_AdditionalParams"
+    }, {
+      "id" : "_amtW8birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Login"
+    }, {
+      "id" : "_amtW9rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Password"
+    }, {
+      "id" : "_amtW8rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Port"
+    }, {
+      "id" : "_amtW97irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Schema"
+    }, {
+      "id" : "_amtW9LirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Server"
+    }, {
+      "id" : "_amtW9birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_oUNOMM9TEeuulfiSNNZLfQ",
+    "parameterList" : [ {
+      "id" : "_zyrvwM9rEeuulfiSNNZLfQ",
+      "name" : "BIVG_Societe"
+    }, {
+      "id" : "_MmJHQzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHQTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHSTibEeuQIYwLt3bWGw",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_MmJHTDibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_JPciYM9jEeuulfiSNNZLfQ",
+      "name" : "FileContext"
+    }, {
+      "id" : "_MmJHSDibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHTjibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MmJHVzibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHTTibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_3AkAwNJ7EeulX9nOlsK5Aw",
+      "name" : "FileVanguardSwitch"
+    }, {
+      "id" : "_VTwKAE94EeuNKpzAoxZhnQ",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_ZDG5sMOBEeu2qpBtx1Xa6A",
+      "name" : "JobStatut"
+    }, {
+      "id" : "_MmJHRTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHRDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHQjibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_5wQOANMnEeu6NrznL-xB-Q",
+    "parameterList" : [ {
+      "id" : "_5wcbRtMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Sid"
+    }, {
+      "id" : "_5wcbRdMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Port"
+    }, {
+      "id" : "_5wcbQ9MnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Schema"
+    }, {
+      "id" : "_5wcbR9MnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Login"
+    }, {
+      "id" : "_5wcbRNMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_AdditionalParams"
+    }, {
+      "id" : "_5wcbQtMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Password"
+    }, {
+      "id" : "_5wcbQdMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Server"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_-RzOMNKFEeulX9nOlsK5Aw",
+    "parameterList" : [ {
+      "id" : "_-SET8dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_AdditionalParams"
+    }, {
+      "id" : "_-SET99KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Login"
+    }, {
+      "id" : "_-SET8tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Password"
+    }, {
+      "id" : "_-SET89KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Port"
+    }, {
+      "id" : "_-SET9tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Schema"
+    }, {
+      "id" : "_-SET9dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Server"
+    }, {
+      "id" : "_-SET9NKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_LkoB4CT9EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_amtW87irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_AdditionalParams"
+    }, {
+      "id" : "_amtW8birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Login"
+    }, {
+      "id" : "_amtW9rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Password"
+    }, {
+      "id" : "_amtW8rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Port"
+    }, {
+      "id" : "_amtW97irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Schema"
+    }, {
+      "id" : "_amtW9LirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Server"
+    }, {
+      "id" : "_amtW9birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_oUNOMM9TEeuulfiSNNZLfQ",
+    "parameterList" : [ {
+      "id" : "_zyrvws9rEeuulfiSNNZLfQ",
+      "name" : "BIVG_Societe"
+    }, {
+      "id" : "_MmJHfzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHfTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHhTibEeuQIYwLt3bWGw",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_MmJHiDibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_JPciYs9jEeuulfiSNNZLfQ",
+      "name" : "FileContext"
+    }, {
+      "id" : "_MmJHhDibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHijibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MmJHkzibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHiTibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_3AkAwtJ7EeulX9nOlsK5Aw",
+      "name" : "FileVanguardSwitch"
+    }, {
+      "id" : "_VTwKAk94EeuNKpzAoxZhnQ",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_ZDG5ssOBEeu2qpBtx1Xa6A",
+      "name" : "JobStatut"
+    }, {
+      "id" : "_MmJHgTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHgDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHfjibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_5wQOANMnEeu6NrznL-xB-Q",
+    "parameterList" : [ {
+      "id" : "_5wcbRtMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Sid"
+    }, {
+      "id" : "_5wcbRdMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Port"
+    }, {
+      "id" : "_5wcbQ9MnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Schema"
+    }, {
+      "id" : "_5wcbR9MnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Login"
+    }, {
+      "id" : "_5wcbRNMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_AdditionalParams"
+    }, {
+      "id" : "_5wcbQtMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Password"
+    }, {
+      "id" : "_5wcbQdMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Server"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_-RzOMNKFEeulX9nOlsK5Aw",
+    "parameterList" : [ {
+      "id" : "_-SET8dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_AdditionalParams"
+    }, {
+      "id" : "_-SET99KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Login"
+    }, {
+      "id" : "_-SET8tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Password"
+    }, {
+      "id" : "_-SET89KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Port"
+    }, {
+      "id" : "_-SET9tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Schema"
+    }, {
+      "id" : "_-SET9dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Server"
+    }, {
+      "id" : "_-SET9NKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_LkoB4CT9EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_amtW87irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_AdditionalParams"
+    }, {
+      "id" : "_amtW8birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Login"
+    }, {
+      "id" : "_amtW9rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Password"
+    }, {
+      "id" : "_amtW8rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Port"
+    }, {
+      "id" : "_amtW97irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Schema"
+    }, {
+      "id" : "_amtW9LirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Server"
+    }, {
+      "id" : "_amtW9birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_oUNOMM9TEeuulfiSNNZLfQ",
+    "parameterList" : [ {
+      "id" : "_zyrvwc9rEeuulfiSNNZLfQ",
+      "name" : "BIVG_Societe"
+    }, {
+      "id" : "_MmJHYTibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MmJHXzibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MmJHZzibEeuQIYwLt3bWGw",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_MmJHajibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_JPciYc9jEeuulfiSNNZLfQ",
+      "name" : "FileContext"
+    }, {
+      "id" : "_MmJHZjibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MmJHbDibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MmJHdTibEeuQIYwLt3bWGw",
+      "name" : "filename"
+    }, {
+      "id" : "_MmJHazibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_3AkAwdJ7EeulX9nOlsK5Aw",
+      "name" : "FileVanguardSwitch"
+    }, {
+      "id" : "_VTwKAU94EeuNKpzAoxZhnQ",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_ZDG5scOBEeu2qpBtx1Xa6A",
+      "name" : "JobStatut"
+    }, {
+      "id" : "_MmJHYzibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MmJHYjibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MmJHYDibEeuQIYwLt3bWGw",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_5wQOANMnEeu6NrznL-xB-Q",
+    "parameterList" : [ {
+      "id" : "_5wcbRtMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Sid"
+    }, {
+      "id" : "_5wcbRdMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Port"
+    }, {
+      "id" : "_5wcbQ9MnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Schema"
+    }, {
+      "id" : "_5wcbR9MnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Login"
+    }, {
+      "id" : "_5wcbRNMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_AdditionalParams"
+    }, {
+      "id" : "_5wcbQtMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Password"
+    }, {
+      "id" : "_5wcbQdMnEeu6NrznL-xB-Q",
+      "name" : "BI_ODS_WW_CIBLE_Server"
+    } ]
+  } ]
+}

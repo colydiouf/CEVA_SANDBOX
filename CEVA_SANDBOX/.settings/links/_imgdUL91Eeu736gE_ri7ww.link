@@ -1,0 +1,142 @@
+{
+  "itemId" : "_imgdUL91Eeu736gE_ri7ww",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_BS5IAJCYEeune-aFDNn0Qg",
+    "parameterList" : [ {
+      "id" : "_uVQ3wMIYEeuXrpg57QioPQ",
+      "name" : "bypass_upload_horoquartz_other"
+    }, {
+      "id" : "_f7rmUKjuEeu0qYGjSfNfMA",
+      "name" : "file_hoinaco"
+    }, {
+      "id" : "_U5G_kL99Eeu736gE_ri7ww",
+      "name" : "file_hoinaco_sogeval"
+    }, {
+      "id" : "_U5G_kb99Eeu736gE_ri7ww",
+      "name" : "file_hoinaff_sogeval"
+    }, {
+      "id" : "_ntZvkL9-Eeu736gE_ri7ww",
+      "name" : "hoinaco_filename"
+    }, {
+      "id" : "_RY0CoKdVEeuySfWLj0LNdg",
+      "name" : "hoinaff_filename"
+    }, {
+      "id" : "_MmJHRDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_10xXEr93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPHost"
+    }, {
+      "id" : "_10xXFb93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPassword"
+    }, {
+      "id" : "_10xXE793Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPort"
+    }, {
+      "id" : "_10xXFr93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPPKFile"
+    }, {
+      "id" : "_10xXFL93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPUser"
+    }, {
+      "id" : "_10xXEb93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALhoinacoRemoteDir"
+    }, {
+      "id" : "_10xXEL93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALhoinaffRemoteDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_BS5IAJCYEeune-aFDNn0Qg",
+    "parameterList" : [ {
+      "id" : "_uVQ3wcIYEeuXrpg57QioPQ",
+      "name" : "bypass_upload_horoquartz_other"
+    }, {
+      "id" : "_f7tbgKjuEeu0qYGjSfNfMA",
+      "name" : "file_hoinaco"
+    }, {
+      "id" : "_U5G_kr99Eeu736gE_ri7ww",
+      "name" : "file_hoinaco_sogeval"
+    }, {
+      "id" : "_U5G_k799Eeu736gE_ri7ww",
+      "name" : "file_hoinaff_sogeval"
+    }, {
+      "id" : "_ntZvkb9-Eeu736gE_ri7ww",
+      "name" : "hoinaco_filename"
+    }, {
+      "id" : "_RY2e4KdVEeuySfWLj0LNdg",
+      "name" : "hoinaff_filename"
+    }, {
+      "id" : "_MmJHYjibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_10xXGb93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPHost"
+    }, {
+      "id" : "_10xXHL93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPassword"
+    }, {
+      "id" : "_10xXGr93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPort"
+    }, {
+      "id" : "_10xXHb93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPPKFile"
+    }, {
+      "id" : "_10xXG793Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPUser"
+    }, {
+      "id" : "_10xXGL93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALhoinacoRemoteDir"
+    }, {
+      "id" : "_10xXF793Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALhoinaffRemoteDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_BS5IAJCYEeune-aFDNn0Qg",
+    "parameterList" : [ {
+      "id" : "_uVQ3wsIYEeuXrpg57QioPQ",
+      "name" : "bypass_upload_horoquartz_other"
+    }, {
+      "id" : "_f7uCkKjuEeu0qYGjSfNfMA",
+      "name" : "file_hoinaco"
+    }, {
+      "id" : "_U5G_lL99Eeu736gE_ri7ww",
+      "name" : "file_hoinaco_sogeval"
+    }, {
+      "id" : "_U5G_lb99Eeu736gE_ri7ww",
+      "name" : "file_hoinaff_sogeval"
+    }, {
+      "id" : "_ntZvkr9-Eeu736gE_ri7ww",
+      "name" : "hoinaco_filename"
+    }, {
+      "id" : "_RY2e4qdVEeuySfWLj0LNdg",
+      "name" : "hoinaff_filename"
+    }, {
+      "id" : "_MmJHgDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_10xXIL93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPHost"
+    }, {
+      "id" : "_10xXI793Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPassword"
+    }, {
+      "id" : "_10xXIb93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPort"
+    }, {
+      "id" : "_10xXJL93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPPPKFile"
+    }, {
+      "id" : "_10xXIr93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALFTPUser"
+    }, {
+      "id" : "_10xXH793Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALhoinacoRemoteDir"
+    }, {
+      "id" : "_10xXHr93Eeu736gE_ri7ww",
+      "name" : "UploadEquatis_SOGEVALhoinaffRemoteDir"
+    } ]
+  } ]
+}

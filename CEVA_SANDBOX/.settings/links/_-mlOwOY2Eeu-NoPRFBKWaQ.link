@@ -1,0 +1,322 @@
+{
+  "itemId" : "_-mlOwOY2Eeu-NoPRFBKWaQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_3oEakOhREeunYYdINInQUA",
+    "parameterList" : [ {
+      "id" : "_3oQAwuhREeunYYdINInQUA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_H6cAYOhTEeunYYdINInQUA",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_H6cAYehTEeunYYdINInQUA",
+      "name" : "DataDir"
+    }, {
+      "id" : "_3oQAwehREeunYYdINInQUA",
+      "name" : "DateExec"
+    }, {
+      "id" : "_3oQAw-hREeunYYdINInQUA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_3oQAxOhREeunYYdINInQUA",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_3oQAxehREeunYYdINInQUA",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_H6cAZOhTEeunYYdINInQUA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_H6cAY-hTEeunYYdINInQUA",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_H6cAYuhTEeunYYdINInQUA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XJrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XJLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XI7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XIbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XJ7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XJbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XIrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_aHJL8OhUEeuyxdb9YH7-Ug",
+    "parameterList" : [ {
+      "id" : "_6M0tZfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_AdditionalParams"
+    }, {
+      "id" : "_6M0tZvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Login"
+    }, {
+      "id" : "_6M0tYvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Password"
+    }, {
+      "id" : "_6M0tYfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Port"
+    }, {
+      "id" : "_6M0tY_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Schema"
+    }, {
+      "id" : "_6M0tZPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Server"
+    }, {
+      "id" : "_6M0tZ_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_v-vF4JOHEeuoSbNYT2NFHg",
+    "parameterList" : [ {
+      "id" : "_53mrU_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_53mrVfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_53mrUfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_53mrUvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_53mrVvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_53mrVPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Mois_MM"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_3oEakOhREeunYYdINInQUA",
+    "parameterList" : [ {
+      "id" : "_LNapguhSEeunYYdINInQUA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_H6cAZehTEeunYYdINInQUA",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_H6cAZuhTEeunYYdINInQUA",
+      "name" : "DataDir"
+    }, {
+      "id" : "_LNapgehSEeunYYdINInQUA",
+      "name" : "DateExec"
+    }, {
+      "id" : "_LNapg-hSEeunYYdINInQUA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_LNaphOhSEeunYYdINInQUA",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_LNaphehSEeunYYdINInQUA",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_H6cAaehTEeunYYdINInQUA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_H6cAaOhTEeunYYdINInQUA",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_H6cAZ-hTEeunYYdINInQUA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XLrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XLLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XK7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XKbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XL7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XLbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XKrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_aHJL8OhUEeuyxdb9YH7-Ug",
+    "parameterList" : [ {
+      "id" : "_6M0tbfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_AdditionalParams"
+    }, {
+      "id" : "_6M0tbvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Login"
+    }, {
+      "id" : "_6M0tavaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Password"
+    }, {
+      "id" : "_6M0tafaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Port"
+    }, {
+      "id" : "_6M0ta_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Schema"
+    }, {
+      "id" : "_6M0tbPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Server"
+    }, {
+      "id" : "_6M0tb_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_v-vF4JOHEeuoSbNYT2NFHg",
+    "parameterList" : [ {
+      "id" : "_53mrWvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_53mrXPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_53mrWPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_53mrWfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_53mrXfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_53mrW_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Mois_MM"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_3oEakOhREeunYYdINInQUA",
+    "parameterList" : [ {
+      "id" : "_LNapiOhSEeunYYdINInQUA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_H6cAauhTEeunYYdINInQUA",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_H6cAa-hTEeunYYdINInQUA",
+      "name" : "DataDir"
+    }, {
+      "id" : "_LNaph-hSEeunYYdINInQUA",
+      "name" : "DateExec"
+    }, {
+      "id" : "_LNapiehSEeunYYdINInQUA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_LNapiuhSEeunYYdINInQUA",
+      "name" : "FileConfigEncoding"
+    }, {
+      "id" : "_LNapi-hSEeunYYdINInQUA",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_H6cAbuhTEeunYYdINInQUA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_H6cAbehTEeunYYdINInQUA",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_H6cAbOhTEeunYYdINInQUA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XNrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XNLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XM7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XMbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XN7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XNbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XMrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_aHJL8OhUEeuyxdb9YH7-Ug",
+    "parameterList" : [ {
+      "id" : "_6M0tdfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_AdditionalParams"
+    }, {
+      "id" : "_6M0tdvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Login"
+    }, {
+      "id" : "_6M0tcvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Password"
+    }, {
+      "id" : "_6M0tcfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Port"
+    }, {
+      "id" : "_6M0tc_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Schema"
+    }, {
+      "id" : "_6M0tdPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Server"
+    }, {
+      "id" : "_6M0td_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_CIBLE_ORA10_SRC_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_v-vF4JOHEeuoSbNYT2NFHg",
+    "parameterList" : [ {
+      "id" : "_53mrYfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_53mrY_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_53mrX_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_53mrYPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_53mrZPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_53mrYvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Mois_MM"
+    } ]
+  } ]
+}

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_iVGBQGuDEeubN9oBRvuaGA">
+    <contextParameter comment="" name="source_BI_FR_AdditionalParams" prompt="source_BI_FR_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Iv-9YGuFEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Login" prompt="source_ODS_BI_FR_Login?" promptNeeded="false" type="id_String" value="ODSFR" xmi:id="_i4NtsGuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Port" prompt="source_ODS_BI_FR_Port?" promptNeeded="false" type="id_Integer" value="1622" xmi:id="_i4NtsWuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Server" prompt="source_ODS_BI_FR_Server?" promptNeeded="false" type="id_String" value="BI1ODSEU.ceva.net" xmi:id="_i4NtsmuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Sid" prompt="source_ODS_BI_FR_Sid?" promptNeeded="false" type="id_String" value="ODSEUP" xmi:id="_i4Nts2uJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Password" prompt="source_ODS_BI_FR_Password?" promptNeeded="false" type="id_String" value="Oraodsfr2101" xmi:id="_i4NttGuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Schema" prompt="source_ODS_BI_FR_Schema?" promptNeeded="false" type="id_String" value="ODSFR" xmi:id="_i4NttWuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_AdditionalParams" prompt="source_ODS_BI_FR_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NttmuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Login" prompt="source_BI_FR_Login?" promptNeeded="false" type="id_String" value="BIFR" xmi:id="_gKsFkGuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Port" prompt="source_BI_FR_Port?" promptNeeded="false" type="id_Integer" value="1622" xmi:id="_gKsFkWuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Server" prompt="source_BI_FR_Server?" promptNeeded="false" type="id_String" value="BI1DWHEU.ceva.net" xmi:id="_gKsFkmuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Sid" prompt="source_BI_FR_Sid?" promptNeeded="false" type="id_String" value="DWHEUP" xmi:id="_gKsFk2uLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Password" prompt="source_BI_FR_Password?" promptNeeded="false" type="id_String" value="OraBifr0711" xmi:id="_gKsFlGuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Schema" prompt="source_BI_FR_Schema?" promptNeeded="false" type="id_String" value="BIFR" xmi:id="_gKsFlWuLEeubN9oBRvuaGA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_iVGBQWuDEeubN9oBRvuaGA">
+    <contextParameter comment="" name="source_BI_FR_AdditionalParams" prompt="source_BI_FR_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Iv-9YWuFEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Login" prompt="source_ODS_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_i4Ntt2uJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Port" prompt="source_ODS_BI_FR_Port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_i4NtuGuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Server" prompt="source_ODS_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtuWuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Sid" prompt="source_ODS_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtumuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Password" prompt="source_ODS_BI_FR_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_i4Ntu2uJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Schema" prompt="source_ODS_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtvGuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_AdditionalParams" prompt="source_ODS_BI_FR_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtvWuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Login" prompt="source_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFlmuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Port" prompt="source_BI_FR_Port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_gKsFl2uLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Server" prompt="source_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFmGuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Sid" prompt="source_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFmWuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Password" prompt="source_BI_FR_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFmmuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Schema" prompt="source_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFm2uLEeubN9oBRvuaGA"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_iVGBQmuDEeubN9oBRvuaGA">
+    <contextParameter comment="" name="source_BI_FR_AdditionalParams" prompt="source_BI_FR_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_Iv-9YmuFEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Login" prompt="source_ODS_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtvmuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Port" prompt="source_ODS_BI_FR_Port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_i4Ntv2uJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Server" prompt="source_ODS_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtwGuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Sid" prompt="source_ODS_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtwWuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Password" prompt="source_ODS_BI_FR_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtwmuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_Schema" prompt="source_ODS_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_i4Ntw2uJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_ODS_BI_FR_AdditionalParams" prompt="source_ODS_BI_FR_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_i4NtxGuJEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Login" prompt="source_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFnGuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Port" prompt="source_BI_FR_Port?" promptNeeded="false" type="id_Integer" value="" xmi:id="_gKsFnWuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Server" prompt="source_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFnmuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Sid" prompt="source_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFn2uLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Password" prompt="source_BI_FR_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFoGuLEeubN9oBRvuaGA"/>
+    <contextParameter comment="" name="source_BI_FR_Schema" prompt="source_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gKsFoWuLEeubN9oBRvuaGA"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4ea9acb8-9250-42fa-879c-ef51e49c83fb"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>01/oBTGD1kfw/Oc7nvFP7+Y7YqaKlTm3G6YXSpsrGYGXgL5J9Y5RgH6UFVk270jqakzSrAfkjNf9&#13;
+1TgC3BrSdg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_e550e9ec-c0c8-4fec-ad7b-c5882702f0a1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>WiqrqhxynDuLoAha/YG0KBUmDEQ7dP123/o1q+Hr0u3OzzAPUwQgX4Eor6qehvyXcfHiIgi+KTHO&#13;
+m6ubc2SsFQ==</DigestValue></Reference></SignedInfo><SignatureValue>izUh5BT9I1sVyphCiuPK0pOzaeiMAMwfnTyz/4eH4ULfs7yWEYUwzZSmvdxVG1CeG48bG2c7s3t5&#13;
+iz0bqiH8aVOrvCNdij6VzL41prLNOOlCAdeMDq17vYdkeCZ32dKzIr6VVfav7PBdSGt9NQn2uwCx&#13;
+jnbVgxqbl//jCOYjtYlug9q+125+l1BzBYoMAsM3WxEFAWp0+C/g62RboBo1TwWhefrf+mBqyq9v&#13;
+0z4xgNbMRXOg4i7yxeWmQXUwTyZSmM76jCHBXGtHULPLlw7WGuo2M5zeUZ3BjgWh8O7zdozhT91F&#13;
+BslpPfSTjpIoZv1+RB2VrPxA/8AMRNJKiAJoCg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_e550e9ec-c0c8-4fec-ad7b-c5882702f0a1" Target="#_4ea9acb8-9250-42fa-879c-ef51e49c83fb"><Timestamp>2022-01-04 13:56:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

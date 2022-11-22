@@ -1,0 +1,79 @@
+{
+  "itemId" : "_ZqFzwL03EeuG6a6mWKqYsg",
+  "contextList" : [ {
+    "contextName" : "Prod",
+    "repoId" : "_D7sewL1lEeuG6a6mWKqYsg",
+    "parameterList" : [ {
+      "id" : "_f5dKKb1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Login"
+    }, {
+      "id" : "_f5dKKr1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Port"
+    }, {
+      "id" : "_f5dKK71lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_f5dKLL1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Server"
+    }, {
+      "id" : "_f5dKLb1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Sid"
+    }, {
+      "id" : "_f5dKLr1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Password"
+    }, {
+      "id" : "_f5dKL71lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Schema"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_D7sewL1lEeuG6a6mWKqYsg",
+    "parameterList" : [ {
+      "id" : "_f5dKIb1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Login"
+    }, {
+      "id" : "_f5dKIr1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Port"
+    }, {
+      "id" : "_f5dKI71lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_f5dKJL1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Server"
+    }, {
+      "id" : "_f5dKJb1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Sid"
+    }, {
+      "id" : "_f5dKJr1lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Password"
+    }, {
+      "id" : "_f5dKJ71lEeuG6a6mWKqYsg",
+      "name" : "BI_RA_WORKTMP_Schema"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_D7sewL1lEeuG6a6mWKqYsg",
+    "parameterList" : [ {
+      "id" : "_amtW8birEeuhp5yPT3CUVQ",
+      "name" : "BI_RA_WORKTMP_Login"
+    }, {
+      "id" : "_amtW8rirEeuhp5yPT3CUVQ",
+      "name" : "BI_RA_WORKTMP_Port"
+    }, {
+      "id" : "_amtW87irEeuhp5yPT3CUVQ",
+      "name" : "BI_RA_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_amtW9LirEeuhp5yPT3CUVQ",
+      "name" : "BI_RA_WORKTMP_Server"
+    }, {
+      "id" : "_amtW9birEeuhp5yPT3CUVQ",
+      "name" : "BI_RA_WORKTMP_Sid"
+    }, {
+      "id" : "_amtW9rirEeuhp5yPT3CUVQ",
+      "name" : "BI_RA_WORKTMP_Password"
+    }, {
+      "id" : "_amtW97irEeuhp5yPT3CUVQ",
+      "name" : "BI_RA_WORKTMP_Schema"
+    } ]
+  } ]
+}

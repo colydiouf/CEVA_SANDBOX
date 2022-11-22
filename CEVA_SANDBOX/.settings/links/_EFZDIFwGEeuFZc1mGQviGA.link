@@ -1,0 +1,97 @@
+{
+  "itemId" : "_EFZDIFwGEeuFZc1mGQviGA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "__J1W0Vv_EeuFZc1mGQviGA",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "__J1W1Fv_EeuFZc1mGQviGA",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_zp9aN1v_EeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "__J1W0Fv_EeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "__J1W01v_EeuFZc1mGQviGA",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "__J1W0lv_EeuFZc1mGQviGA",
+      "name" : "BIVG_Mois_MM"
+    }, {
+      "id" : "_5JG4klwBEeuFZc1mGQviGA",
+      "name" : "configDirBIFR"
+    }, {
+      "id" : "_5JG4kFwBEeuFZc1mGQviGA",
+      "name" : "FileConfigBIFR"
+    }, {
+      "id" : "_5JG4lVwBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_5g3RSlwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_5g3RTVwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_5g3RSFwBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_5g3RSVwBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_5g3RTFwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_5g3RS1wBEeuFZc1mGQviGA",
+      "name" : "BIVG_Mois_MM"
+    }, {
+      "id" : "_5g3RUFwBEeuFZc1mGQviGA",
+      "name" : "configDirBIFR"
+    }, {
+      "id" : "_5g3RTlwBEeuFZc1mGQviGA",
+      "name" : "FileConfigBIFR"
+    }, {
+      "id" : "_5g3RU1wBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_5g3RYFwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_5g3RY1wBEeuFZc1mGQviGA",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_5g3RXlwBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_5g3RX1wBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_5g3RYlwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_5g3RYVwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Mois_MM"
+    }, {
+      "id" : "_5g3RZlwBEeuFZc1mGQviGA",
+      "name" : "configDirBIFR"
+    }, {
+      "id" : "_5g3RZFwBEeuFZc1mGQviGA",
+      "name" : "FileConfigBIFR"
+    }, {
+      "id" : "_5g3RaVwBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    } ]
+  } ]
+}

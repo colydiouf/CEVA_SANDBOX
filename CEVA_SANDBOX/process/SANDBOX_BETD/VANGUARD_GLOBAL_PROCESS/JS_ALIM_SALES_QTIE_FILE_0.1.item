@@ -1,0 +1,1385 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="BI_DM_HQ_AdditionalParams" prompt="BI_DM_HQ_AdditionalParams?" promptNeeded="false" repositoryContextId="_4hLqcNgXEeuCBa6xW7x5Og" type="id_String" value=""/>
+    <contextParameter comment="" name="BI_DM_HQ_Login" prompt="BI_DM_HQ_Login?" promptNeeded="false" repositoryContextId="_4hLqcNgXEeuCBa6xW7x5Og" type="id_String" value="BIHQ"/>
+    <contextParameter comment="" name="BI_DM_HQ_Password" prompt="BI_DM_HQ_Password?" promptNeeded="false" repositoryContextId="_4hLqcNgXEeuCBa6xW7x5Og" type="id_Password" value="enc:system.encryption.key.v1:xDYB/1hOAFJdl6ZinVHNlM0Ixr2OkZYdIWcq5fSm48t5aRG8Ga+M"/>
+    <contextParameter comment="" name="BI_DM_HQ_Port" prompt="BI_DM_HQ_Port?" promptNeeded="false" repositoryContextId="_4hLqcNgXEeuCBa6xW7x5Og" type="id_String" value="1622"/>
+    <contextParameter comment="" name="BI_DM_HQ_Schema" prompt="BI_DM_HQ_Schema?" promptNeeded="false" repositoryContextId="_4hLqcNgXEeuCBa6xW7x5Og" type="id_String" value="BIHQ"/>
+    <contextParameter comment="" name="BI_DM_HQ_Server" prompt="BI_DM_HQ_Server?" promptNeeded="false" repositoryContextId="_4hLqcNgXEeuCBa6xW7x5Og" type="id_String" value="BI1DWHEU.ceva.net"/>
+    <contextParameter comment="" name="BI_DM_HQ_Sid" prompt="BI_DM_HQ_Sid?" promptNeeded="false" repositoryContextId="_4hLqcNgXEeuCBa6xW7x5Og" type="id_String" value="DWHEUP"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_GLOBAL_PROCESS\config\"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="DataCollectorDir" prompt="DataCollectorDir?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="\\Et10lib1ema\data_collector\INTERFACE_SORTANTE\"/>
+    <contextParameter comment="" name="ExtensionTargetFile" prompt="ExtensionTargetFile?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=".csv"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="UTF-8"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=";"/>
+    <contextParameter comment="" name="FileNameVanguardBudget" prompt="FileNameVanguardBudget?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="VANGUARD_BUDGET.csv"/>
+    <contextParameter comment="" name="FileNameVanguardSales" prompt="FileNameVanguardSales?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="VANGUARD_SALES_FILE.csv"/>
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="NO"/>
+    <contextParameter comment="" name="JobStatut" prompt="JobStatut?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="NameTargetFile" prompt="NameTargetFile?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="VANGUARD_GLOBAL_PROCESS"/>
+    <contextParameter comment="" name="Schema_BI_INDUS_SRC" prompt="Schema_BI_INDUS_SRC?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="DW"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="remy.denoyer@ceva.com"/>
+    <contextParameter comment="" name="SMTPFileDir" prompt="SMTPFileDir?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTPFileMessage" prompt="SMTPFileMessage?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTPFileName" prompt="SMTPFileName?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value=""/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="smtp.ceva.com"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="Vanguard Interface Started"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="helene.despons@ceva.com"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" repositoryContextId="_p238IOPeEeutf-rhfFOl_g" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_GLOBAL_PROCESS\Tmp\"/>
+    <contextParameter comment="" name="BIHQ_SRC_AdditionalParams" prompt="BIHQ_SRC_AdditionalParams?" promptNeeded="false" repositoryContextId="_MKxS4M3VEeuCAcJwDy2DrA" type="id_String" value=""/>
+    <contextParameter comment="" name="BIHQ_SRC_Login" prompt="BIHQ_SRC_Login?" promptNeeded="false" repositoryContextId="_MKxS4M3VEeuCAcJwDy2DrA" type="id_String" value="BIHQ"/>
+    <contextParameter comment="" name="BIHQ_SRC_Password" prompt="BIHQ_SRC_Password?" promptNeeded="false" repositoryContextId="_MKxS4M3VEeuCAcJwDy2DrA" type="id_Password" value="enc:system.encryption.key.v1:Wx1Tscx/fcpqbnwlMfeWoUTmUbedTOex7YpeUYMSQ5sZsviNqdiW"/>
+    <contextParameter comment="" name="BIHQ_SRC_Port" prompt="BIHQ_SRC_Port?" promptNeeded="false" repositoryContextId="_MKxS4M3VEeuCAcJwDy2DrA" type="id_String" value="1622"/>
+    <contextParameter comment="" name="BIHQ_SRC_Schema" prompt="BIHQ_SRC_Schema?" promptNeeded="false" repositoryContextId="_MKxS4M3VEeuCAcJwDy2DrA" type="id_String" value="BIHQ"/>
+    <contextParameter comment="" name="BIHQ_SRC_Server" prompt="BIHQ_SRC_Server?" promptNeeded="false" repositoryContextId="_MKxS4M3VEeuCAcJwDy2DrA" type="id_String" value="172.20.10.34"/>
+    <contextParameter comment="" name="BIHQ_SRC_Sid" prompt="BIHQ_SRC_Sid?" promptNeeded="false" repositoryContextId="_MKxS4M3VEeuCAcJwDy2DrA" type="id_String" value="DWHEUP"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="352"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:wG4VFMtYQhvdDzIx0g56J5mIPm9K6UoKoLWvaecA"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/6.4.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Zk6oRDy2aSyLm647u+LhvGs0blGKI7tqyAa5MZQd"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_tTLSACW_EeuC8ZitBQrV9g" name="DQTechnical"/>
+    <routinesParameter id="_tS4XGCW_EeuC8ZitBQrV9g" name="DataMasking"/>
+    <routinesParameter id="_tSbrKCW_EeuC8ZitBQrV9g" name="DataOperation"/>
+    <routinesParameter id="_tTCIFCW_EeuC8ZitBQrV9g" name="DataQualityDependencies"/>
+    <routinesParameter id="_tTCIECW_EeuC8ZitBQrV9g" name="DataQuality"/>
+    <routinesParameter id="_tTCIGiW_EeuC8ZitBQrV9g" name="DqStringHandling"/>
+    <routinesParameter id="_tSlcIyW_EeuC8ZitBQrV9g" name="Mathematical"/>
+    <routinesParameter id="_tSlcJyW_EeuC8ZitBQrV9g" name="Numeric"/>
+    <routinesParameter id="_tSlcKyW_EeuC8ZitBQrV9g" name="Relational"/>
+    <routinesParameter id="_tSbrJCW_EeuC8ZitBQrV9g" name="SQLike"/>
+    <routinesParameter id="_tSlcLyW_EeuC8ZitBQrV9g" name="StringHandling"/>
+    <routinesParameter id="_tSumECW_EeuC8ZitBQrV9g" name="TalendDataGenerator"/>
+    <routinesParameter id="_tSumFCW_EeuC8ZitBQrV9g" name="TalendDate"/>
+    <routinesParameter id="_tS4XFCW_EeuC8ZitBQrV9g" name="TalendStringUtil"/>
+    <routinesParameter id="_tS4XECW_EeuC8ZitBQrV9g" name="TalendString"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;Start job : &quot;+ jobName);&#10;System.out.println(&quot;Version: &quot; + jobVersion);&#10;System.out.println(&quot;Start Execution &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="StartJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="2" offsetLabelY="0" posX="96" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\n*****************************************************&quot;);&#10;&#10;System.out.println(&quot;BD : &quot; + context.BIHQ_SRC_Sid);&#10;System.out.println(&quot;User : &quot; + context.BIHQ_SRC_Login);&#10;System.out.println(&quot;Port : &quot; +  context.BIHQ_SRC_Port);&#10;System.out.println(&quot;Serveur : &quot; +  context.BIHQ_SRC_Server);&#10;System.out.println(&quot;Schema : &quot; +  context.BIHQ_SRC_Schema);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-288" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="((String)globalMap.get(&quot;tOracleConnection_1_ERROR_MESSAGE&quot;))"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="-128" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\n*****************************************************&quot;);&#10;System.out.println(&quot;Connection DWHEUP_BIHQ KO&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tOracleConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:PROPERTY_TYPE" value="REPOSITORY"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY:REPOSITORY_PROPERTY_TYPE" show="false" value="_UZzL8M6oEeu2670Tn7SFxg"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_TNS_FILE" value="false"/>
+    <elementParameter field="FILE" name="TNS_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TNS_EDITOR" name="TNS_EDITOR" show="false" value=""/>
+    <elementParameter field="TEXT" name="HOST" value="context.BIHQ_SRC_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="TEXT" name="PORT" value="context.BIHQ_SRC_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.BIHQ_SRC_Sid"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" value="context.BIHQ_SRC_Schema"/>
+    <elementParameter field="TEXT" name="USER" value="context.BIHQ_SRC_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:15EHus5n4paozqykUKh0htNsPvTljP68SZkHmLrrU5UecNN/c7+w18KmTtf7syhDm6t46R8="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="context.BIHQ_SRC_AdditionalParams"/>
+    <elementParameter field="LABEL" name="NOTE" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:thin:USER/MDP@server&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;DWHEUP_BIHQ"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="320" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;\n*****************************************************&quot;);&#10;System.out.println(&quot;Connexion à DWHEUP_BIHQ OK le &quot; +TalendDate.formatDate(&quot;dd-MM-yyyy&quot;, TalendDate.getCurrentDate())+&quot; à &quot;+TalendDate.formatDate(&quot;HH:mm:ss&quot;, TalendDate.getCurrentDate()));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
+  </node>
+  <node componentName="tOracleInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="CONNECTION_TYPE" show="false" value="ORACLE_SID"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="RAC_URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="Oracle"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;1521&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:iYZkbd11jSYna0edBq/oa9sP4SBntPTLcYH8xoEW"/>
+    <elementParameter field="TEXT" name="JDBC_URL" show="false" value="&quot;jdbc:oracle:oci:/@talend&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;NSKEP_SALES&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT  G_T0.entity As ENTITY, &#13;&#10;G_T0.Country As CTRY_ORIGIN, &#13;&#10;G_T0.Entity_desc As ENTITY_DESC, &#13;&#10;G_T0.Pilot_Product As PILOT_PRODUCT, &#13;&#10;G_T0.Item_code As ITEM_CODE, &#13;&#10;G_T0.Item_Desc As ITEM_CODE1, &#13;&#10;G_T0.Item_UM As PRIM_UOM, &#13;&#10;G_T0.Item_UMEQ As EQUIV_UOM, &#13;&#10;G_T0.Unit_Item_ConvUMEQ As CONV_UOM, &#13;&#10;G_T0.Item_MnPlant As PLANT, &#13;&#10;G_T0.Item_Cond As CDT_PRIM_VOL, &#13;&#10;G_T0.Item_Species As SPECIES, &#13;&#10;G_T0.Item_Div As ITEM_DIV, &#13;&#10;G_T0.Item_Ceesa As CEESA_NAME, &#13;&#10;G_T0.Vacc_type As VACC_TYPE, &#13;&#10;G_T0.Item_Axe As AXE, &#13;&#10;G_T0.Item_Formula As FORMULE_CODE, &#13;&#10;G_T0.Item_MrkPrst As MRK_PRESENTATION, &#13;&#10;G_T0.Item_StrProd As STRG_PRODUCT, &#13;&#10;G_T0.Item_BU As BU_CODE, &#13;&#10;G_T0.Item_MargBud As ITEM_MARGBUD, &#13;&#10;G_T0.Cust_CountShipTo As CTRY_CUST_SHIP1, &#13;&#10;G_T0.Cust_CountDesc As DESC_CTRY_SHIP, &#13;&#10;G_T0.Cust_Zone As ZONE_CTRY_SHIP, &#13;&#10;G_T0.Cust_Zone_Desc As ZDESC_CTRY_SHIP, &#13;&#10;G_T0.Cust_SZone As SZONE_CTRY_SHIP, &#13;&#10;G_T0.Cust_SZone_Desc As SZONEDESC_CTRY_SHIP, &#13;&#10;G_T0.Cust_MZone As MZONE_STRY_SHIP, &#13;&#10;G_T0.Cust_MZone_Desc As MZONEDESC_STRY_SHIP, &#13;&#10;G_T0.Cust_Group1 As CUST_GROUP1, &#13;&#10;G_T0.Cust_Group2 As CUST_GROUP2, &#13;&#10;G_T0.Cust_Group2_desc As CUST_GROUP2_DESC, &#13;&#10;G_T0.Cust_Territory As CUST_TERRITORY, &#13;&#10;G_T0.Cust_SalesForecast As SALESFORECAST, &#13;&#10;G_T0.Cust_DRP_Group As CUST_DRP_GROUP, &#13;&#10;G_T0.Currency As CUR_CODE, &#13;&#10;G_T0.Unit_ASPBud As UNIT_ASPBUD, &#13;&#10;G_T0.Unit_ASP6M As AVG6MTH, &#13;&#10;G_T0.ASP_adjust As ASP_AJUST, &#13;&#10;G_T0.Data_Type As DATA_TYPE, &#13;&#10;G_T0.\&quot;01/01/2018\&quot;, &#13;&#10;G_T0.\&quot;01/02/2018\&quot;, &#13;&#10;G_T0.\&quot;01/03/2018\&quot;, &#13;&#10;G_T0.\&quot;01/04/2018\&quot;, &#13;&#10;G_T0.\&quot;01/05/2018\&quot;, &#13;&#10;G_T0.\&quot;01/06/2018\&quot;, &#13;&#10;G_T0.\&quot;01/07/2018\&quot;, &#13;&#10;G_T0.\&quot;01/08/2018\&quot;, &#13;&#10;G_T0.\&quot;01/09/2018\&quot;, &#13;&#10;G_T0.\&quot;01/10/2018\&quot;, &#13;&#10;G_T0.\&quot;01/11/2018\&quot;, &#13;&#10;G_T0.\&quot;01/12/2018\&quot;, &#13;&#10;G_T0.\&quot;01/01/2020\&quot;, &#13;&#10;G_T0.\&quot;01/02/2020\&quot;, &#13;&#10;G_T0.\&quot;01/03/2020\&quot;, &#13;&#10;G_T0.\&quot;01/04/2020\&quot;, &#13;&#10;G_T0.\&quot;01/05/2020\&quot;, &#13;&#10;G_T0.\&quot;01/06/2020\&quot;, &#13;&#10;G_T0.\&quot;01/07/2020\&quot;, &#13;&#10;G_T0.\&quot;01/08/2020\&quot;, &#13;&#10;G_T0.\&quot;01/09/2020\&quot;, &#13;&#10;G_T0.\&quot;01/10/2020\&quot;, &#13;&#10;G_T0.\&quot;01/11/2020\&quot;, &#13;&#10;G_T0.\&quot;01/12/2020\&quot;, &#13;&#10;G_T0.\&quot;01/01/2016\&quot;, &#13;&#10;G_T0.\&quot;01/02/2016\&quot;, &#13;&#10;G_T0.\&quot;01/03/2016\&quot;, &#13;&#10;G_T0.\&quot;01/04/2016\&quot;, &#13;&#10;G_T0.\&quot;01/05/2016\&quot;, &#13;&#10;G_T0.\&quot;01/06/2016\&quot;, &#13;&#10;G_T0.\&quot;01/07/2016\&quot;, &#13;&#10;G_T0.\&quot;01/08/2016\&quot;, &#13;&#10;G_T0.\&quot;01/09/2016\&quot;, &#13;&#10;G_T0.\&quot;01/10/2016\&quot;, &#13;&#10;G_T0.\&quot;01/11/2016\&quot;, &#13;&#10;G_T0.\&quot;01/12/2016\&quot;, &#13;&#10;G_T1.STATUS , &#13;&#10;G_T0.\&quot;01/01/2017\&quot;, &#13;&#10;G_T0.\&quot;01/02/2017\&quot;, &#13;&#10;G_T0.\&quot;01/03/2017\&quot;, &#13;&#10;G_T0.\&quot;01/04/2017\&quot;, &#13;&#10;G_T0.\&quot;01/05/2017\&quot;, &#13;&#10;G_T0.\&quot;01/06/2017\&quot;, &#13;&#10;G_T0.\&quot;01/07/2017\&quot;, &#13;&#10;G_T0.\&quot;01/08/2017\&quot;, &#13;&#10;G_T0.\&quot;01/09/2017\&quot;, &#13;&#10;G_T0.\&quot;01/10/2017\&quot;, &#13;&#10;G_T0.\&quot;01/11/2017\&quot;, &#13;&#10;G_T0.\&quot;01/12/2017\&quot;, &#13;&#10;G_T0.\&quot;01/01/2019\&quot;, &#13;&#10;G_T0.\&quot;01/02/2019\&quot;, &#13;&#10;G_T0.\&quot;01/03/2019\&quot;, &#13;&#10;G_T0.\&quot;01/04/2019\&quot;, &#13;&#10;G_T0.\&quot;01/05/2019\&quot;, &#13;&#10;G_T0.\&quot;01/06/2019\&quot;, &#13;&#10;G_T0.\&quot;01/07/2019\&quot;, &#13;&#10;G_T0.\&quot;01/08/2019\&quot;, &#13;&#10;G_T0.\&quot;01/09/2019\&quot;, &#13;&#10;G_T0.\&quot;01/10/2019\&quot;, &#13;&#10;G_T0.\&quot;01/11/2019\&quot;, &#13;&#10;G_T0.\&quot;01/12/2019\&quot;, &#13;&#10;G_T0.\&quot;01/01/2021\&quot;, &#13;&#10;G_T0.\&quot;01/02/2021\&quot;, &#13;&#10;G_T0.\&quot;01/03/2021\&quot;, &#13;&#10;G_T0.\&quot;01/04/2021\&quot;, &#13;&#10;G_T0.\&quot;01/05/2021\&quot;, &#13;&#10;G_T0.\&quot;01/06/2021\&quot;, &#13;&#10;G_T0.\&quot;01/08/2021\&quot;, &#13;&#10;G_T0.\&quot;01/07/2021\&quot;, &#13;&#10;G_T0.\&quot;01/09/2021\&quot;, &#13;&#10;G_T0.\&quot;01/10/2021\&quot;, &#13;&#10;G_T0.\&quot;01/11/2021\&quot;, &#13;&#10;G_T0.\&quot;01/12/2021\&quot;   &#13;&#10;FROM  NSKEP_SALES G_T0 LEFT OUTER JOIN NDESK_REF_ITEM G_T1 &#13;&#10;ON LTRIM(RTRIM(G_T0.Item_code))  = LTRIM(RTRIM(G_T1.ITEM_CODE))  &#13;&#10;WHERE G_T0.DATA_TYPE = 'A' AND TRIM(G_T0.CUST_SALESFORECAST) NOT IN ('INT','','DIS')&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="oracle_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="*Note: Example for Additional JDBC Parameters: &quot;parameterName1=value1&amp;&amp;parameterName2=value2&quot;"/>
+    <elementParameter field="CHECK" name="IS_CONVERT_XMLTYPE" value="false"/>
+    <elementParameter field="TABLE" name="CONVERT_XMLTYPE" show="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_CURSOR" value="false"/>
+    <elementParameter field="TEXT" name="CURSOR_SIZE" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="ENTITY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CTRY_ORIGIN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ENTITY_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PILOT_PRODUCT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_CODE1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PRIM_UOM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="EQUIV_UOM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CONV_UOM"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PLANT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CDT_PRIM_VOL"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SPECIES"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_DIV"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CEESA_NAME"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="VACC_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AXE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="FORMULE_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MRK_PRESENTATION"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STRG_PRODUCT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="BU_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ITEM_MARGBUD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CTRY_CUST_SHIP1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DESC_CTRY_SHIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ZONE_CTRY_SHIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ZDESC_CTRY_SHIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SZONE_CTRY_SHIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SZONEDESC_CTRY_SHIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MZONE_STRY_SHIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MZONEDESC_STRY_SHIP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CUST_GROUP1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CUST_GROUP2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CUST_GROUP2_DESC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CUST_TERRITORY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SALESFORECAST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CUST_DRP_GROUP"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CUR_CODE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="UNIT_ASPBUD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AVG6MTH"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ASP_AJUST"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DATA_TYPE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_01_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_02_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_03_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_04_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_05_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_06_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_07_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_08_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_09_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_10_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_11_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_12_2018"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_01_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_02_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_03_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_04_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_05_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_06_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_07_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_08_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_09_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_10_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_11_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_12_2020"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_01_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_02_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_03_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_04_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_05_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_06_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_07_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_08_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_09_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_10_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_11_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_12_2016"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="STATUS"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_01_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_02_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_03_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_04_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_05_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_06_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_07_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_08_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_09_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_10_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_11_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_12_2017"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_01_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_02_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_03_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_04_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_05_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_06_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_07_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_08_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_09_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_10_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_11_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_12_2019"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_01_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_02_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_03_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_04_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_05_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_06_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_08_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_07_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_09_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_10_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_11_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="_1_12_2021"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="NO_NULL_VALUES" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tOracleInput_1">
+      <column comment="" key="false" length="-1" name="ENTITY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CTRY_ORIGIN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ENTITY_DESC" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PILOT_PRODUCT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_CODE1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PRIM_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EQUIV_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CONV_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PLANT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CDT_PRIM_VOL" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SPECIES" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ITEM_DIV" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CEESA_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="VACC_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AXE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="FORMULE_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="MRK_PRESENTATION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STRG_PRODUCT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="BU_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ITEM_MARGBUD" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CTRY_CUST_SHIP1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ZONE_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ZDESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SZONE_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SZONEDESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="MZONE_STRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="MZONEDESC_STRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CUST_GROUP1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CUST_GROUP2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CUST_GROUP2_DESC" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CUST_TERRITORY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="SALESFORECAST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CUST_DRP_GROUP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CUR_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="UNIT_ASPBUD" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AVG6MTH" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ASP_AJUST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="DATA_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2018" nullable="true" originalDbColumnName="01/01/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2018" nullable="true" originalDbColumnName="01/02/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2018" nullable="true" originalDbColumnName="01/03/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2018" nullable="true" originalDbColumnName="01/04/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2018" nullable="true" originalDbColumnName="01/05/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2018" nullable="true" originalDbColumnName="01/06/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2018" nullable="true" originalDbColumnName="01/07/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2018" nullable="true" originalDbColumnName="01/08/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2018" nullable="true" originalDbColumnName="01/09/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2018" nullable="true" originalDbColumnName="01/10/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2018" nullable="true" originalDbColumnName="01/11/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2018" nullable="true" originalDbColumnName="01/12/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2020" nullable="true" originalDbColumnName="01/01/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2020" nullable="true" originalDbColumnName="01/02/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2020" nullable="true" originalDbColumnName="01/03/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2020" nullable="true" originalDbColumnName="01/04/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2020" nullable="true" originalDbColumnName="01/05/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2020" nullable="true" originalDbColumnName="01/06/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2020" nullable="true" originalDbColumnName="01/07/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2020" nullable="true" originalDbColumnName="01/08/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2020" nullable="true" originalDbColumnName="01/09/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2020" nullable="true" originalDbColumnName="01/10/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2020" nullable="true" originalDbColumnName="01/11/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2020" nullable="true" originalDbColumnName="01/12/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2016" nullable="true" originalDbColumnName="01/01/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2016" nullable="true" originalDbColumnName="01/02/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2016" nullable="true" originalDbColumnName="01/03/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2016" nullable="true" originalDbColumnName="01/04/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2016" nullable="true" originalDbColumnName="01/05/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2016" nullable="true" originalDbColumnName="01/06/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2016" nullable="true" originalDbColumnName="01/07/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2016" nullable="true" originalDbColumnName="01/08/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2016" nullable="true" originalDbColumnName="01/09/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2016" nullable="true" originalDbColumnName="01/10/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2016" nullable="true" originalDbColumnName="01/11/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2016" nullable="true" originalDbColumnName="01/12/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="STATUS" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2017" nullable="true" originalDbColumnName="01/01/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2017" nullable="true" originalDbColumnName="01/02/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2017" nullable="true" originalDbColumnName="01/03/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2017" nullable="true" originalDbColumnName="01/04/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2017" nullable="true" originalDbColumnName="01/05/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2017" nullable="true" originalDbColumnName="01/06/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2017" nullable="true" originalDbColumnName="01/07/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2017" nullable="true" originalDbColumnName="01/08/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2017" nullable="true" originalDbColumnName="01/09/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2017" nullable="true" originalDbColumnName="01/10/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2017" nullable="true" originalDbColumnName="01/11/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2017" nullable="true" originalDbColumnName="01/12/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2019" nullable="true" originalDbColumnName="01/01/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2019" nullable="true" originalDbColumnName="01/02/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2019" nullable="true" originalDbColumnName="01/03/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2019" nullable="true" originalDbColumnName="01/04/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2019" nullable="true" originalDbColumnName="01/05/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2019" nullable="true" originalDbColumnName="01/06/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2019" nullable="true" originalDbColumnName="01/07/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2019" nullable="true" originalDbColumnName="01/08/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2019" nullable="true" originalDbColumnName="01/09/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2019" nullable="true" originalDbColumnName="01/10/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2019" nullable="true" originalDbColumnName="01/11/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2019" nullable="true" originalDbColumnName="01/12/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2021" nullable="true" originalDbColumnName="01/01/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2021" nullable="true" originalDbColumnName="01/02/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2021" nullable="true" originalDbColumnName="01/03/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2021" nullable="true" originalDbColumnName="01/04/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2021" nullable="true" originalDbColumnName="01/05/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2021" nullable="true" originalDbColumnName="01/06/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2021" nullable="true" originalDbColumnName="01/08/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2021" nullable="true" originalDbColumnName="01/07/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2021" nullable="true" originalDbColumnName="01/09/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2021" nullable="true" originalDbColumnName="01/10/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2021" nullable="true" originalDbColumnName="01/11/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2021" nullable="true" originalDbColumnName="01/12/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="256" posY="576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_jBoc4OXyEeugQbDOqk3beg-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="NSKEP_SALES_DATA_COLLECTOR" name="NSKEP_SALES_DATA_COLLECTOR">
+      <column comment="" key="false" length="-1" name="CTRY_ORIGIN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PILOT_PRODUCT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_CODE1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="STATUS" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PRIM_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EQUIV_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CONV_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PLANT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SPECIES" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_DIV" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VACC_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CEESA_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AXE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FORMULE_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MRK_PRESENTATION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="STRG_PRODUCT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BU_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_MARGBUD" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CTRY_CUST_SHIP1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ZONE_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ZDESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SZONE_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SZONEDESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MZONE_STRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MZONEDESC_STRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_GROUP1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_GROUP2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_GROUP2_DESC" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_TERRITORY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SALESFORECAST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_DRP_GROUP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUR_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="UNIT_ASPBUD" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AVG6MTH" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ASP_AJUST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DATA_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2016" nullable="true" originalDbColumnName="01/07/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2016" nullable="true" originalDbColumnName="01/08/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2016" nullable="true" originalDbColumnName="01/09/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2016" nullable="true" originalDbColumnName="01/10/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2016" nullable="true" originalDbColumnName="01/11/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2016" nullable="true" originalDbColumnName="01/12/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2017" nullable="true" originalDbColumnName="01/01/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2017" nullable="true" originalDbColumnName="01/02/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2017" nullable="true" originalDbColumnName="01/03/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2017" nullable="true" originalDbColumnName="01/04/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2017" nullable="true" originalDbColumnName="01/05/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2017" nullable="true" originalDbColumnName="01/06/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2017" nullable="true" originalDbColumnName="01/07/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2017" nullable="true" originalDbColumnName="01/08/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2017" nullable="true" originalDbColumnName="01/09/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2017" nullable="true" originalDbColumnName="01/10/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2017" nullable="true" originalDbColumnName="01/11/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2017" nullable="true" originalDbColumnName="01/12/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2018" nullable="true" originalDbColumnName="01/01/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2018" nullable="true" originalDbColumnName="01/02/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2018" nullable="true" originalDbColumnName="01/03/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2018" nullable="true" originalDbColumnName="01/04/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2018" nullable="true" originalDbColumnName="01/05/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2018" nullable="true" originalDbColumnName="01/06/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2018" nullable="true" originalDbColumnName="01/07/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2018" nullable="true" originalDbColumnName="01/08/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2018" nullable="true" originalDbColumnName="01/09/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2018" nullable="true" originalDbColumnName="01/10/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2018" nullable="true" originalDbColumnName="01/11/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2018" nullable="true" originalDbColumnName="01/12/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2019" nullable="true" originalDbColumnName="01/01/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2019" nullable="true" originalDbColumnName="01/02/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2019" nullable="true" originalDbColumnName="01/03/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2019" nullable="true" originalDbColumnName="01/04/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2019" nullable="true" originalDbColumnName="01/05/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2019" nullable="true" originalDbColumnName="01/06/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2019" nullable="true" originalDbColumnName="01/07/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2019" nullable="true" originalDbColumnName="01/08/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2019" nullable="true" originalDbColumnName="01/09/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2019" nullable="true" originalDbColumnName="01/10/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2019" nullable="true" originalDbColumnName="01/11/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2019" nullable="true" originalDbColumnName="01/12/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2020" nullable="true" originalDbColumnName="01/01/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2020" nullable="true" originalDbColumnName="01/02/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2020" nullable="true" originalDbColumnName="01/03/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2020" nullable="true" originalDbColumnName="01/04/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2020" nullable="true" originalDbColumnName="01/05/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2020" nullable="true" originalDbColumnName="01/06/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2020" nullable="true" originalDbColumnName="01/07/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2020" nullable="true" originalDbColumnName="01/08/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2020" nullable="true" originalDbColumnName="01/09/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2020" nullable="true" originalDbColumnName="01/10/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2020" nullable="true" originalDbColumnName="01/11/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2020" nullable="true" originalDbColumnName="01/12/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2021" nullable="true" originalDbColumnName="01/01/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2021" nullable="true" originalDbColumnName="01/02/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2021" nullable="true" originalDbColumnName="01/03/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2021" nullable="true" originalDbColumnName="01/04/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2021" nullable="true" originalDbColumnName="01/05/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2021" nullable="true" originalDbColumnName="01/06/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties shellMaximized="true"/>
+      <varTables minimized="true" name="Var" sizeState="INTERMEDIATE"/>
+      <outputTables name="NSKEP_SALES_DATA_COLLECTOR" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.CTRY_ORIGIN " name="CTRY_ORIGIN" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PILOT_PRODUCT " name="PILOT_PRODUCT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ITEM_CODE " name="ITEM_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ITEM_CODE1" name="ITEM_CODE1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.STATUS " name="STATUS" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PRIM_UOM " name="PRIM_UOM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.EQUIV_UOM " name="EQUIV_UOM" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CONV_UOM " name="CONV_UOM" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.PLANT " name="PLANT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SPECIES " name="SPECIES" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ITEM_DIV " name="ITEM_DIV" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.VACC_TYPE " name="VACC_TYPE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CEESA_NAME " name="CEESA_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.AXE " name="AXE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.FORMULE_CODE " name="FORMULE_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.MRK_PRESENTATION " name="MRK_PRESENTATION" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.STRG_PRODUCT " name="STRG_PRODUCT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.BU_CODE " name="BU_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ITEM_MARGBUD " name="ITEM_MARGBUD" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CTRY_CUST_SHIP1 " name="CTRY_CUST_SHIP1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.DESC_CTRY_SHIP " name="DESC_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ZONE_CTRY_SHIP " name="ZONE_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ZDESC_CTRY_SHIP " name="ZDESC_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SZONE_CTRY_SHIP " name="SZONE_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SZONEDESC_CTRY_SHIP " name="SZONEDESC_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.MZONE_STRY_SHIP " name="MZONE_STRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.MZONEDESC_STRY_SHIP " name="MZONEDESC_STRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CUST_GROUP1 " name="CUST_GROUP1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CUST_GROUP2 " name="CUST_GROUP2" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CUST_GROUP2_DESC " name="CUST_GROUP2_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CUST_TERRITORY " name="CUST_TERRITORY" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SALESFORECAST " name="SALESFORECAST" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CUST_DRP_GROUP " name="CUST_DRP_GROUP" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CUR_CODE " name="CUR_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(row1.UNIT_ASPBUD) ? null : row1.UNIT_ASPBUD.setScale(2, BigDecimal.ROUND_HALF_UP) " name="UNIT_ASPBUD" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(row1.AVG6MTH) ? null : row1.AVG6MTH.setScale(2, BigDecimal.ROUND_HALF_UP) " name="AVG6MTH" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="Relational.ISNULL(row1.ASP_AJUST) ? null : row1.ASP_AJUST.setScale(2, BigDecimal.ROUND_HALF_UP) " name="ASP_AJUST" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1.DATA_TYPE " name="DATA_TYPE" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1._1_07_2016 " name="_1_07_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_08_2016 " name="_1_08_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_09_2016 " name="_1_09_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_10_2016 " name="_1_10_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_11_2016 " name="_1_11_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_12_2016 " name="_1_12_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_01_2017 " name="_1_01_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_02_2017 " name="_1_02_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_03_2017 " name="_1_03_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_04_2017 " name="_1_04_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_05_2017 " name="_1_05_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_06_2017 " name="_1_06_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_07_2017 " name="_1_07_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_08_2017 " name="_1_08_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_09_2017 " name="_1_09_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_10_2017 " name="_1_10_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_11_2017 " name="_1_11_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_12_2017 " name="_1_12_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_01_2018 " name="_1_01_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_02_2018 " name="_1_02_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_03_2018 " name="_1_03_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_04_2018 " name="_1_04_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_05_2018 " name="_1_05_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_06_2018 " name="_1_06_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_07_2018 " name="_1_07_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_08_2018 " name="_1_08_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_09_2018 " name="_1_09_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_10_2018 " name="_1_10_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_11_2018 " name="_1_11_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_12_2018 " name="_1_12_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_01_2019 " name="_1_01_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_02_2019 " name="_1_02_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_03_2019 " name="_1_03_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_04_2019 " name="_1_04_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_05_2019 " name="_1_05_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_06_2019 " name="_1_06_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_07_2019 " name="_1_07_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_08_2019 " name="_1_08_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_09_2019 " name="_1_09_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_10_2019 " name="_1_10_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_11_2019 " name="_1_11_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_12_2019 " name="_1_12_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_01_2020 " name="_1_01_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_02_2020 " name="_1_02_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_03_2020 " name="_1_03_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_04_2020 " name="_1_04_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_05_2020 " name="_1_05_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_06_2020 " name="_1_06_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_07_2020 " name="_1_07_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_08_2020 " name="_1_08_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_09_2020 " name="_1_09_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_10_2020 " name="_1_10_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_11_2020 " name="_1_11_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_12_2020 " name="_1_12_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_01_2021 " name="_1_01_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_02_2021 " name="_1_02_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_03_2021 " name="_1_03_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_04_2021 " name="_1_04_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_05_2021 " name="_1_05_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries expression="row1._1_06_2021 " name="_1_06_2021" nullable="true" type="id_BigDecimal"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="ENTITY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CTRY_ORIGIN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ENTITY_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PILOT_PRODUCT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ITEM_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ITEM_CODE1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PRIM_UOM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="EQUIV_UOM" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CONV_UOM" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="PLANT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CDT_PRIM_VOL" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SPECIES" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ITEM_DIV" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CEESA_NAME" nullable="true" type="id_String"/>
+        <mapperTableEntries name="VACC_TYPE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AXE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="FORMULE_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MRK_PRESENTATION" nullable="true" type="id_String"/>
+        <mapperTableEntries name="STRG_PRODUCT" nullable="true" type="id_String"/>
+        <mapperTableEntries name="BU_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ITEM_MARGBUD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CTRY_CUST_SHIP1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DESC_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ZONE_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ZDESC_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SZONE_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SZONEDESC_CTRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MZONE_STRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MZONEDESC_STRY_SHIP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CUST_GROUP1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CUST_GROUP2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CUST_GROUP2_DESC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CUST_TERRITORY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SALESFORECAST" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CUST_DRP_GROUP" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CUR_CODE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="UNIT_ASPBUD" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="AVG6MTH" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="ASP_AJUST" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="DATA_TYPE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_1_01_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_02_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_03_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_04_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_05_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_06_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_07_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_08_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_09_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_10_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_11_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_12_2018" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_01_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_02_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_03_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_04_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_05_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_06_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_07_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_08_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_09_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_10_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_11_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_12_2020" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_01_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_02_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_03_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_04_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_05_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_06_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_07_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_08_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_09_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_10_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_11_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_12_2016" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="STATUS" nullable="true" type="id_String"/>
+        <mapperTableEntries name="_1_01_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_02_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_03_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_04_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_05_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_06_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_07_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_08_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_09_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_10_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_11_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_12_2017" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_01_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_02_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_03_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_04_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_05_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_06_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_07_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_08_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_09_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_10_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_11_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_12_2019" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_01_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_02_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_03_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_04_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_05_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_06_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_08_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_07_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_09_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_10_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_11_2021" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="_1_12_2021" nullable="true" type="id_BigDecimal"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="576" posY="576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.tmpDir + context.FileNameVanguardSales"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="&quot;\n&quot;"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="&quot;;&quot;"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="CUSTOM"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="false"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" label="NSKEP_SALES_DATA_COLLECTOR" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="-1" name="CTRY_ORIGIN" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PILOT_PRODUCT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_CODE1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="STATUS" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PRIM_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="EQUIV_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="CONV_UOM" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="PLANT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SPECIES" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_DIV" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="VACC_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CEESA_NAME" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="AXE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FORMULE_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MRK_PRESENTATION" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="STRG_PRODUCT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BU_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ITEM_MARGBUD" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CTRY_CUST_SHIP1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ZONE_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="ZDESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SZONE_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SZONEDESC_CTRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MZONE_STRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="MZONEDESC_STRY_SHIP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_GROUP1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_GROUP2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_GROUP2_DESC" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_TERRITORY" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="SALESFORECAST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUST_DRP_GROUP" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="CUR_CODE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="UNIT_ASPBUD" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="AVG6MTH" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="ASP_AJUST" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="DATA_TYPE" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR2" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2016" nullable="true" originalDbColumnName="01/07/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2016" nullable="true" originalDbColumnName="01/08/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2016" nullable="true" originalDbColumnName="01/09/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2016" nullable="true" originalDbColumnName="01/10/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2016" nullable="true" originalDbColumnName="01/11/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2016" nullable="true" originalDbColumnName="01/12/2016" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2017" nullable="true" originalDbColumnName="01/01/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2017" nullable="true" originalDbColumnName="01/02/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2017" nullable="true" originalDbColumnName="01/03/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2017" nullable="true" originalDbColumnName="01/04/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2017" nullable="true" originalDbColumnName="01/05/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2017" nullable="true" originalDbColumnName="01/06/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2017" nullable="true" originalDbColumnName="01/07/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2017" nullable="true" originalDbColumnName="01/08/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2017" nullable="true" originalDbColumnName="01/09/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2017" nullable="true" originalDbColumnName="01/10/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2017" nullable="true" originalDbColumnName="01/11/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2017" nullable="true" originalDbColumnName="01/12/2017" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2018" nullable="true" originalDbColumnName="01/01/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2018" nullable="true" originalDbColumnName="01/02/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2018" nullable="true" originalDbColumnName="01/03/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2018" nullable="true" originalDbColumnName="01/04/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2018" nullable="true" originalDbColumnName="01/05/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2018" nullable="true" originalDbColumnName="01/06/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2018" nullable="true" originalDbColumnName="01/07/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2018" nullable="true" originalDbColumnName="01/08/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2018" nullable="true" originalDbColumnName="01/09/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2018" nullable="true" originalDbColumnName="01/10/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2018" nullable="true" originalDbColumnName="01/11/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2018" nullable="true" originalDbColumnName="01/12/2018" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2019" nullable="true" originalDbColumnName="01/01/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2019" nullable="true" originalDbColumnName="01/02/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2019" nullable="true" originalDbColumnName="01/03/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2019" nullable="true" originalDbColumnName="01/04/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2019" nullable="true" originalDbColumnName="01/05/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2019" nullable="true" originalDbColumnName="01/06/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2019" nullable="true" originalDbColumnName="01/07/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2019" nullable="true" originalDbColumnName="01/08/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2019" nullable="true" originalDbColumnName="01/09/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2019" nullable="true" originalDbColumnName="01/10/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2019" nullable="true" originalDbColumnName="01/11/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2019" nullable="true" originalDbColumnName="01/12/2019" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2020" nullable="true" originalDbColumnName="01/01/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2020" nullable="true" originalDbColumnName="01/02/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2020" nullable="true" originalDbColumnName="01/03/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2020" nullable="true" originalDbColumnName="01/04/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2020" nullable="true" originalDbColumnName="01/05/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2020" nullable="true" originalDbColumnName="01/06/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_07_2020" nullable="true" originalDbColumnName="01/07/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_08_2020" nullable="true" originalDbColumnName="01/08/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_09_2020" nullable="true" originalDbColumnName="01/09/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_10_2020" nullable="true" originalDbColumnName="01/10/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_11_2020" nullable="true" originalDbColumnName="01/11/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_12_2020" nullable="true" originalDbColumnName="01/12/2020" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_01_2021" nullable="true" originalDbColumnName="01/01/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_02_2021" nullable="true" originalDbColumnName="01/02/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_03_2021" nullable="true" originalDbColumnName="01/03/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_04_2021" nullable="true" originalDbColumnName="01/04/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_05_2021" nullable="true" originalDbColumnName="01/05/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="-1" name="_1_06_2021" nullable="true" originalDbColumnName="01/06/2021" originalLength="-1" pattern="" precision="-1" sourceType="DEC" type="id_BigDecimal" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;****************************************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="768" posY="672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_7"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="String foo = &quot;bar&quot;;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_7"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="832">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_8"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;End job&#9;&#9;&#9;: &quot; + jobName);&#10;System.out.println(&quot;End Execution&#9;: &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="EndJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_8"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="896" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_3"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;the end is near&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_3"/>
+  </node>
+  <node componentName="tOracleClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="96" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tOracleClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="736" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_2"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tOracleConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_2" offsetLabelX="0" offsetLabelY="0" source="tJava_2" target="tOracleConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tJava_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleConnection_1" offsetLabelX="0" offsetLabelY="0" source="tOracleConnection_1" target="tJava_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleInput_1" offsetLabelX="0" offsetLabelY="0" source="tOracleInput_1" target="tOracleClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="FLOW" label="NSKEP_SALES_DATA_COLLECTOR" lineStyle="0" metaname="NSKEP_SALES_DATA_COLLECTOR" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="PRIM_UOM"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn13"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn12"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn11"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn10"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn8"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn9"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn6"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn7"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn4"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn5"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="STATUS"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="newColumn3"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="PLANT"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CUR_CODE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AVG6MTH"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="UNIT_ASPBUD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SPECIES"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SALESFORECAST"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="VACC_TYPE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ITEM_MARGBUD"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CUST_GROUP1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DESC_CTRY_SHIP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CUST_GROUP2"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CEESA_NAME"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ZDESC_CTRY_SHIP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MZONE_STRY_SHIP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CONV_UOM"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="EQUIV_UOM"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MRK_PRESENTATION"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="BU_CODE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="DATA_TYPE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CUST_TERRITORY"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ZONE_CTRY_SHIP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CTRY_CUST_SHIP1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CUST_DRP_GROUP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="STRG_PRODUCT"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ASP_AJUST"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="ITEM_DIV"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="AXE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="MZONEDESC_STRY_SHIP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SZONEDESC_CTRY_SHIP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="FORMULE_CODE"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="CUST_GROUP2_DESC"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="SZONE_CTRY_SHIP"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="NSKEP_SALES_DATA_COLLECTOR"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tJava_7">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk5"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tOracleClose_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_5" offsetLabelX="0" offsetLabelY="0" source="tJava_5" target="tOracleInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tOracleClose_1" offsetLabelX="0" offsetLabelY="0" source="tOracleClose_1" target="tJava_8">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk6"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tOracleClose_2" offsetLabelX="0" offsetLabelY="0" source="tOracleClose_2" target="tDie_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_7"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_8"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tOracleClose_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_3ac2347b-fdeb-4246-bb58-0b5e8dd4102c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>YmcavHhA100rf1CoqsqPtYOYaoMQ4sd6D/uB3cNioHx61VZTpsMP3NGvjdhXH8ri+5B044NzENeR&#13;
+ZJ/rupeWQQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_4269600e-bc1d-4038-8a91-101dc8e5ec9f"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>H6oT6VNjkIguTCMkna7H5FIe3aavV9mv3KvuJkXzNH6kBtDOJz1PcMSMwsI/WRG42n3yGLDk7Fr9&#13;
+PlZT+ApSAg==</DigestValue></Reference></SignedInfo><SignatureValue>HJwHkt621VF3ApXkD1WG7bFRDldglbxBrEfXOWJSWl5DEg6LZVCdEilvrRZOiXy/n8TwY6KKsiez&#13;
+BORujV3egJf1f0KehKFd1yCLD4yMMDxnDUqBA5cd5lZsl3ZW7OldZfh1+UYvLGlnPQLyFTMPcXe2&#13;
+sAhY4S0zfoqrjiJlfrP4M//mGUyHE+fQsILrl5soBAn8CON8C9uEyJX1kCdLU+7iKjIMpOb/YGZu&#13;
+ngB/NToZ3d96Lq7ZgsTlzavS4YkrpQOeV4dvo3gXWEJp9qyyr/aTQZaOS5a0LNqd+Ma/FldHRdJ7&#13;
+ELepW3cm5Fo2ZMhq+Oy/lX5Xq4fsZCy86dDWsQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_4269600e-bc1d-4038-8a91-101dc8e5ec9f" Target="#_3ac2347b-fdeb-4246-bb58-0b5e8dd4102c"><Timestamp>2022-01-04 14:06:06</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

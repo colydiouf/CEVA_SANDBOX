@@ -1,0 +1,102 @@
+{
+  "itemId" : "_S9k6wOU_Eeu6M-Us18ZOEQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_p238IOPeEeutf-rhfFOl_g",
+    "parameterList" : [ {
+      "id" : "_p3EwcuPeEeutf-rhfFOl_g",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_p3Ewc-PeEeutf-rhfFOl_g",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_BLe8AOPoEeutf-rhfFOl_g",
+      "name" : "DataCollectorDir"
+    }, {
+      "id" : "_p3EweOPeEeutf-rhfFOl_g",
+      "name" : "ExtensionTargetFile"
+    }, {
+      "id" : "_p3EwdePeEeutf-rhfFOl_g",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_p3EwduPeEeutf-rhfFOl_g",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_jexfgOYsEeugQbDOqk3beg",
+      "name" : "FileNameVanguardBudget"
+    }, {
+      "id" : "_ViQhUOYsEeugQbDOqk3beg",
+      "name" : "FileNameVanguardSales"
+    }, {
+      "id" : "_p3EwcePeEeutf-rhfFOl_g",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_RdhbIORsEeu87qp-lDL8WA",
+      "name" : "JobStatut"
+    }, {
+      "id" : "_p3Ewd-PeEeutf-rhfFOl_g",
+      "name" : "NameTargetFile"
+    }, {
+      "id" : "_wVLOQOU8Eeu6M-Us18ZOEQ",
+      "name" : "Schema_BI_INDUS_SRC"
+    }, {
+      "id" : "_p3EweePeEeutf-rhfFOl_g",
+      "name" : "SMTPBcc"
+    }, {
+      "id" : "_p3EweuPeEeutf-rhfFOl_g",
+      "name" : "SMTPCc"
+    }, {
+      "id" : "_p3EwgOPeEeutf-rhfFOl_g",
+      "name" : "SMTPFileDir"
+    }, {
+      "id" : "_p3EwguPeEeutf-rhfFOl_g",
+      "name" : "SMTPFileMessage"
+    }, {
+      "id" : "_p3EwgePeEeutf-rhfFOl_g",
+      "name" : "SMTPFileName"
+    }, {
+      "id" : "_p3Ewe-PeEeutf-rhfFOl_g",
+      "name" : "SMTPFrom"
+    }, {
+      "id" : "_p3EwfOPeEeutf-rhfFOl_g",
+      "name" : "SMTPPort"
+    }, {
+      "id" : "_p3EwfePeEeutf-rhfFOl_g",
+      "name" : "SMTPServer"
+    }, {
+      "id" : "_p3EwfuPeEeutf-rhfFOl_g",
+      "name" : "SMTPSubject"
+    }, {
+      "id" : "_p3Ewf-PeEeutf-rhfFOl_g",
+      "name" : "SMTPTo"
+    }, {
+      "id" : "_p3EwdOPeEeutf-rhfFOl_g",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_djGw4MISEeuhn8BOGObg6A",
+    "parameterList" : [ {
+      "id" : "_6N1aAvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_SRC_AdditionalParams"
+    }, {
+      "id" : "_6N1aBfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_SRC_Login"
+    }, {
+      "id" : "_6N1aB_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_SRC_Password"
+    }, {
+      "id" : "_6N1aBPaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_SRC_Port"
+    }, {
+      "id" : "_6N1aBvaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_SRC_Schema"
+    }, {
+      "id" : "_6N1aA_aWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_SRC_Server"
+    }, {
+      "id" : "_6N1aAfaWEeuL7P7Fn1UmUQ",
+      "name" : "BI_ODS_SRC_Sid"
+    } ]
+  } ]
+}

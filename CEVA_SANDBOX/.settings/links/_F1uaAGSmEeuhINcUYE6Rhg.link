@@ -1,0 +1,79 @@
+{
+  "itemId" : "_F1uaAGSmEeuhINcUYE6Rhg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_LsABIGJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_um_VQGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_0F1l8GSnEeuhINcUYE6Rhg",
+      "name" : "detailTempsOfTmp"
+    }, {
+      "id" : "_5JG4k1wBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5JG4lFwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_5JG4llwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_0Xb18GC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_LsABIWJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_unCYkGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_0F1l8WSnEeuhINcUYE6Rhg",
+      "name" : "detailTempsOfTmp"
+    }, {
+      "id" : "_5g3RUVwBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5g3RUlwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_5g3RVFwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_0Xb18WC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_LsAoMGJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_unC_oGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_0F1l8mSnEeuhINcUYE6Rhg",
+      "name" : "detailTempsOfTmp"
+    }, {
+      "id" : "_5g3RZ1wBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5g3RaFwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_5g3RalwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_0Xb18mC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    } ]
+  } ]
+}

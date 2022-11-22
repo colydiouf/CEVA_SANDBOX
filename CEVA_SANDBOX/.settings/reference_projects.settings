@@ -1,0 +1,6 @@
+{
+  "reference_projects" : [ {
+    "project" : "CEVA_MASTER",
+    "branch" : "master"
+  } ]
+}

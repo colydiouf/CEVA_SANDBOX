@@ -1,0 +1,295 @@
+{
+  "itemId" : "_4WwMALhuEeuXZOQeiKlpeQ",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_yoat4CT6EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_yo3Z0yT6EeuUbrUNr3lQGA",
+      "name" : "BI_ODS_AdditionalParams"
+    }, {
+      "id" : "_yo3Z0ST6EeuUbrUNr3lQGA",
+      "name" : "BI_ODS_Login"
+    }, {
+      "id" : "_yo3Z1iT6EeuUbrUNr3lQGA",
+      "name" : "BI_ODS_Password"
+    }, {
+      "id" : "_yo3Z0iT6EeuUbrUNr3lQGA",
+      "name" : "BI_ODS_Port"
+    }, {
+      "id" : "_yo3Z1yT6EeuUbrUNr3lQGA",
+      "name" : "BI_ODS_Schema"
+    }, {
+      "id" : "_yo3Z1CT6EeuUbrUNr3lQGA",
+      "name" : "BI_ODS_Server"
+    }, {
+      "id" : "_yo3Z1ST6EeuUbrUNr3lQGA",
+      "name" : "BI_ODS_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XJrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XJLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XI7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XIbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XJ7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XJbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XIrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_v-vF4JOHEeuoSbNYT2NFHg",
+    "parameterList" : [ {
+      "id" : "_53mrU_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_53mrVfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_53mrUfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_53mrUvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_53mrVvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_53mrVPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Mois_MM"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_LkoB4CT9EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_amtW8rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Port"
+    }, {
+      "id" : "_amtW9LirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Server"
+    }, {
+      "id" : "_amtW97irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Schema"
+    }, {
+      "id" : "_amtW9rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Password"
+    }, {
+      "id" : "_amtW8birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Login"
+    }, {
+      "id" : "_amtW87irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_AdditionalParams"
+    }, {
+      "id" : "_amtW9birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_yoat4CT6EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_QGH6w0REEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_AdditionalParams"
+    }, {
+      "id" : "_QGH6wUREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Login"
+    }, {
+      "id" : "_QGH6xkREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Password"
+    }, {
+      "id" : "_QGH6wkREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Port"
+    }, {
+      "id" : "_QGH6x0REEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Schema"
+    }, {
+      "id" : "_QGH6xEREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Server"
+    }, {
+      "id" : "_QGH6xUREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XLrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XLLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XK7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XKbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XL7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XLbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XKrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_v-vF4JOHEeuoSbNYT2NFHg",
+    "parameterList" : [ {
+      "id" : "_53mrWvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_53mrXPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_53mrWPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_53mrWfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_53mrXfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_53mrW_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Mois_MM"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_LkoB4CT9EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_amtW8rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Port"
+    }, {
+      "id" : "_amtW9LirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Server"
+    }, {
+      "id" : "_amtW97irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Schema"
+    }, {
+      "id" : "_amtW9rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Password"
+    }, {
+      "id" : "_amtW8birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Login"
+    }, {
+      "id" : "_amtW87irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_AdditionalParams"
+    }, {
+      "id" : "_amtW9birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_yoat4CT6EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_QGH6y0REEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_AdditionalParams"
+    }, {
+      "id" : "_QGH6yUREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Login"
+    }, {
+      "id" : "_QGH6zkREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Password"
+    }, {
+      "id" : "_QGH6ykREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Port"
+    }, {
+      "id" : "_QGH6z0REEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Schema"
+    }, {
+      "id" : "_QGH6zEREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Server"
+    }, {
+      "id" : "_QGH6zUREEeuiR5ncvx9fBQ",
+      "name" : "BI_ODS_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XNrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XNLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XM7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XMbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XN7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XNbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XMrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_v-vF4JOHEeuoSbNYT2NFHg",
+    "parameterList" : [ {
+      "id" : "_53mrYfaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_53mrY_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_53mrX_aWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_53mrYPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_53mrZPaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_53mrYvaWEeuL7P7Fn1UmUQ",
+      "name" : "BIVG_Mois_MM"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_LkoB4CT9EeuUbrUNr3lQGA",
+    "parameterList" : [ {
+      "id" : "_amtW8rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Port"
+    }, {
+      "id" : "_amtW9LirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Server"
+    }, {
+      "id" : "_amtW97irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Schema"
+    }, {
+      "id" : "_amtW9rirEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Password"
+    }, {
+      "id" : "_amtW8birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Login"
+    }, {
+      "id" : "_amtW87irEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_AdditionalParams"
+    }, {
+      "id" : "_amtW9birEeuhp5yPT3CUVQ",
+      "name" : "BI_WORKTMP_WW_Sid"
+    } ]
+  } ]
+}

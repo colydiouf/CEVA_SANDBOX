@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_kLdr4Fv_EeuFZc1mGQviGA">
+    <contextParameter comment="" name="DWH_BI_FR_Login" prompt="DWH_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_zp9aMFv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Port" prompt="DWH_BI_FR_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_zp9aMVv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BI_AdditionalParams" prompt="BI_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_zp9aMlv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Server" prompt="DWH_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_zp9aM1v_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Sid" prompt="DWH_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_zp9aNFv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Password" prompt="DWH_BI_FR_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_zp9aNVv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Schema" prompt="DWH_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_zp9aNlv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_5JG4kVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileCsvDelimiter" prompt="FileCsvDelimiter?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_5JG4k1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_5JG4lFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_5JG4lVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_5JG4llwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_5JG4l1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="&quot;CONFIG_WATCH_PERIOD_BI_MANUFACTURING.ini&quot;" xmi:id="_XF4Y4FwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDir" prompt="configDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\WATCH_PERIOD\BI_MANUFACTURING\config\" xmi:id="_XF4Y4VwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Login" prompt="extract_DWH_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_NMFzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Port" prompt="extract_DWH_BI_FR_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_NMVzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Server" prompt="extract_DWH_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_NMlzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Sid" prompt="extract_DWH_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_NM1zCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Password" prompt="extract_DWH_BI_FR_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_NNFzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Schema" prompt="extract_DWH_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_NNVzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Login" prompt="DWH_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdszzGCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Port" prompt="DWH_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdszzWCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Server" prompt="DWH_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdszzmCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Sid" prompt="DWH_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdszz2CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Password" prompt="DWH_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz0GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Schema" prompt="DWH_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz0WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Login" prompt="extract_DWH_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz0mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Port" prompt="extract_DWH_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz02CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Server" prompt="extract_DWH_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz1GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Sid" prompt="extract_DWH_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz1WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Password" prompt="extract_DWH_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz1mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Schema" prompt="extract_DWH_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz12CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Login" prompt="extract_ODS_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz2GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Port" prompt="extract_ODS_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz2WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Server" prompt="extract_ODS_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz2mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Sid" prompt="extract_ODS_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz22CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Password" prompt="extract_ODS_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz3GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Schema" prompt="extract_ODS_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz3WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1IGYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1IWYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1ImYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1I2YtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1JGYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1JWYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="rejets_prod" prompt="rejets_prod?" promptNeeded="false" type="id_String" value="rejets_prod_" xmi:id="_HbQwIGY1EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="rejets_dev" prompt="rejets_dev?" promptNeeded="false" type="id_String" value="rejets_dev_" xmi:id="_HbQwIWY1EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_1IKhUGY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_1IKhUWY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_1IKhUmY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_1IKhU2Y2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_1IKhVGY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_1IKhVWY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_1IKhVmY2EeugP6VvBhGi4A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_5g3RQFwBEeuFZc1mGQviGA">
+    <contextParameter comment="" name="DWH_BI_FR_Login" prompt="DWH_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RQVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Port" prompt="DWH_BI_FR_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RQlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BI_AdditionalParams" prompt="BI_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RQ1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Server" prompt="DWH_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RRFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Sid" prompt="DWH_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RRVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Password" prompt="DWH_BI_FR_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_5g3RRlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Schema" prompt="DWH_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RR1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RT1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileCsvDelimiter" prompt="FileCsvDelimiter?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_5g3RUVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_5g3RUlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_5g3RU1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_5g3RVFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RVVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="&quot;CONFIG_BI_MANUFACTURING.ini&quot;" xmi:id="_XF4Y41wDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDir" prompt="configDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_MANUFACTURING\config\" xmi:id="_XF4Y5FwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Login" prompt="extract_DWH_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0QFzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Port" prompt="extract_DWH_BI_FR_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0QVzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Server" prompt="extract_DWH_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0QlzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Sid" prompt="extract_DWH_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0Q1zCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Password" prompt="extract_DWH_BI_FR_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0RFzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Schema" prompt="extract_DWH_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0RVzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Login" prompt="DWH_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz6mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Port" prompt="DWH_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz62CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Server" prompt="DWH_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz7GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Sid" prompt="DWH_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz7WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Password" prompt="DWH_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz7mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Schema" prompt="DWH_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz72CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Login" prompt="extract_DWH_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz8GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Port" prompt="extract_DWH_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz8WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Server" prompt="extract_DWH_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz8mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Sid" prompt="extract_DWH_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz82CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Password" prompt="extract_DWH_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz9GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Schema" prompt="extract_DWH_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz9WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Login" prompt="extract_ODS_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz9mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Port" prompt="extract_ODS_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz92CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Server" prompt="extract_ODS_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz-GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Sid" prompt="extract_ODS_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz-WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Password" prompt="extract_ODS_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz-mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Schema" prompt="extract_ODS_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdsz-2CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1JmYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1J2YtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1KGYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1KWYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1KmYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1K2YtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="rejets_prod" prompt="rejets_prod?" promptNeeded="false" type="id_String" value="" xmi:id="_HbR-QGY1EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="rejets_dev" prompt="rejets_dev?" promptNeeded="false" type="id_String" value="" xmi:id="_HbR-QWY1EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIYGY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIYWY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIYmY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIY2Y2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIZGY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIZWY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIZmY2EeugP6VvBhGi4A"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_5g3RVlwBEeuFZc1mGQviGA">
+    <contextParameter comment="" name="DWH_BI_FR_Login" prompt="DWH_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RV1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Port" prompt="DWH_BI_FR_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RWFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BI_AdditionalParams" prompt="BI_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RWVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Server" prompt="DWH_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RWlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Sid" prompt="DWH_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RW1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Password" prompt="DWH_BI_FR_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_5g3RXFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="DWH_BI_FR_Schema" prompt="DWH_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RXVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RZVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileCsvDelimiter" prompt="FileCsvDelimiter?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_5g3RZ1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_5g3RaFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_5g3RaVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_5g3RalwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3Ra1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="&quot;CONFIG_BI_MANUFACTURING.ini&quot;" xmi:id="_XF4Y5lwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDir" prompt="configDir?" promptNeeded="false" type="id_String" value="" xmi:id="_XF4Y51wDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Login" prompt="extract_DWH_BI_FR_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0RlzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Port" prompt="extract_DWH_BI_FR_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0R1zCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Server" prompt="extract_DWH_BI_FR_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0SFzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Sid" prompt="extract_DWH_BI_FR_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0SVzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Password" prompt="extract_DWH_BI_FR_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0SlzCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="extract_DWH_BI_FR_Schema" prompt="extract_DWH_BI_FR_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_xJ_0S1zCEeuk6fu_MFbtUg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Login" prompt="DWH_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta3GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Port" prompt="DWH_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta3WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Server" prompt="DWH_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta3mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Sid" prompt="DWH_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta32CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Password" prompt="DWH_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta4GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="DWH_BI_INDUS_Schema" prompt="DWH_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta4WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Login" prompt="extract_DWH_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta4mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Port" prompt="extract_DWH_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta42CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Server" prompt="extract_DWH_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta5GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Sid" prompt="extract_DWH_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta5WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Password" prompt="extract_DWH_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta5mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_DWH_BI_INDUS_Schema" prompt="extract_DWH_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta52CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Login" prompt="extract_ODS_BI_INDUS_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta6GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Port" prompt="extract_ODS_BI_INDUS_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta6WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Server" prompt="extract_ODS_BI_INDUS_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta6mCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Sid" prompt="extract_ODS_BI_INDUS_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta62CsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Password" prompt="extract_ODS_BI_INDUS_Password?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta7GCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="extract_ODS_BI_INDUS_Schema" prompt="extract_ODS_BI_INDUS_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_gdta7WCsEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1LGYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1LWYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1LmYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1L2YtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1MGYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_LDZ1MWYtEeutlvq9ziQ-3w"/>
+    <contextParameter comment="" name="rejets_prod" prompt="rejets_prod?" promptNeeded="false" type="id_String" value="" xmi:id="_HbSlUGY1EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="rejets_dev" prompt="rejets_dev?" promptNeeded="false" type="id_String" value="" xmi:id="_HbSlUWY1EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIZ2Y2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIaGY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIaWY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIamY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIa2Y2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIbGY2EeugP6VvBhGi4A"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_1ILIbWY2EeugP6VvBhGi4A"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a72ce360-79a4-4ae7-9fa1-ee8cf0210de0"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ky2q+kSc4T8FrIrC6ev/cQeDSDUypvhgHdkE2+bgZ842BjBUkkDbYkXvAWZ1oAGGK8xKGXqhAyw3&#13;
+0SofL2y3CQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_875ada77-9a03-4141-a593-f089d1fa3dbc"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Wyk7jA+hlrB1HxXV2B9dDQP+4ayw2aQtQvK1353bMW2uTN0OfFzUFvSNBeieOlObqexXuqUZb6Q7&#13;
+MPQCer/gYA==</DigestValue></Reference></SignedInfo><SignatureValue>X0VFdiK4fbSekEcDYE9ot1mxOhEodAfR+ldkpDEbwHv+B/e40zf5pZdjfttoD7l+1NzeJunRfdyp&#13;
+USUdKwPSZG8Y915RhKLIi5zG1ycwzoO+tt8S8ZQgc0rGnsHXvedYlScD7nJgjadZJ4ubYyiPY2Xq&#13;
+/lMXoVp/WWcFTXuuNPoSoVT7k9V1F2ZR4V4G5NccpqxtZWSlRQQDq6ikm1LYC56Sj8TEAlj0vLnf&#13;
+asjF0oykgsoCFtHkwBSoVPMaEvwbwgEU0lQx7UdwzZu509IInJLgCj4vzyEbx+qy17xIpzmBYZhG&#13;
+4a0Ge7hXUX6lqb/73X6u6jIPvyeUI1NLlpP68g==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_875ada77-9a03-4141-a593-f089d1fa3dbc" Target="#_a72ce360-79a4-4ae7-9fa1-ee8cf0210de0"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

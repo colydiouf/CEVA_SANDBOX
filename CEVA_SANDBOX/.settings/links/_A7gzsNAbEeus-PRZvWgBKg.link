@@ -1,0 +1,29 @@
+{
+  "itemId" : "_A7gzsNAbEeus-PRZvWgBKg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_-RzOMNKFEeulX9nOlsK5Aw",
+    "parameterList" : [ {
+      "id" : "_-SET8dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_AdditionalParams"
+    }, {
+      "id" : "_-SET8tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Password"
+    }, {
+      "id" : "_-SET89KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Port"
+    }, {
+      "id" : "_-SET9NKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Sid"
+    }, {
+      "id" : "_-SET9dKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Server"
+    }, {
+      "id" : "_-SET9tKFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Schema"
+    }, {
+      "id" : "_-SET99KFEeulX9nOlsK5Aw",
+      "name" : "BI_ODS_CHEOPS_Login"
+    } ]
+  } ]
+}

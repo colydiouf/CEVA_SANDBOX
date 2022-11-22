@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_MmJHQDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_MARGES_EN_STOCK.ini" xmi:id="_MmJHQTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\tmp\" xmi:id="_MmJHQjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Config\" xmi:id="_MmJHQzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Target\" xmi:id="_MmJHRDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Source\" xmi:id="_MmJHRTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHSDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHSTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHTDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHTTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHTjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHVzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="OriginDir" prompt="OriginDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Source\" xmi:id="_MmJHWjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF88EUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF88UUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="2021" xmi:id="_tNF88kUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="01" xmi:id="_tNF880UgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF89EUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF89UUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="N" xmi:id="_VTwKAE94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtYE-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtYU-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtYk-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtY0-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtZE-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtZU-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_uMEwMFABEeumof0Pj5eVDw"/>
+    <contextParameter comment="" name="file_MES" prompt="file_MES?" promptNeeded="false" type="id_String" value="MES_2019.12.txt" xmi:id="_enB0QFWvEeu5CLH3kXvRKA"/>
+    <contextParameter comment="" name="BCL" prompt="BCL?" promptNeeded="false" type="id_Integer" value="202012" xmi:id="_ppPdAFmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Phase" prompt="BI_MAG_CT_Phase?" promptNeeded="false" type="id_Integer" value="4" xmi:id="_0A_T8FmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_NomTable" prompt="BI_MAG_NomTable?" promptNeeded="false" type="id_String" value="CT_CO" xmi:id="_8UtdoFmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Variante" prompt="BI_MAG_CT_Variante?" promptNeeded="false" type="id_Integer" value="3" xmi:id="_LO6zIFmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="VL_CT_Periode" prompt="VL_CT_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_RTuOMFmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Periode" prompt="BI_MAG_CT_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_X14ToFmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BIVG_Table_Cible_Magnitude" prompt="BIVG_Table_Cible_Magnitude?" promptNeeded="false" type="id_String" value="" xmi:id="_nPxicFozEeu8kp3Bp-fsEQ"/>
+    <contextParameter comment="" name="BI_Table_Magnitude_Inexistante" prompt="BI_Table_Magnitude_Inexistante?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_qIXDsFo0Eeu8kp3Bp-fsEQ"/>
+    <contextParameter comment="" name="MesDir" prompt="MesDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DATA_COLLECTOR\BO_FINANCE\" xmi:id="_1ArssFsnEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="file_MES_TMP" prompt="file_MES_TMP?" promptNeeded="false" type="id_String" value="MES_TMP.txt" xmi:id="_KeiYkFssEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_REF" prompt="Req_REF?" promptNeeded="false" type="id_String" value="" xmi:id="_QTGKoFtMEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_ALL_TABLES1" prompt="Req_ALL_TABLES1?" promptNeeded="false" type="id_String" value="" xmi:id="_QTGKoVtMEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_ALL_TABLES2" prompt="Req_ALL_TABLES2?" promptNeeded="false" type="id_String" value="" xmi:id="_lIT0EFtOEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="TABLE_NAME" prompt="TABLE_NAME?" promptNeeded="false" type="id_String" value="" xmi:id="_3y840FtPEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="file_CT_CO_TURNOVER" prompt="file_CT_CO_TURNOVER?" promptNeeded="false" type="id_String" value="CT_CO_TURNOVER.csv" xmi:id="_T9w2YFvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_QUANTITIES" prompt="file_CT_CO_QUANTITIES?" promptNeeded="false" type="id_String" value="CT_CO_QUANTITIES.csv" xmi:id="_oIXHcFvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_STOCK" prompt="file_CT_CO_STOCK?" promptNeeded="false" type="id_String" value="CT_CO_STOCK.csv" xmi:id="_oIXHcVvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_TOTAL_DELIVERED_QUANTITY" prompt="file_CT_CO_TOTAL_DELIVERED_QUANTITY?" promptNeeded="false" type="id_String" value="CT_CO_TOTAL_DELIVERED_QUANTITY.csv" xmi:id="_oIXHclvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_BO_CRIU" prompt="file_BO_CRIU?" promptNeeded="false" type="id_String" value="BO_CRIU.csv" xmi:id="_FMzjsFvxEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_BO_CRISOC" prompt="file_BO_CRISOC?" promptNeeded="false" type="id_String" value="BO_CRISOC.csv" xmi:id="_PZwtoFv2EeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="DEBUT_BOUCLE" prompt="DEBUT_BOUCLE?" promptNeeded="false" type="id_Integer" value="" xmi:id="_rGAK8FyVEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="FIN_BOUCLE" prompt="FIN_BOUCLE?" promptNeeded="false" type="id_Integer" value="" xmi:id="_rGAK8VyVEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="file_CT_CO_QUANTITIES_TX_REEL_TMM" prompt="file_CT_CO_QUANTITIES_TX_REEL_TMM?" promptNeeded="false" type="id_String" value="CT_CO_QUANTITIES_TX_REEL_TMM.csv" xmi:id="_g0dvEFyoEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="VL_Fin_Periode" prompt="VL_Fin_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_2G9OwFzIEeuAgtzoOER-vQ"/>
+    <contextParameter comment="" name="file_REF_ARTICLES" prompt="file_REF_ARTICLES?" promptNeeded="false" type="id_String" value="REF_ARTICLES.csv" xmi:id="_uSbuAF_zEeuZVoQO6BMwKA"/>
+    <contextParameter comment="" name="file_REF_ENTITY" prompt="file_REF_ENTITY?" promptNeeded="false" type="id_String" value="REF_ENTITY.csv" xmi:id="_uSbuAV_zEeuZVoQO6BMwKA"/>
+    <contextParameter comment="" name="file_MARGE_TMP" prompt="file_MARGE_TMP?" promptNeeded="false" type="id_String" value="file_MARGE_TMP.csv" xmi:id="_xLJxwGSMEeuoKf93t1J-Lw"/>
+    <contextParameter comment="" name="file_LOAD_TMP" prompt="file_LOAD_TMP?" promptNeeded="false" type="id_String" value="LOAD_TMP.csv" xmi:id="_ZSbMoGSNEeuoKf93t1J-Lw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_MmJHXjibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_MARGES_EN_STOCK.ini" xmi:id="_MmJHXzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\tmp\" xmi:id="_MmJHYDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Config\" xmi:id="_MmJHYTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Target\" xmi:id="_MmJHYjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Source\" xmi:id="_MmJHYzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHZjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHZzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHajibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHazibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHbDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHdTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="OriginDir" prompt="OriginDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\ALIM_MARGES_EN_STOCK\Source\" xmi:id="_MmJHeDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF890UgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF8-EUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="2020" xmi:id="_tNF8-UUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="12" xmi:id="_tNF8-kUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF8-0UgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF8_EUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="N" xmi:id="_VTwKAU94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtZ0-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtaE-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtaU-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtak-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWta0-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtbE-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_uMOhMFABEeumof0Pj5eVDw"/>
+    <contextParameter comment="" name="file_MES" prompt="file_MES?" promptNeeded="false" type="id_String" value="MES_2019.12.txt" xmi:id="_enB0QVWvEeu5CLH3kXvRKA"/>
+    <contextParameter comment="" name="BCL" prompt="BCL?" promptNeeded="false" type="id_Integer" value="202012" xmi:id="_ppPdAVmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Phase" prompt="BI_MAG_CT_Phase?" promptNeeded="false" type="id_Integer" value="4" xmi:id="_0A_T8VmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_NomTable" prompt="BI_MAG_NomTable?" promptNeeded="false" type="id_String" value="CT_CO" xmi:id="_8UtdoVmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Variante" prompt="BI_MAG_CT_Variante?" promptNeeded="false" type="id_Integer" value="3" xmi:id="_LO6zIVmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="VL_CT_Periode" prompt="VL_CT_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_RTuOMVmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Periode" prompt="BI_MAG_CT_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_X14ToVmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BIVG_Table_Cible_Magnitude" prompt="BIVG_Table_Cible_Magnitude?" promptNeeded="false" type="id_String" value="" xmi:id="_nPxicVozEeu8kp3Bp-fsEQ"/>
+    <contextParameter comment="" name="BI_Table_Magnitude_Inexistante" prompt="BI_Table_Magnitude_Inexistante?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_qIXDsVo0Eeu8kp3Bp-fsEQ"/>
+    <contextParameter comment="" name="MesDir" prompt="MesDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DATA_COLLECTOR\BO_FINANCE\" xmi:id="_1ArssVsnEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="file_MES_TMP" prompt="file_MES_TMP?" promptNeeded="false" type="id_String" value="MES_TMP.txt" xmi:id="_KeiYkVssEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_REF" prompt="Req_REF?" promptNeeded="false" type="id_String" value="" xmi:id="_QTGKoltMEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_ALL_TABLES1" prompt="Req_ALL_TABLES1?" promptNeeded="false" type="id_String" value="" xmi:id="_QTGKo1tMEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_ALL_TABLES2" prompt="Req_ALL_TABLES2?" promptNeeded="false" type="id_String" value="" xmi:id="_lIT0EVtOEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="TABLE_NAME" prompt="TABLE_NAME?" promptNeeded="false" type="id_String" value="" xmi:id="_3y840VtPEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="file_CT_CO_TURNOVER" prompt="file_CT_CO_TURNOVER?" promptNeeded="false" type="id_String" value="CT_CO_TURNOVER.csv" xmi:id="_T9w2YVvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_QUANTITIES" prompt="file_CT_CO_QUANTITIES?" promptNeeded="false" type="id_String" value="CT_CO_QUANTITIES.csv" xmi:id="_oIXHc1vMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_STOCK" prompt="file_CT_CO_STOCK?" promptNeeded="false" type="id_String" value="CT_CO_STOCK.csv" xmi:id="_oIXHdFvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_TOTAL_DELIVERED_QUANTITY" prompt="file_CT_CO_TOTAL_DELIVERED_QUANTITY?" promptNeeded="false" type="id_String" value="CT_CO_TOTAL_DELIVERED_QUANTITY.csv" xmi:id="_oIXHdVvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_BO_CRIU" prompt="file_BO_CRIU?" promptNeeded="false" type="id_String" value="BO_CRIU.csv" xmi:id="_FMzjsVvxEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_BO_CRISOC" prompt="file_BO_CRISOC?" promptNeeded="false" type="id_String" value="BO_CRISOC.csv" xmi:id="_PZwtoVv2EeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="DEBUT_BOUCLE" prompt="DEBUT_BOUCLE?" promptNeeded="false" type="id_Integer" value="" xmi:id="_rGAK8lyVEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="FIN_BOUCLE" prompt="FIN_BOUCLE?" promptNeeded="false" type="id_Integer" value="" xmi:id="_rGAK81yVEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="file_CT_CO_QUANTITIES_TX_REEL_TMM" prompt="file_CT_CO_QUANTITIES_TX_REEL_TMM?" promptNeeded="false" type="id_String" value="CT_CO_QUANTITIES_TX_REEL_TMM.csv" xmi:id="_g0dvEVyoEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="VL_Fin_Periode" prompt="VL_Fin_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_2G9OwVzIEeuAgtzoOER-vQ"/>
+    <contextParameter comment="" name="file_REF_ARTICLES" prompt="file_REF_ARTICLES?" promptNeeded="false" type="id_String" value="REF_ARTICLES.csv" xmi:id="_uSbuAl_zEeuZVoQO6BMwKA"/>
+    <contextParameter comment="" name="file_REF_ENTITY" prompt="file_REF_ENTITY?" promptNeeded="false" type="id_String" value="REF_ENTITY.csv" xmi:id="_uSbuA1_zEeuZVoQO6BMwKA"/>
+    <contextParameter comment="" name="file_MARGE_TMP" prompt="file_MARGE_TMP?" promptNeeded="false" type="id_String" value="file_MARGE_TMP.csv" xmi:id="_xLKY0GSMEeuoKf93t1J-Lw"/>
+    <contextParameter comment="" name="file_LOAD_TMP" prompt="file_LOAD_TMP?" promptNeeded="false" type="id_String" value="LOAD_TMP.csv" xmi:id="_ZSbMoWSNEeuoKf93t1J-Lw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_MmJHfDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_MARGES_EN_STOCK.ini" xmi:id="_MmJHfTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\ALIM_MARGES_EN_STOCK\tmp\" xmi:id="_MmJHfjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\ALIM_MARGES_EN_STOCK\Config\" xmi:id="_MmJHfzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\nspdas1fr\ALIM_MARGES_EN_STOCK\PROD\ITF\files\In\" xmi:id="_MmJHgDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\ALIM_MARGES_EN_STOCK\Source\" xmi:id="_MmJHgTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHhDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHhTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHiDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHiTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHijibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHkzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="OriginDir" prompt="OriginDir?" promptNeeded="false" type="id_String" value="\\nspdas1fr\ALIM_MARGES_EN_STOCK\PROD\ITF\files\In\" xmi:id="_MmJHljibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF8_kUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF8_0UgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="2020" xmi:id="_tNF9AEUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="12" xmi:id="_tNF9AUUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF9AkUgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_tNF9A0UgEeuKKrn5F11ltA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="N" xmi:id="_VTwKAk94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtbk-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtb0-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtcE-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtcU-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtck-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_MAWtc0-3Eeu6xcKriFb6Tg"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_uMOhMVABEeumof0Pj5eVDw"/>
+    <contextParameter comment="" name="file_MES" prompt="file_MES?" promptNeeded="false" type="id_String" value="MES_2019.12.txt" xmi:id="_enB0QlWvEeu5CLH3kXvRKA"/>
+    <contextParameter comment="" name="BCL" prompt="BCL?" promptNeeded="false" type="id_Integer" value="202012" xmi:id="_ppPdAlmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Phase" prompt="BI_MAG_CT_Phase?" promptNeeded="false" type="id_Integer" value="4" xmi:id="_0A_T8lmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_NomTable" prompt="BI_MAG_NomTable?" promptNeeded="false" type="id_String" value="CT_CO" xmi:id="_8UtdolmrEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Variante" prompt="BI_MAG_CT_Variante?" promptNeeded="false" type="id_Integer" value="3" xmi:id="_LO6zIlmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="VL_CT_Periode" prompt="VL_CT_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_RTuOMlmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BI_MAG_CT_Periode" prompt="BI_MAG_CT_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_X14TolmsEeuCDPDm8cVNYA"/>
+    <contextParameter comment="" name="BIVG_Table_Cible_Magnitude" prompt="BIVG_Table_Cible_Magnitude?" promptNeeded="false" type="id_String" value="" xmi:id="_nPxiclozEeu8kp3Bp-fsEQ"/>
+    <contextParameter comment="" name="BI_Table_Magnitude_Inexistante" prompt="BI_Table_Magnitude_Inexistante?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_qIXDslo0Eeu8kp3Bp-fsEQ"/>
+    <contextParameter comment="" name="MesDir" prompt="MesDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DATA_COLLECTOR\BO_FINANCE\" xmi:id="_1ArsslsnEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="file_MES_TMP" prompt="file_MES_TMP?" promptNeeded="false" type="id_String" value="MES_TMP.txt" xmi:id="_KeiYklssEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_REF" prompt="Req_REF?" promptNeeded="false" type="id_String" value="" xmi:id="_QTGKpFtMEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_ALL_TABLES1" prompt="Req_ALL_TABLES1?" promptNeeded="false" type="id_String" value="" xmi:id="_QTGKpVtMEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="Req_ALL_TABLES2" prompt="Req_ALL_TABLES2?" promptNeeded="false" type="id_String" value="" xmi:id="_lIT0EltOEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="TABLE_NAME" prompt="TABLE_NAME?" promptNeeded="false" type="id_String" value="" xmi:id="_3y840ltPEeuxqcK_7UevzA"/>
+    <contextParameter comment="" name="file_CT_CO_TURNOVER" prompt="file_CT_CO_TURNOVER?" promptNeeded="false" type="id_String" value="CT_CO_TURNOVER.csv" xmi:id="_T9w2YlvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_QUANTITIES" prompt="file_CT_CO_QUANTITIES?" promptNeeded="false" type="id_String" value="CT_CO_QUANTITIES.csv" xmi:id="_oIXHdlvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_STOCK" prompt="file_CT_CO_STOCK?" promptNeeded="false" type="id_String" value="CT_CO_STOCK.csv" xmi:id="_oIXHd1vMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_CT_CO_TOTAL_DELIVERED_QUANTITY" prompt="file_CT_CO_TOTAL_DELIVERED_QUANTITY?" promptNeeded="false" type="id_String" value="CT_CO_TOTAL_DELIVERED_QUANTITY.csv" xmi:id="_oIXHeFvMEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_BO_CRIU" prompt="file_BO_CRIU?" promptNeeded="false" type="id_String" value="BO_CRIU.csv" xmi:id="_FMzjslvxEeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="file_BO_CRISOC" prompt="file_BO_CRISOC?" promptNeeded="false" type="id_String" value="BO_CRISOC.csv" xmi:id="_PZwtolv2EeueKN7_NFpbRA"/>
+    <contextParameter comment="" name="DEBUT_BOUCLE" prompt="DEBUT_BOUCLE?" promptNeeded="false" type="id_Integer" value="" xmi:id="_rGAK9FyVEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="FIN_BOUCLE" prompt="FIN_BOUCLE?" promptNeeded="false" type="id_Integer" value="" xmi:id="_rGAK9VyVEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="file_CT_CO_QUANTITIES_TX_REEL_TMM" prompt="file_CT_CO_QUANTITIES_TX_REEL_TMM?" promptNeeded="false" type="id_String" value="CT_CO_QUANTITIES_TX_REEL_TMM.csv" xmi:id="_g0dvElyoEeuAgdzoOER-vQ"/>
+    <contextParameter comment="" name="VL_Fin_Periode" prompt="VL_Fin_Periode?" promptNeeded="false" type="id_String" value="" xmi:id="_2G9OwlzIEeuAgtzoOER-vQ"/>
+    <contextParameter comment="" name="file_REF_ARTICLES" prompt="file_REF_ARTICLES?" promptNeeded="false" type="id_String" value="REF_ARTICLES.csv" xmi:id="_uSbuBF_zEeuZVoQO6BMwKA"/>
+    <contextParameter comment="" name="file_REF_ENTITY" prompt="file_REF_ENTITY?" promptNeeded="false" type="id_String" value="REF_ENTITY.csv" xmi:id="_uSbuBV_zEeuZVoQO6BMwKA"/>
+    <contextParameter comment="" name="file_MARGE_TMP" prompt="file_MARGE_TMP?" promptNeeded="false" type="id_String" value="file_MARGE_TMP.csv" xmi:id="_xLKY0WSMEeuoKf93t1J-Lw"/>
+    <contextParameter comment="" name="file_LOAD_TMP" prompt="file_LOAD_TMP?" promptNeeded="false" type="id_String" value="LOAD_TMP.csv" xmi:id="_ZSbzsGSNEeuoKf93t1J-Lw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_6521245d-4fde-41e7-b167-0cd75d8ec1f6"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>LZuFsAaKCEysqen8a0FWL6Qc73+foJmFVQNWMX8t3rdrSe/atbDpolSWTVyKFb2EAOYUpztOPKQp&#13;
+o7QqmRIzag==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_a1628555-8b36-4df2-b744-89481c690ffa"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qxdKzN5Y0M5yWsNOLHE6ZIsnNhS5a/WzDk9oeW4J8cKMnAUSyfwuGK/i1c6q7RC96I2HH1bpPGYw&#13;
+d6e0KJEVGQ==</DigestValue></Reference></SignedInfo><SignatureValue>mQkt+Vvb5snY442lGHXxBEupnDsumK1doMeEcL+6NylioxQ7NjNW8xYjVJUH8gBWfgJPL2c1Lh51&#13;
+E8nOtkILs/to9M0/toX8nyqtfRrxnX7uQppKuwk/7HgGDUNXhngV8gS6b/2vIX+BYhFifZQQDDA5&#13;
+B//hmEDSu7LpkTFeootNm8iDwSejOusTIXAPFjN/6DF/dG6MHw5GLdRgC2fLb3gmzEsh9z9tLFkh&#13;
+4nVXbwEj9QpABBUSl/6gczCQt70gt3bus31ECB6G5glnMq5o/ueBmXVrxEr8xwX0v2aTlg0HCH7B&#13;
+Pacrg2NbQP3AUoevlKs74fIjSCRQJTF/aLHJkg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_a1628555-8b36-4df2-b744-89481c690ffa" Target="#_6521245d-4fde-41e7-b167-0cd75d8ec1f6"><Timestamp>2022-01-04 14:37:14</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

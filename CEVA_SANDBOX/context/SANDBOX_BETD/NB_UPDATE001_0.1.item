@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ContextType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" confirmationNeeded="false" name="Default" xmi:id="_7c0jwCTvEeuOh8vg2MnyRA" xmi:version="2.0">
+  <contextParameter comment="" name="varID1" prompt="varID1?" promptNeeded="false" type="id_BigDecimal" value="" xmi:id="_7c0jwSTvEeuOh8vg2MnyRA"/>
+  <contextParameter comment="" name="TR1" prompt="TR1?" promptNeeded="false" type="id_Integer" value="3" xmi:id="_7c0jwiTvEeuOh8vg2MnyRA"/>
+  <contextParameter comment="" name="varIDKO1" prompt="varIDKO1?" promptNeeded="false" type="id_Boolean" value="true" xmi:id="_7c0jwyTvEeuOh8vg2MnyRA"/>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_e98487d9-5722-4b7b-9f40-5cc8384dc8db"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JA+hg/b+ux1SESxFoijw54EhZR1hzsSm6RyKSgnQryuPiPl9y3H7u6gD0UQSxVQvP41HRcBAIlyn&#13;
+pzAWKw+aRw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_0e130aff-d4cc-4cff-a47b-d81ae8bee980"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Cb8u4wZjiseixsuSaRpkd2CNmtpDjBwhg85KHPaw2ekkACpP87b32mmDaY9QC9BNVSR1uvqDEE6Y&#13;
+y20bS1JWUw==</DigestValue></Reference></SignedInfo><SignatureValue>R90nvTz453JOWUXyXjVyvBQ5vQSGDaXkUfNmNLjqSwuu3UCrZ7aRnSPGh1Qu0I4wliXcjomAqdug&#13;
+pUGcP58+7dYS19oIFVoajs7PsQZ93t6ZcESN4RLnTgZq/jOED3SbW+LV0SKrpqX5LY84pF7RnVGo&#13;
+Cfjo//VS/rGq+Q9fbI3vZz27ac6ZMQH85Givosy/xTsGX0GqUVauZIoVTr80gSqNNipHsi9uzJVU&#13;
+p6ComTmbKxKaHtPeXcSekNPyViNt8+bce+GwhHEH4oSwBrQ8pPQ0/KVNLql6kA6dDE8WHIHrJL95&#13;
+jbQA1kmFcfbWm1Hm0xEwwOOIVNr+TQjJ2rx2Qg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_0e130aff-d4cc-4cff-a47b-d81ae8bee980" Target="#_e98487d9-5722-4b7b-9f40-5cc8384dc8db"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ContextType>

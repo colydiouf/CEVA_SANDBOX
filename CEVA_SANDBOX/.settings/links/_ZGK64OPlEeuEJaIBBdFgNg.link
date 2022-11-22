@@ -1,0 +1,34 @@
+{
+  "itemId" : "_ZGK64OPlEeuEJaIBBdFgNg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWcuMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_otuvY-MFEeusVM_SzC1MQA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWeeMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_otvWduMFEeusVM_SzC1MQA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWgOMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_otvWfeMFEeusVM_SzC1MQA",
+      "name" : "tmpDir"
+    } ]
+  } ]
+}

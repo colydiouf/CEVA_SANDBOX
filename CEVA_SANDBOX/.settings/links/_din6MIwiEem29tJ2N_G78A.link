@@ -1,0 +1,17 @@
+{
+  "itemId" : "_din6MIwiEem29tJ2N_G78A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_IzbVAIwnEem29tJ2N_G78A",
+    "parameterList" : [ {
+      "id" : "_7dFCciTvEeuOh8vg2MnyRA",
+      "name" : "TR"
+    }, {
+      "id" : "_7dFCcSTvEeuOh8vg2MnyRA",
+      "name" : "varID"
+    }, {
+      "id" : "_7dFCcyTvEeuOh8vg2MnyRA",
+      "name" : "varIDKO"
+    } ]
+  } ]
+}

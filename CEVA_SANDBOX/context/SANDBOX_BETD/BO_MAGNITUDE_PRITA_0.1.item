@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_iVdvsJLKEeulYaONFqy0XQ">
+    <contextParameter comment="" name="WorkDBName" prompt="WorkDBName?" promptNeeded="false" type="id_String" value="tld_dev_log" xmi:id="_iVdvsZLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBUserName" prompt="WorkDBUserName?" promptNeeded="false" type="id_String" value="talend" xmi:id="_iVdvspLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBUserPassword" prompt="WorkDBUserPassword?" promptNeeded="false" type="id_Password" value="" xmi:id="_iVdvs5LKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBPort" prompt="WorkDBPort?" promptNeeded="false" type="id_String" value="3306" xmi:id="_iVdvtJLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBHostName" prompt="WorkDBHostName?" promptNeeded="false" type="id_String" value="172.24.250.13" xmi:id="_iVdvtZLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="DataCollector" prompt="DataCollector?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DATA_COLLECTOR\" xmi:id="_9sTR0JN2Eeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\context\" xmi:id="_bDAJcJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\tmp\" xmi:id="_bDAJcZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="purgeDir" prompt="purgeDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\tmp\" xmi:id="_bDAJcpOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Config\" xmi:id="_bDAJc5OgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="targetDir" prompt="targetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Target\" xmi:id="_bDAJdJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Source\" xmi:id="_bDAJdZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="workingDir" prompt="workingDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Work\" xmi:id="_bDAJdpOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ArchivesDir" prompt="ArchivesDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Archives\" xmi:id="_bDAJd5OgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="FromFTP" prompt="FromFTP?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\FromFTP\" xmi:id="_bDAJeJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ASupprimer" prompt="ASupprimer?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\A_Supprimer\" xmi:id="_bDAJeZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_PRITA.ini" xmi:id="_cfae4JXWEeuRQqpG53LhIg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_iVdvtpLKEeulYaONFqy0XQ">
+    <contextParameter comment="" name="WorkDBName" prompt="WorkDBName?" promptNeeded="false" type="id_String" value="tld_dev_log" xmi:id="_iVdvt5LKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBUserName" prompt="WorkDBUserName?" promptNeeded="false" type="id_String" value="talend" xmi:id="_iVdvuJLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBUserPassword" prompt="WorkDBUserPassword?" promptNeeded="false" type="id_Password" value="" xmi:id="_iVdvuZLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBPort" prompt="WorkDBPort?" promptNeeded="false" type="id_String" value="3306" xmi:id="_iVdvupLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBHostName" prompt="WorkDBHostName?" promptNeeded="false" type="id_String" value="172.24.250.13" xmi:id="_iVdvu5LKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="DataCollector" prompt="DataCollector?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DATA_COLLECTOR\" xmi:id="_9sTR0ZN2Eeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\context\" xmi:id="_bDAJepOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\tmp\" xmi:id="_bDAJe5OgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="purgeDir" prompt="purgeDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\tmp\" xmi:id="_bDAJfJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Config\" xmi:id="_bDAJfZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="targetDir" prompt="targetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Target\" xmi:id="_bDAJfpOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Source\" xmi:id="_bDAJf5OgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="workingDir" prompt="workingDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Work\" xmi:id="_bDAJgJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ArchivesDir" prompt="ArchivesDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\Archives\" xmi:id="_bDAJgZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="FromFTP" prompt="FromFTP?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\FromFTP\" xmi:id="_bDAJgpOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ASupprimer" prompt="ASupprimer?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BO_MAGNITUDE\PRITA\A_Supprimer\" xmi:id="_bDAJg5OgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_PRITA.ini" xmi:id="_cfae4ZXWEeuRQqpG53LhIg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_iVdvvJLKEeulYaONFqy0XQ">
+    <contextParameter comment="" name="WorkDBName" prompt="WorkDBName?" promptNeeded="false" type="id_String" value="" xmi:id="_iVdvvZLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBUserName" prompt="WorkDBUserName?" promptNeeded="false" type="id_String" value="" xmi:id="_iVdvvpLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBUserPassword" prompt="WorkDBUserPassword?" promptNeeded="false" type="id_Password" value="" xmi:id="_iVdvv5LKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBPort" prompt="WorkDBPort?" promptNeeded="false" type="id_String" value="" xmi:id="_iVdvwJLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="WorkDBHostName" prompt="WorkDBHostName?" promptNeeded="false" type="id_String" value="" xmi:id="_iVdvwZLKEeulYaONFqy0XQ"/>
+    <contextParameter comment="" name="DataCollector" prompt="DataCollector?" promptNeeded="false" type="id_String" value="" xmi:id="_9sTR0pN2Eeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJhJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJhZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="purgeDir" prompt="purgeDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJhpOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJh5OgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="targetDir" prompt="targetDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJiJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJiZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="workingDir" prompt="workingDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJipOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ArchivesDir" prompt="ArchivesDir?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJi5OgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="FromFTP" prompt="FromFTP?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJjJOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="ASupprimer" prompt="ASupprimer?" promptNeeded="false" type="id_String" value="" xmi:id="_bDAJjZOgEeu27cUapxYgnQ"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_PRITA.ini" xmi:id="_cfae4pXWEeuRQqpG53LhIg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_71685439-4a02-4aca-902a-e43edc2b5d41"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>33IhYJYwbjnqZavpiVRGArm7UP1WT+JBGa/GjjPKxx6YBTOCDVwzxhT+Lg84rWt/EXiVzMuivti3&#13;
+eo5Iy3uTNg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_626d5de2-c7b7-49bd-8c83-8de9b63ff778"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>ViOsi8Xt+uI3H9QyokydGQPzdOfNXtEL4CGSA0/Z17TSbPBjEPAsp8a+0nxS+iXjv9E8dq2t2moM&#13;
+HHVtrKFPCA==</DigestValue></Reference></SignedInfo><SignatureValue>IAQimdEyEGi9k4x3keyIWbQKFm7YzHHztLldVM6HHhzMHK9jIkXro9IBqbFbg8bDDfnE5tOyhSxF&#13;
+ndBQUyfgJIOrESRhb2xVn4ADwcUzVIQ+k13sgRjzb4kjKDS93IM4Hw6aJOhLbiwFuTrK9DNtaZP/&#13;
+BtRGtlf8yW58sPXuJwZZhu39ZUkwMIZA8pacMq2GS+Ve+6Ysb7tVyc3t++vlkSXhfH1WscepKRGt&#13;
+a153N6ZheKitoA/5QxoAygwPaNdWv8VWrg4SczpGcJbL6K8yv4D29+YuUouZKd6lhXU4V4Z00hsA&#13;
+FOaOf8jG6APeE2iysyXukqS/vun+EXJkhQ3LXg==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_626d5de2-c7b7-49bd-8c83-8de9b63ff778" Target="#_71685439-4a02-4aca-902a-e43edc2b5d41"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

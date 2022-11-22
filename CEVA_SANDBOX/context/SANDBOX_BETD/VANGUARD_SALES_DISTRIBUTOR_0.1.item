@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_otuvYOMFEeusVM_SzC1MQA">
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_SALES_DISTRIBUTOR\config\" xmi:id="_otuvYeMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_SALES_DISTRIBUTOR\context\" xmi:id="_otuvYuMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_SALES_DISTRIBUTOR\tmp\" xmi:id="_otuvY-MFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_SALES_DISTRIBUTOR\Target\" xmi:id="_otvWcOMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="ParamFileQB" prompt="ParamFileQB?" promptNeeded="false" type="id_String" value="sales_distributor_quickbase.txt" xmi:id="_otvWceMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="NO" xmi:id="_otvWcuMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="LookupTableDir" prompt="LookupTableDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\CEVA_MASTER\lookupTables\" xmi:id="_UsIWEOR1EeuUMuerVIsS4Q"/>
+    <contextParameter comment="" name="SOCIETE_CODE_MONNAIE" prompt="SOCIETE_CODE_MONNAIE?" promptNeeded="false" type="id_String" value="mapSocieteMonnaie.txt" xmi:id="_UsIWEeR1EeuUMuerVIsS4Q"/>
+    <contextParameter comment="" name="ContextRunTimeVariable_Connection" prompt="ContextRunTimeVariable_Connection?" promptNeeded="false" type="id_String" value="contexte_runtime_variables_connexion.txt" xmi:id="_CdcA0OiCEeuurovZqHXltg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_otvWc-MFEeusVM_SzC1MQA">
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWdOMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWdeMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWduMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWd-MFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="ParamFileQB" prompt="ParamFileQB?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWeOMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWeeMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="LookupTableDir" prompt="LookupTableDir?" promptNeeded="false" type="id_String" value="" xmi:id="_UsIWEuR1EeuUMuerVIsS4Q"/>
+    <contextParameter comment="" name="SOCIETE_CODE_MONNAIE" prompt="SOCIETE_CODE_MONNAIE?" promptNeeded="false" type="id_String" value="" xmi:id="_UsIWE-R1EeuUMuerVIsS4Q"/>
+    <contextParameter comment="" name="ContextRunTimeVariable_Connection" prompt="ContextRunTimeVariable_Connection?" promptNeeded="false" type="id_String" value="" xmi:id="_CdcA0eiCEeuurovZqHXltg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_otvWeuMFEeusVM_SzC1MQA">
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWe-MFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWfOMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWfeMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWfuMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="ParamFileQB" prompt="ParamFileQB?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWf-MFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_otvWgOMFEeusVM_SzC1MQA"/>
+    <contextParameter comment="" name="LookupTableDir" prompt="LookupTableDir?" promptNeeded="false" type="id_String" value="" xmi:id="_UsIWFOR1EeuUMuerVIsS4Q"/>
+    <contextParameter comment="" name="SOCIETE_CODE_MONNAIE" prompt="SOCIETE_CODE_MONNAIE?" promptNeeded="false" type="id_String" value="" xmi:id="_UsIWFeR1EeuUMuerVIsS4Q"/>
+    <contextParameter comment="" name="ContextRunTimeVariable_Connection" prompt="ContextRunTimeVariable_Connection?" promptNeeded="false" type="id_String" value="" xmi:id="_CdcA0uiCEeuurovZqHXltg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7e797ae8-680e-42d9-8077-350234930eb7"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>hgCks4E6Y4aMtA3h5v/XdLwoODCx9mPAfn7I47oAB9g0qes7IQvH65ios65pCRYq11po16ym/F8B&#13;
+XPR3xq6c8Q==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_087f3394-9329-424a-8a44-1bd8bc2ea4c5"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>XbWciGHv7NgrpEQh/w48RZk9CQj48nzhgyjcZqQE2yDLZkC+JJlYdjrbnM4FBGfiunNR62UdULAp&#13;
+aYZ3jyZy4g==</DigestValue></Reference></SignedInfo><SignatureValue>DGa7XU/Djb3erv0yHrvP+pwIBs70/Y02AtghBnVVn+wvqQEb4SG+3hK/GPkdnE3DqNtv/XTq5/xX&#13;
+10feycNpSL/XqyDmO7VD/ocv/tnvoPs5X0G/xGKmU4FgKJmRGe9Rwkna2tVaZjIXnHYlTM7/WMiL&#13;
+Jr4sSA0kcfxITue5aaYdOxzmM0E337o9jNIsRU4I9Is5I2tfN/+qlbo0lq/zsLfpmjBHAqPxYP0H&#13;
+WYQx4YSEyK1pz2Dne/Tez+eHqsSx9pZToXwVoFOzR/M2xIZTb/J6GWipkBTYwKApujOkHxHKiPGI&#13;
+9oFXwUoQrA154ZZGxw/h4F64O0/+uGRjRz7ffQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_087f3394-9329-424a-8a44-1bd8bc2ea4c5" Target="#_7e797ae8-680e-42d9-8077-350234930eb7"><Timestamp>2022-01-04 14:37:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

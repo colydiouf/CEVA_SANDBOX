@@ -1,0 +1,100 @@
+{
+  "itemId" : "_8lC6AOYkEeup-ZHlEojb1A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWcuMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    } ]
+  }, {
+    "contextName" : "Default",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XJrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XJLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XI7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XIbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XJ7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XJbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XIrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWeeMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XLrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XLLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XK7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XKbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XL7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XLbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XKrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWgOMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_MZ1mILk7EeuEJI4sjJxtiA",
+    "parameterList" : [ {
+      "id" : "_MZ_XNrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_AdditionalParams"
+    }, {
+      "id" : "_MZ_XNLk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Login"
+    }, {
+      "id" : "_MZ_XM7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Password"
+    }, {
+      "id" : "_MZ_XMbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Port"
+    }, {
+      "id" : "_MZ_XN7k7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Schema"
+    }, {
+      "id" : "_MZ_XNbk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Server"
+    }, {
+      "id" : "_MZ_XMrk7EeuEJI4sjJxtiA",
+      "name" : "BI_ODS_WORKTMP_Sid"
+    } ]
+  } ]
+}

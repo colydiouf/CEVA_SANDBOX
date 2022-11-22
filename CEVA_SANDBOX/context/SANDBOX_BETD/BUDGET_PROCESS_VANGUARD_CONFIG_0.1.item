@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_MmJHQDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_BUDGET_PROCESS.ini" xmi:id="_MmJHQTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\tmp\" xmi:id="_MmJHQjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\config\" xmi:id="_MmJHQzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\Target\" xmi:id="_MmJHRDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\Source\" xmi:id="_MmJHRTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHSDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHSTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHTDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHTTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHTjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHVzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="YES" xmi:id="_VTwKAE94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="JobStatut" prompt="JobStatut?" promptNeeded="false" type="id_String" value="" xmi:id="_ZDG5sMOBEeu2qpBtx1Xa6A"/>
+    <contextParameter comment="" name="FileContext" prompt="FileContext?" promptNeeded="false" type="id_String" value="" xmi:id="_JPciYM9jEeuulfiSNNZLfQ"/>
+    <contextParameter comment="" name="BIVG_Societe" prompt="BIVG_Societe?" promptNeeded="false" type="id_String" value="" xmi:id="_zyrvwM9rEeuulfiSNNZLfQ"/>
+    <contextParameter comment="" name="FileVanguardSwitch" prompt="FileVanguardSwitch?" promptNeeded="false" type="id_String" value="" xmi:id="_3AkAwNJ7EeulX9nOlsK5Aw"/>
+    <contextParameter comment="" name="FileBudgetQbase" prompt="FileBudgetQbase?" promptNeeded="false" type="id_String" value="" xmi:id="_Eo8hsNjBEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="" xmi:id="_k1834NjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_String" value="" xmi:id="_k1834djFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseTableIdCoeff" prompt="QuickBaseTableIdCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_k1834tjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_k18349jFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="" xmi:id="_k1835NjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBgNjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="fileTempSeparator" prompt="fileTempSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBgdjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="xslFile" prompt="xslFile?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBgtjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="FileExtractQBCoeff" prompt="FileExtractQBCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBg9jIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="clistCoeff" prompt="clistCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBhNjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="Debug" prompt="Debug?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_sZgBhdjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="SF_GRP" prompt="SF_GRP?" promptNeeded="false" type="id_String" value="" xmi:id="_sl0i0NljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="DRP_GRP" prompt="DRP_GRP?" promptNeeded="false" type="id_String" value="" xmi:id="_sl0i0dljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="CUST_CTRY" prompt="CUST_CTRY?" promptNeeded="false" type="id_String" value="" xmi:id="_sl0i0tljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="DateExec" prompt="DateExec?" promptNeeded="false" type="id_String" value="" xmi:id="_uOJYQNlzEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="QuickBaseTableIdBudget" prompt="QuickBaseTableIdBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1sNmGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="FileExtractQBBudget" prompt="FileExtractQBBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1sdmGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="clistBudget" prompt="clistBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1stmGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="flagVanguardQBase" prompt="flagVanguardQBase?" promptNeeded="false" type="id_Boolean" value="false" xmi:id="_f7WhoNovEeuJb-YfyvE4vg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_MmJHXjibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_BUDGET_PROCESS.ini" xmi:id="_MmJHXzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\tmp\" xmi:id="_MmJHYDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\config\" xmi:id="_MmJHYTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\Target\" xmi:id="_MmJHYjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\Source\" xmi:id="_MmJHYzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHZjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHZzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHajibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHazibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHbDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHdTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_VTwKAU94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="JobStatut" prompt="JobStatut?" promptNeeded="false" type="id_String" value="" xmi:id="_ZDG5scOBEeu2qpBtx1Xa6A"/>
+    <contextParameter comment="" name="FileContext" prompt="FileContext?" promptNeeded="false" type="id_String" value="" xmi:id="_JPciYc9jEeuulfiSNNZLfQ"/>
+    <contextParameter comment="" name="BIVG_Societe" prompt="BIVG_Societe?" promptNeeded="false" type="id_String" value="" xmi:id="_zyrvwc9rEeuulfiSNNZLfQ"/>
+    <contextParameter comment="" name="FileVanguardSwitch" prompt="FileVanguardSwitch?" promptNeeded="false" type="id_String" value="" xmi:id="_3AkAwdJ7EeulX9nOlsK5Aw"/>
+    <contextParameter comment="" name="FileBudgetQbase" prompt="FileBudgetQbase?" promptNeeded="false" type="id_String" value="" xmi:id="_Eo8hsdjBEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="" xmi:id="_k1835djFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_String" value="" xmi:id="_k1835tjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseTableIdCoeff" prompt="QuickBaseTableIdCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_k18359jFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_k1836NjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="" xmi:id="_k1836djFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBhtjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="fileTempSeparator" prompt="fileTempSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBh9jIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="xslFile" prompt="xslFile?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBiNjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="FileExtractQBCoeff" prompt="FileExtractQBCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBidjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="clistCoeff" prompt="clistCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBitjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="Debug" prompt="Debug?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_sZgBi9jIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="SF_GRP" prompt="SF_GRP?" promptNeeded="false" type="id_String" value="" xmi:id="_sl0i09ljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="DRP_GRP" prompt="DRP_GRP?" promptNeeded="false" type="id_String" value="" xmi:id="_sl0i1NljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="CUST_CTRY" prompt="CUST_CTRY?" promptNeeded="false" type="id_String" value="" xmi:id="_sl0i1dljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="DateExec" prompt="DateExec?" promptNeeded="false" type="id_String" value="" xmi:id="_uOJYQdlzEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="QuickBaseTableIdBudget" prompt="QuickBaseTableIdBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1s9mGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="FileExtractQBBudget" prompt="FileExtractQBBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1tNmGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="clistBudget" prompt="clistBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1tdmGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="flagVanguardQBase" prompt="flagVanguardQBase?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_f7WhodovEeuJb-YfyvE4vg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_MmJHfDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_BUDGET_PROCESS.ini" xmi:id="_MmJHfTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\tmp\" xmi:id="_MmJHfjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\config\" xmi:id="_MmJHfzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\Target\" xmi:id="_MmJHgDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_BUDGET_PROCESS\Source\" xmi:id="_MmJHgTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHhDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigEncoding" prompt="FileConfigEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHhTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHiDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHiTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHijibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHkzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_VTwKAk94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="JobStatut" prompt="JobStatut?" promptNeeded="false" type="id_String" value="" xmi:id="_ZDG5ssOBEeu2qpBtx1Xa6A"/>
+    <contextParameter comment="" name="FileContext" prompt="FileContext?" promptNeeded="false" type="id_String" value="" xmi:id="_JPciYs9jEeuulfiSNNZLfQ"/>
+    <contextParameter comment="" name="BIVG_Societe" prompt="BIVG_Societe?" promptNeeded="false" type="id_String" value="" xmi:id="_zyrvws9rEeuulfiSNNZLfQ"/>
+    <contextParameter comment="" name="FileVanguardSwitch" prompt="FileVanguardSwitch?" promptNeeded="false" type="id_String" value="" xmi:id="_3AkAwtJ7EeulX9nOlsK5Aw"/>
+    <contextParameter comment="" name="FileBudgetQbase" prompt="FileBudgetQbase?" promptNeeded="false" type="id_String" value="" xmi:id="_Eo8hstjBEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="" xmi:id="_k1836tjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_String" value="" xmi:id="_k18369jFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseTableIdCoeff" prompt="QuickBaseTableIdCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_k1837NjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_k1837djFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="" xmi:id="_k1837tjFEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="query" prompt="query?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBjNjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="fileTempSeparator" prompt="fileTempSeparator?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBjdjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="xslFile" prompt="xslFile?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBjtjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="FileExtractQBCoeff" prompt="FileExtractQBCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBj9jIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="clistCoeff" prompt="clistCoeff?" promptNeeded="false" type="id_String" value="" xmi:id="_sZgBkNjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="Debug" prompt="Debug?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_sZgBkdjIEeu7rNMFzp-b2g"/>
+    <contextParameter comment="" name="SF_GRP" prompt="SF_GRP?" promptNeeded="false" type="id_String" value="" xmi:id="_sl9swNljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="DRP_GRP" prompt="DRP_GRP?" promptNeeded="false" type="id_String" value="" xmi:id="_sl9swdljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="CUST_CTRY" prompt="CUST_CTRY?" promptNeeded="false" type="id_String" value="" xmi:id="_sl9swtljEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="DateExec" prompt="DateExec?" promptNeeded="false" type="id_String" value="" xmi:id="_uOJYQtlzEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="QuickBaseTableIdBudget" prompt="QuickBaseTableIdBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1ttmGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="FileExtractQBBudget" prompt="FileExtractQBBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1t9mGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="clistBudget" prompt="clistBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_CRz1uNmGEeu7YN7OUD9uTg"/>
+    <contextParameter comment="" name="flagVanguardQBase" prompt="flagVanguardQBase?" promptNeeded="false" type="id_Boolean" value="" xmi:id="_f7WhotovEeuJb-YfyvE4vg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_815607fb-c15b-44f5-836e-d3d18f1b2945"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Jv/iiO4aCN+vvrPLPVZiFvzRYuYjE2CzdvDZYL/gz6spdRIw5jVeWg1mdoUGCCHWbDuIEaj+DRRN&#13;
+3Ktnvm//ig==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_93e5949f-decc-46ce-a30d-979c0365351c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>5XzdZ4RTRFUw+00npoNN+iQUbDql7t0FAK4fH2zmJRQZ11ohzHwk9lpWEq8VQ3kqfSSNeFwwjR82&#13;
+LgwlOKG/bA==</DigestValue></Reference></SignedInfo><SignatureValue>VziKGyLJdG60c48z2A84ux6dLF8Th5HnGFMctBDK9RMvkaixrk3FpO+XXPF16zrakLQ9V3Ps5VcN&#13;
+oLChbavJFWjYf/odf9lDK5P+bgV50vPS42jE8HP05WyOEqtTQdIOAndsTtweweCLXgUlvJwAO1oY&#13;
+Y4bPUGtTkvQ64GywEMUmMz6PO+Nlnd6sM83wMCGucecc+N6Azack7XTcUS7wdG/j39p9im08qgxw&#13;
+xCw/QP36DHCf9NpDYdAGwDJzoJx/3NHCJmBww+Te6gTuMMBkmQlK3FfUEK+rjxSbYeOZbX71a01B&#13;
+5QO98SVUbaL2Xy2rGymelIGE4DWPioQqs0mtAQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_93e5949f-decc-46ce-a30d-979c0365351c" Target="#_815607fb-c15b-44f5-836e-d3d18f1b2945"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

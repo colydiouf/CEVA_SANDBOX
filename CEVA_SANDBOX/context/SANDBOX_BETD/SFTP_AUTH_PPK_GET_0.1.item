@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_MNx_sKGYEeu5f7pkqG2Epw">
+    <contextParameter comment="" name="connSFTPAuthPPK_login" prompt="connSFTPAuthPPK_login?" promptNeeded="false" type="id_String" value="ftphoroquartz" xmi:id="_MNx_saGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_host" prompt="connSFTPAuthPPK_host?" promptNeeded="false" type="id_String" value="sftp1lib1fr" xmi:id="_MNx_sqGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_ppk" prompt="connSFTPAuthPPK_ppk?" promptNeeded="false" type="id_String" value="sftp1lib1fr_Key.ppk" xmi:id="_MNx_s6GYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_remotedir" prompt="connSFTPAuthPPK_remotedir?" promptNeeded="false" type="id_String" value="/ftphoroquartz/out/" xmi:id="_MNx_tKGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_localdir" prompt="connSFTPAuthPPK_localdir?" promptNeeded="false" type="id_String" value="T:\SANDBOX_BETD\MISC_TEAMSRH\Source" xmi:id="_MNx_taGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_fileMask" prompt="connSFTPAuthPPK_fileMask?" promptNeeded="false" type="id_String" value="*.txt" xmi:id="_MNx_tqGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_flag_del_when_received" prompt="connSFTPAuthPPK_flag_del_when_received?" promptNeeded="false" type="id_String" value="No" xmi:id="_MNx_t6GYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_port" prompt="connSFTPAuthPPK_port?" promptNeeded="false" type="id_String" value="22345" xmi:id="_MNx_uKGYEeu5f7pkqG2Epw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_MNx_uaGYEeu5f7pkqG2Epw">
+    <contextParameter comment="" name="connSFTPAuthPPK_login" prompt="connSFTPAuthPPK_login?" promptNeeded="false" type="id_String" value="ftphoroquartz" xmi:id="_MNx_uqGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_host" prompt="connSFTPAuthPPK_host?" promptNeeded="false" type="id_String" value="sftp1lib1fr" xmi:id="_MNx_u6GYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_ppk" prompt="connSFTPAuthPPK_ppk?" promptNeeded="false" type="id_String" value="sftp1lib1fr_Key.ppk" xmi:id="_MNx_vKGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_remotedir" prompt="connSFTPAuthPPK_remotedir?" promptNeeded="false" type="id_String" value="/ftphoroquartz/out/" xmi:id="_MNx_vaGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_localdir" prompt="connSFTPAuthPPK_localdir?" promptNeeded="false" type="id_String" value="T:\SANDBOX_BETD\MISC_TEAMSRH\Source" xmi:id="_MNx_vqGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_fileMask" prompt="connSFTPAuthPPK_fileMask?" promptNeeded="false" type="id_String" value="*.txt" xmi:id="_MNx_v6GYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_flag_del_when_received" prompt="connSFTPAuthPPK_flag_del_when_received?" promptNeeded="false" type="id_String" value="No" xmi:id="_MNx_wKGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_port" prompt="connSFTPAuthPPK_port?" promptNeeded="false" type="id_String" value="22345" xmi:id="_MNx_waGYEeu5f7pkqG2Epw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_MNx_wqGYEeu5f7pkqG2Epw">
+    <contextParameter comment="" name="connSFTPAuthPPK_login" prompt="connSFTPAuthPPK_login?" promptNeeded="false" type="id_String" value="ftphoroquartz" xmi:id="_MNx_w6GYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_host" prompt="connSFTPAuthPPK_host?" promptNeeded="false" type="id_String" value="sftp1lib1fr" xmi:id="_MNx_xKGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_ppk" prompt="connSFTPAuthPPK_ppk?" promptNeeded="false" type="id_String" value="sftp1lib1fr_Key.ppk" xmi:id="_MNx_xaGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_remotedir" prompt="connSFTPAuthPPK_remotedir?" promptNeeded="false" type="id_String" value="/ftphoroquartz/out/" xmi:id="_MNx_xqGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_localdir" prompt="connSFTPAuthPPK_localdir?" promptNeeded="false" type="id_String" value="T:\SANDBOX_BETD\MISC_TEAMSRH\Source" xmi:id="_MNx_x6GYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_fileMask" prompt="connSFTPAuthPPK_fileMask?" promptNeeded="false" type="id_String" value="*.txt" xmi:id="_MNx_yKGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_flag_del_when_received" prompt="connSFTPAuthPPK_flag_del_when_received?" promptNeeded="false" type="id_String" value="No" xmi:id="_MNx_yaGYEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="connSFTPAuthPPK_port" prompt="connSFTPAuthPPK_port?" promptNeeded="false" type="id_String" value="22345" xmi:id="_MNx_yqGYEeu5f7pkqG2Epw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a63625fb-29be-4af2-9c0e-beef655ace64"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>+LTTR8e+uzYNoxJhcjvDViZj4qVjDbGUppn3UXVNgCNNTkflExW8qR3UyoDyaEM/5RA2Fq81LKcZ&#13;
+xGraKPc3wQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_16c474f7-f385-410c-b270-c29694b16d8c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>diGpYwRrJYEQdrZO+Kd6sPHZqWHriAwHih0JdGRdhnI080FX+d9/8Vldiej8XcnBkLAH3YTpe2U7&#13;
+u5jXSCpWvw==</DigestValue></Reference></SignedInfo><SignatureValue>nKN+/n+jW/1/MGc6hsGJYk4FyKU0yKjhbPZPCMBO/ddrUJC5DtEXK/RChVGTPtxnwvkNrPveFr7s&#13;
+QsjV1+Xe//eP4sfmYcM/bN+R9PQe+Yrj+hhI/qC7SU2FXrapHDfE7Gg+KvF997f1uRprdyJ5URmg&#13;
+iw8G3kE1HGDz6ZyoEcslHQ3Tz8Vj3KgNI8Z9EhafOo/HJaBW3Lj764a0kfPcDMOQDRDhToKmW03i&#13;
+BD9jgZivbtOVgsSpf5pxXU2iyF8lN9HyQYWPQXEco6abmbU/ItOCFg2X0RtQ9Ptf4+ttdxZn8K8X&#13;
+PN0uCzojZRner0hLO1FY70QGK+cGDm6/GrDwlw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_16c474f7-f385-410c-b270-c29694b16d8c" Target="#_a63625fb-29be-4af2-9c0e-beef655ace64"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

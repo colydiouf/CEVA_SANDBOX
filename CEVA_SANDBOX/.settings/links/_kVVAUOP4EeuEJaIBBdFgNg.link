@@ -1,0 +1,43 @@
+{
+  "itemId" : "_kVVAUOP4EeuEJaIBBdFgNg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWcuMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_UsIWEOR1EeuUMuerVIsS4Q",
+      "name" : "LookupTableDir"
+    }, {
+      "id" : "_UsIWEeR1EeuUMuerVIsS4Q",
+      "name" : "SOCIETE_CODE_MONNAIE"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWeeMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_UsIWEuR1EeuUMuerVIsS4Q",
+      "name" : "LookupTableDir"
+    }, {
+      "id" : "_UsIWE-R1EeuUMuerVIsS4Q",
+      "name" : "SOCIETE_CODE_MONNAIE"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWgOMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_UsIWFOR1EeuUMuerVIsS4Q",
+      "name" : "LookupTableDir"
+    }, {
+      "id" : "_UsIWFeR1EeuUMuerVIsS4Q",
+      "name" : "SOCIETE_CODE_MONNAIE"
+    } ]
+  } ]
+}

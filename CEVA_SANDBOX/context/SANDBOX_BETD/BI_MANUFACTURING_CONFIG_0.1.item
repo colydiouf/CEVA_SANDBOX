@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_kLdr4Fv_EeuFZc1mGQviGA">
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_zp9aN1v_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="__J1W0Fv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="" xmi:id="__J1W0Vv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="" xmi:id="__J1W0lv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="__J1W01v_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="__J1W1Fv_EeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigBIFR" prompt="FileConfigBIFR?" promptNeeded="false" type="id_String" value="&quot;CONFIG_ALIM_MFG_BIFR.ini&quot;" xmi:id="_5JG4kFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_5JG4kVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDirBIFR" prompt="configDirBIFR?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_MANUFACTURING\config\ALIM_MFG_BIFR\" xmi:id="_5JG4klwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileCsvDelimiter" prompt="FileCsvDelimiter?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_5JG4k1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_5JG4lFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_5JG4lVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_5JG4llwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_5JG4l1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="&quot;CONFIG_BI_MANUFACTURING.ini&quot;" xmi:id="_XF4Y4FwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDir" prompt="configDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_MANUFACTURING\config\" xmi:id="_XF4Y4VwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDirBIFR" prompt="tmpDirBIFR?" promptNeeded="false" type="id_String" value="" xmi:id="_zG_IYF8SEeuK6djtgPzAhw"/>
+    <contextParameter comment="" name="FileConfigBI_INDUS" prompt="FileConfigBI_INDUS?" promptNeeded="false" type="id_String" value="&quot;CONFIG_ALIM_BI_INDUS.ini&quot;" xmi:id="_ZztLgGCtEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="configDirBI_INDUS" prompt="configDirBI_INDUS?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_MANUFACTURING\config\ALIM_BI_INDUS\" xmi:id="_ZztLgWCtEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="tmpDirBI_INDUS" prompt="tmpDirBI_INDUS?" promptNeeded="false" type="id_String" value="" xmi:id="_0Xb18GC6EeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="detailOfTmp" prompt="detailOfTmp?" promptNeeded="false" type="id_String" value="" xmi:id="_LsABIGJGEeu_k9ApNvL21w"/>
+    <contextParameter comment="" name="detailOfTmpTypeGamme" prompt="detailOfTmpTypeGamme?" promptNeeded="false" type="id_String" value="" xmi:id="_um_VQGRzEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="fileInclusion" prompt="fileInclusion?" promptNeeded="false" type="id_String" value="" xmi:id="_M_3qUGSXEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="contextDirBI_INDUS" prompt="contextDirBI_INDUS?" promptNeeded="false" type="id_String" value="" xmi:id="_M_3qUWSXEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="detailTempsOfTmp" prompt="detailTempsOfTmp?" promptNeeded="false" type="id_String" value="" xmi:id="_0F1l8GSnEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="DateExec" prompt="DateExec?" promptNeeded="false" type="id_String" value="11022021" xmi:id="_zwbXYGyOEeup5o5bKg2RHQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_5g3RQFwBEeuFZc1mGQviGA">
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RSFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RSVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RSlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RS1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RTFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RTVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigBIFR" prompt="FileConfigBIFR?" promptNeeded="false" type="id_String" value="&quot;CONFIG_ALIM_MFG_BIFR.ini&quot;" xmi:id="_5g3RTlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RT1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDirBIFR" prompt="configDirBIFR?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_MANUFACTURING\config\ALIM_MFG_BIFR\" xmi:id="_5g3RUFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileCsvDelimiter" prompt="FileCsvDelimiter?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_5g3RUVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_5g3RUlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_5g3RU1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_5g3RVFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RVVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="&quot;CONFIG_BI_MANUFACTURING.ini&quot;" xmi:id="_XF4Y41wDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDir" prompt="configDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_MANUFACTURING\config\" xmi:id="_XF4Y5FwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDirBIFR" prompt="tmpDirBIFR?" promptNeeded="false" type="id_String" value="" xmi:id="_zG_vcF8SEeuK6djtgPzAhw"/>
+    <contextParameter comment="" name="FileConfigBI_INDUS" prompt="FileConfigBI_INDUS?" promptNeeded="false" type="id_String" value="&quot;CONFIG_ALIM_BI_INDUS.ini&quot;" xmi:id="_ZztLgmCtEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="configDirBI_INDUS" prompt="configDirBI_INDUS?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\BI_MANUFACTURING\config\ALIM_BI_INDUS\" xmi:id="_ZztLg2CtEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="tmpDirBI_INDUS" prompt="tmpDirBI_INDUS?" promptNeeded="false" type="id_String" value="" xmi:id="_0Xb18WC6EeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="detailOfTmp" prompt="detailOfTmp?" promptNeeded="false" type="id_String" value="" xmi:id="_LsABIWJGEeu_k9ApNvL21w"/>
+    <contextParameter comment="" name="detailOfTmpTypeGamme" prompt="detailOfTmpTypeGamme?" promptNeeded="false" type="id_String" value="" xmi:id="_unCYkGRzEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="fileInclusion" prompt="fileInclusion?" promptNeeded="false" type="id_String" value="" xmi:id="_M_3qUmSXEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="contextDirBI_INDUS" prompt="contextDirBI_INDUS?" promptNeeded="false" type="id_String" value="" xmi:id="_M_3qU2SXEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="detailTempsOfTmp" prompt="detailTempsOfTmp?" promptNeeded="false" type="id_String" value="" xmi:id="_0F1l8WSnEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="DateExec" prompt="DateExec?" promptNeeded="false" type="id_String" value="" xmi:id="_zwbXYWyOEeup5o5bKg2RHQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_5g3RVlwBEeuFZc1mGQviGA">
+    <contextParameter comment="" name="BIVG_DT_TRT" prompt="BIVG_DT_TRT?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RXlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_DT_TRT_M" prompt="BIVG_DT_TRT_M?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RX1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Annee_AAAA" prompt="BIVG_Annee_AAAA?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RYFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Mois_MM" prompt="BIVG_Mois_MM?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RYVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Jour_JJ" prompt="BIVG_Jour_JJ?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RYlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="BIVG_Debut_Execution" prompt="BIVG_Debut_Execution?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RY1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigBIFR" prompt="FileConfigBIFR?" promptNeeded="false" type="id_String" value="&quot;CONFIG_ALIM_MFG_BIFR.ini&quot;" xmi:id="_5g3RZFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RZVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDirBIFR" prompt="configDirBIFR?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3RZlwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileCsvDelimiter" prompt="FileCsvDelimiter?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_5g3RZ1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_5g3RaFwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="&quot;=&quot;" xmi:id="_5g3RaVwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_5g3RalwBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_5g3Ra1wBEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="&quot;CONFIG_BI_MANUFACTURING.ini&quot;" xmi:id="_XF4Y5lwDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="configDir" prompt="configDir?" promptNeeded="false" type="id_String" value="" xmi:id="_XF4Y51wDEeuFZc1mGQviGA"/>
+    <contextParameter comment="" name="tmpDirBIFR" prompt="tmpDirBIFR?" promptNeeded="false" type="id_String" value="" xmi:id="_zG_vcV8SEeuK6djtgPzAhw"/>
+    <contextParameter comment="" name="FileConfigBI_INDUS" prompt="FileConfigBI_INDUS?" promptNeeded="false" type="id_String" value="&quot;CONFIG_ALIM_BI_INDUS.ini&quot;" xmi:id="_ZztLhGCtEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="configDirBI_INDUS" prompt="configDirBI_INDUS?" promptNeeded="false" type="id_String" value="" xmi:id="_ZztLhWCtEeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="tmpDirBI_INDUS" prompt="tmpDirBI_INDUS?" promptNeeded="false" type="id_String" value="" xmi:id="_0Xb18mC6EeuSatUGLWPZLg"/>
+    <contextParameter comment="" name="detailOfTmp" prompt="detailOfTmp?" promptNeeded="false" type="id_String" value="" xmi:id="_LsAoMGJGEeu_k9ApNvL21w"/>
+    <contextParameter comment="" name="detailOfTmpTypeGamme" prompt="detailOfTmpTypeGamme?" promptNeeded="false" type="id_String" value="" xmi:id="_unC_oGRzEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="fileInclusion" prompt="fileInclusion?" promptNeeded="false" type="id_String" value="" xmi:id="_M_3qVGSXEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="contextDirBI_INDUS" prompt="contextDirBI_INDUS?" promptNeeded="false" type="id_String" value="" xmi:id="_M_3qVWSXEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="detailTempsOfTmp" prompt="detailTempsOfTmp?" promptNeeded="false" type="id_String" value="" xmi:id="_0F1l8mSnEeuhINcUYE6Rhg"/>
+    <contextParameter comment="" name="DateExec" prompt="DateExec?" promptNeeded="false" type="id_String" value="" xmi:id="_zwbXYmyOEeup5o5bKg2RHQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a683fade-56d5-413e-851d-b258b4837fd4"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>T2nnggjryk7IY1NF1qFtBQfScYwdGoy3xz4iDtRp55lkX+gisVBVGQgpks/WZfrr1UuzcyECGT+N&#13;
+e0o19wh/0w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_86dbb375-a49e-4082-a5e4-111a01e78007"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Sksj6uD7C9KvERH+aB1jdZWSCI3SzDMCAC0CQyoKpc5D4Rqt5NcGDpObSBzS9ARvRnDnDRLU6cwa&#13;
+7z4rlHluwA==</DigestValue></Reference></SignedInfo><SignatureValue>fDIRzUYp9i7AtEpPgqnXIsOZUUaeEdUp6quSBQv0guOqeidz+9dn5yLRohaPYVdI4Aup6V8fttw6&#13;
+QjZoXQaW9KsvYDmHNIH9zD7F7xPPNogCPBHFhLixGdZGpTrNjE2f4n4YsasPSJMTN+I+YZxm+Y8a&#13;
+L7YjF7xU/J7sDlb8XxE/ZiRdKjx4rvZNSzvbqRvIehqlUlLcKQKMkPfnhAWM2lS4fPrqrDLjZpiC&#13;
+6jJgG6CNOBvqs98TKXCG8gs1xPxHYA8/TGZ6ZfZLZl+TRD1Mc/B0G9oh5lniNul/rc+Sjo8vL/Jo&#13;
+v2GLg2OlmFCzWw5vIke3RhbHDJdqj/u/o0uF5w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_86dbb375-a49e-4082-a5e4-111a01e78007" Target="#_a683fade-56d5-413e-851d-b258b4837fd4"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

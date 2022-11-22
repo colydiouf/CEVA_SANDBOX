@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_MmJHQDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_MISC_TEAMSRH.ini" xmi:id="_MmJHQTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\tmp\" xmi:id="_MmJHQjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\config\" xmi:id="_MmJHQzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\Target\" xmi:id="_MmJHRDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\Source\" xmi:id="_MmJHRTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHSDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHSTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHTDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHTTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHTjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHVzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="N" xmi:id="_VTwKAE94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="persoTeamsFileMask" prompt="persoTeamsFileMask?" promptNeeded="false" type="id_String" value="&quot;persoTEAMS.txt&quot;" xmi:id="_pmxCYKHZEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="ListeFIC_ABSFileMask" prompt="ListeFIC_ABSFileMask?" promptNeeded="false" type="id_String" value="ListeFIC_ABS*.txt" xmi:id="_V4Ys8KN-EeuiT9sUwYo_Mg"/>
+    <contextParameter comment="" name="filetransco_Code_Nom_Etablissment" prompt="filetransco_Code_Nom_Etablissment?" promptNeeded="false" type="id_String" value="transco_Code_Nom_Ste.txt" xmi:id="_CHlBMKQIEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\context\" xmi:id="_6FvcQKQIEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" type="id_String" value="hopcode.csv" xmi:id="_nV5bgKQUEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" type="id_String" value="hopsech.cv" xmi:id="_rOklIKQzEeupYKCsZjMfYQ"/>
+    <contextParameter comment="" name="file_ALICIA_ABS" prompt="file_ALICIA_ABS?" promptNeeded="false" type="id_String" value="ALICIA_ABS.txt" xmi:id="_M6nKIKZyEeuI9OfVZbK2dg"/>
+    <contextParameter comment="" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" type="id_String" value="sfphierg.csv" xmi:id="_XiZ9UKZ0EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" type="id_String" value="sfpflow.csv" xmi:id="_11GN0KZ2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="role_filename" prompt="role_filename?" promptNeeded="false" type="id_String" value="role.csv" xmi:id="_11GN0aZ2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" type="id_String" value="sfpgrps.csv" xmi:id="_11GN0qZ2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" type="id_String" value="hopmail.csv" xmi:id="_uAJOgKacEeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" type="id_String" value="hoinaff.dat" xmi:id="_RY0CoKdVEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" type="id_String" value="hopaffb.csv" xmi:id="_RY0CoadVEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="datacollectorDir" prompt="datacollectorDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DATA_COLLECTOR\" xmi:id="_FzI0cKdfEeuQu_s5cATrSQ"/>
+    <contextParameter comment="" name="MJM1B_OMFileMask" prompt="MJM1B_OMFileMask?" promptNeeded="false" type="id_String" value="MJM1B_OM*.txt" xmi:id="_F4IzwKdgEeuQu_s5cATrSQ"/>
+    <contextParameter comment="" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" type="id_String" value="hopempl.csv" xmi:id="_brkxQKdoEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" type="id_String" value="hopctra.csv" xmi:id="_gMaeMKdzEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" type="id_String" value="sfphierd.csv" xmi:id="_d6cggKgAEeulWfNpWtKdCw"/>
+    <contextParameter comment="" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" type="id_String" value="hoinmco.csv" xmi:id="_DnUDkKgDEeulWfNpWtKdCw"/>
+    <contextParameter comment="" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" type="id_String" value="hoinaco.csv" xmi:id="_f7rmUKjuEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_JC1B_ABS" prompt="file_JC1B_ABS?" promptNeeded="false" type="id_String" value="JC1B_ABS.txt" xmi:id="_4eszsKjvEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_echange" prompt="file_echange?" promptNeeded="false" type="id_String" value="echange.dat" xmi:id="_cUN-IKjzEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_ImportCACeva" prompt="file_ImportCACeva?" promptNeeded="false" type="id_String" value="ImportCACeva.csv" xmi:id="_x8LGUKmpEeuB0ObLRpbRdg"/>
+    <contextParameter comment="" name="file_importGTA" prompt="file_importGTA?" promptNeeded="false" type="id_String" value="importGTA.txt" xmi:id="_HflX4Km_EeuB0ObLRpbRdg"/>
+    <contextParameter comment="" name="hag_filename" prompt="hag_filename?" promptNeeded="false" type="id_String" value="HAG.csv" xmi:id="_ldYKUKvNEeuAe7aryelmNQ"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="dpg3nc8nvikywcxvqtiyc4ciikp" xmi:id="_bAwfAKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:+F7y7rVuJ/vha4qTtCbpmsw5cYjk6xGuP67b3Y3gztPnts+2Pg==" xmi:id="_bAwfAawQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_bAwfAqwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_bAwfA6wQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="it.qbase@ceva.com" xmi:id="_bAwfBKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" type="id_Integer" value="1000" xmi:id="_bAwfBawQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" type="id_String" value="" xmi:id="_bAwfBqwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" type="id_String" value="" xmi:id="_bAwfB6wQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="tableIdQbase" prompt="tableIdQbase?" promptNeeded="false" type="id_String" value="tableIdQbase_teamsrh.csv" xmi:id="_bAwfCKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\tmp\" xmi:id="_bAxtIKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="file_PC_FR_USER" prompt="file_PC_FR_USER?" promptNeeded="false" type="id_String" value="PC_FR_USER.txt" xmi:id="_ZGJ-IK2-Eeu_8OtX5MqKzQ"/>
+    <contextParameter comment="" name="FTPHost_MoveIT" prompt="FTPHost_MoveIT?" promptNeeded="false" type="id_String" value="mft-ftp.cegedim-srh.net" xmi:id="_ep3Y0LQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPPort_MoveIT" prompt="FTPPort_MoveIT?" promptNeeded="false" type="id_String" value="22" xmi:id="_ep3Y0bQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPUser_MoveIT" prompt="FTPUser_MoveIT?" promptNeeded="false" type="id_String" value="CEVAMOVEIT" xmi:id="_ep3Y0rQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPPassword_MoveIT" prompt="FTPPassword_MoveIT?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:OopmwMf83uiGabYHBz2HPmo8+wMwFzETmVANs9ceiu0uFRbT" xmi:id="_ep3Y07QVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPRemoteDirectory_MoveIT" prompt="FTPRemoteDirectory_MoveIT?" promptNeeded="false" type="id_String" value="/Distribution/SRH/clients/ceva/courant/OUT/PAYE/" xmi:id="_ep3Y1LQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicABSRemoteDir" prompt="FicABSRemoteDir?" promptNeeded="false" type="id_String" value="/Distribution/SRH/clients/ceva/courant/resultats/$topay/Interface_absence/" xmi:id="_ep3Y1bQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicPERRemoteDir" prompt="FicPERRemoteDir?" promptNeeded="false" type="id_String" value="/Distribution/SRH/clients/ceva/courant/resultats/$topay/Interface_personnel/" xmi:id="_ep3Y1rQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicCORRemoteDir" prompt="FicCORRemoteDir?" promptNeeded="false" type="id_String" value="/Distribution/SRH/clients/ceva/courant/OUT/" xmi:id="_ep3Y17QVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="ByPassFTPGet" prompt="ByPassFTPGet?" promptNeeded="false" type="id_String" value="N" xmi:id="_WIK_wLRxEeunFp3FYc0L9w"/>
+    <contextParameter comment="" name="UploadEquatisimportGTARemoteDir" prompt="UploadEquatisimportGTARemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_F_50EL7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisALICIAABSRemoteDir" prompt="UploadEquatisALICIAABSRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_F_50Eb7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPHost" prompt="UploadEquatisFTPHost?" promptNeeded="false" type="id_String" value="172.30.2.22" xmi:id="_F_50Er7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPort" prompt="UploadEquatisFTPPort?" promptNeeded="false" type="id_String" value="22345" xmi:id="_F_50E77XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPUser" prompt="UploadEquatisFTPUser?" promptNeeded="false" type="id_String" value="talendtest" xmi:id="_F_50FL7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPassword" prompt="UploadEquatisFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_F_50Fb7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPPKFile" prompt="UploadEquatisFTPPPKFile?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\talendtest@sftp1lib1fr.ppk" xmi:id="_F_50Fr7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadHoroquartzhopcodeRemoteDir" prompt="UploadHoroquartzhopcodeRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbaiEL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopsechRemoteDir" prompt="UploadHoroquartzhopsechRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJIL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzroleRemoteDir" prompt="UploadHoroquartzroleRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJIb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfpflowRemoteDir" prompt="UploadHoroquartzsfpflowRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJIr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfphiergRemoteDir" prompt="UploadHoroquartzsfphiergRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJI775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopmailRemoteDir" prompt="UploadHoroquartzhopmailRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJJL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopaffbRemoteDir" prompt="UploadHoroquartzhopaffbRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJJb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopemplRemoteDir" prompt="UploadHoroquartzhopemplRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJJr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinaffRemoteDir" prompt="UploadHoroquartzhoinaffRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJJ775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopctraRemoteDir" prompt="UploadHoroquartzhopctraRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJKL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfphierdRemoteDir" prompt="UploadHoroquartzsfphierdRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJKb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinmcoRemoteDir" prompt="UploadHoroquartzhoinmcoRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJKr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzechangeRemoteDir" prompt="UploadHoroquartzechangeRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJK775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinacoRemoteDir" prompt="UploadHoroquartzhoinacoRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_LbbJLL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPHost" prompt="UploadHoroquartzFTPHost?" promptNeeded="false" type="id_String" value="172.30.2.22" xmi:id="_LbbJLb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPort" prompt="UploadHoroquartzFTPPort?" promptNeeded="false" type="id_String" value="22345" xmi:id="_LbbJLr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPUser" prompt="UploadHoroquartzFTPUser?" promptNeeded="false" type="id_String" value="talendtest" xmi:id="_LbbJL775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPassword" prompt="UploadHoroquartzFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJML75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPPKFile" prompt="UploadHoroquartzFTPPPKFile?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\talendtest@sftp1lib1fr.ppk" xmi:id="_LbbJMb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfpgrpsRemoteDir" prompt="UploadHoroquartzsfpgrpsRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_IfLrYL8CEeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALhoinaffRemoteDir" prompt="UploadEquatis_SOGEVALhoinaffRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_10xXEL93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALhoinacoRemoteDir" prompt="UploadEquatis_SOGEVALhoinacoRemoteDir?" promptNeeded="false" type="id_String" value="/talendtest" xmi:id="_10xXEb93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPHost" prompt="UploadEquatis_SOGEVALFTPHost?" promptNeeded="false" type="id_String" value="172.30.2.22" xmi:id="_10xXEr93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPort" prompt="UploadEquatis_SOGEVALFTPPort?" promptNeeded="false" type="id_String" value="22345" xmi:id="_10xXE793Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPUser" prompt="UploadEquatis_SOGEVALFTPUser?" promptNeeded="false" type="id_String" value="talendtest" xmi:id="_10xXFL93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPassword" prompt="UploadEquatis_SOGEVALFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXFb93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPPKFile" prompt="UploadEquatis_SOGEVALFTPPPKFile?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\talendtest@sftp1lib1fr.ppk" xmi:id="_10xXFr93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="file_hoinaco_sogeval" prompt="file_hoinaco_sogeval?" promptNeeded="false" type="id_String" value="hoinaco_sogeval.csv" xmi:id="_U5G_kL99Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="file_hoinaff_sogeval" prompt="file_hoinaff_sogeval?" promptNeeded="false" type="id_String" value="hoinaff_sogeval.txt" xmi:id="_U5G_kb99Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="hoinaco_filename" prompt="hoinaco_filename?" promptNeeded="false" type="id_String" value="hoinaco.txt" xmi:id="_ntZvkL9-Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="jmoins" prompt="jmoins?" promptNeeded="false" type="id_Integer" value="-1" xmi:id="_PQFjsMBQEeuO6M0a5jUzGQ"/>
+    <contextParameter comment="" name="bypass_upload_hoinaco_sogeval" prompt="bypass_upload_hoinaco_sogeval?" promptNeeded="false" type="id_String" value="YES" xmi:id="_ifnPUMHfEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_hoinaff_sogeval" prompt="bypass_upload_hoinaff_sogeval?" promptNeeded="false" type="id_String" value="YES" xmi:id="_ifnPUcHfEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopcode" prompt="bypass_upload_horoquartz_hopcode?" promptNeeded="false" type="id_String" value="YES" xmi:id="_6B0f8MHgEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopsech" prompt="bypass_upload_horoquartz_hopsech?" promptNeeded="false" type="id_String" value="YES" xmi:id="_6B0f8cHgEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_role" prompt="bypass_upload_horoquartz_role?" promptNeeded="false" type="id_String" value="YES" xmi:id="_k_hVYMHhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfpflow" prompt="bypass_upload_horoquartz_sfpflow?" promptNeeded="false" type="id_String" value="YES" xmi:id="_k_hVYcHhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfpgrps" prompt="bypass_upload_horoquartz_sfpgrps?" promptNeeded="false" type="id_String" value="YES" xmi:id="_k_hVYsHhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfphierg" prompt="bypass_upload_horoquartz_sfphierg?" promptNeeded="false" type="id_String" value="YES" xmi:id="_RaddgMHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopmail" prompt="bypass_upload_horoquartz_hopmail?" promptNeeded="false" type="id_String" value="YES" xmi:id="_RaddgcHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopctra" prompt="bypass_upload_horoquartz_hopctra?" promptNeeded="false" type="id_String" value="YES" xmi:id="_RaddgsHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfphierd" prompt="bypass_upload_horoquartz_sfphierd?" promptNeeded="false" type="id_String" value="YES" xmi:id="_Raddg8HlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hoinmco" prompt="bypass_upload_horoquartz_hoinmco?" promptNeeded="false" type="id_String" value="YES" xmi:id="_RaddhMHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_echange" prompt="bypass_upload_horoquartz_echange?" promptNeeded="false" type="id_String" value="YES" xmi:id="_RaddhcHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hoinaco" prompt="bypass_upload_horoquartz_hoinaco?" promptNeeded="false" type="id_String" value="YES" xmi:id="_RaddhsHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_other" prompt="bypass_upload_horoquartz_other?" promptNeeded="false" type="id_String" value="YES" xmi:id="_uVQ3wMIYEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="hoinaco_laval_liste_societe_traite" prompt="hoinaco_laval_liste_societe_traite?" promptNeeded="false" type="id_String" value="631|632|633|634|635|636" xmi:id="_i0yJAMLaEeuFuPniJ0I-OQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_MmJHXjibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_MISC_TEAMSRH.ini" xmi:id="_MmJHXzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_MmJHYDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\config\" xmi:id="_MmJHYTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="" xmi:id="_MmJHYjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="" xmi:id="_MmJHYzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHZjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHZzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHajibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHazibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHbDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHdTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_VTwKAU94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="persoTeamsFileMask" prompt="persoTeamsFileMask?" promptNeeded="false" type="id_String" value="" xmi:id="_pmxCYaHZEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="ListeFIC_ABSFileMask" prompt="ListeFIC_ABSFileMask?" promptNeeded="false" type="id_String" value="" xmi:id="_V4Ys8aN-EeuiT9sUwYo_Mg"/>
+    <contextParameter comment="" name="filetransco_Code_Nom_Etablissment" prompt="filetransco_Code_Nom_Etablissment?" promptNeeded="false" type="id_String" value="" xmi:id="_CHlBMaQIEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_6FvcQaQIEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_nV5bgaQUEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_rOlMMKQzEeupYKCsZjMfYQ"/>
+    <contextParameter comment="" name="file_ALICIA_ABS" prompt="file_ALICIA_ABS?" promptNeeded="false" type="id_String" value="" xmi:id="_M6nKIaZyEeuI9OfVZbK2dg"/>
+    <contextParameter comment="" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_XiZ9UaZ0EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_11GN06Z2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="role_filename" prompt="role_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_11GN1KZ2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_11GN1aZ2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_uAJOgaacEeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_RY2e4KdVEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_RY2e4adVEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="datacollectorDir" prompt="datacollectorDir?" promptNeeded="false" type="id_String" value="" xmi:id="_FzI0cadfEeuQu_s5cATrSQ"/>
+    <contextParameter comment="" name="MJM1B_OMFileMask" prompt="MJM1B_OMFileMask?" promptNeeded="false" type="id_String" value="" xmi:id="_F4IzwadgEeuQu_s5cATrSQ"/>
+    <contextParameter comment="" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_brkxQadoEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_gMaeMadzEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_d6cggagAEeulWfNpWtKdCw"/>
+    <contextParameter comment="" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_DnUDkagDEeulWfNpWtKdCw"/>
+    <contextParameter comment="" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" type="id_String" value="" xmi:id="_f7tbgKjuEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_JC1B_ABS" prompt="file_JC1B_ABS?" promptNeeded="false" type="id_String" value="" xmi:id="_4eszsajvEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_echange" prompt="file_echange?" promptNeeded="false" type="id_String" value="" xmi:id="_cUN-IajzEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_ImportCACeva" prompt="file_ImportCACeva?" promptNeeded="false" type="id_String" value="" xmi:id="_x8LGUampEeuB0ObLRpbRdg"/>
+    <contextParameter comment="" name="file_importGTA" prompt="file_importGTA?" promptNeeded="false" type="id_String" value="" xmi:id="_HflX4am_EeuB0ObLRpbRdg"/>
+    <contextParameter comment="" name="hag_filename" prompt="hag_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_ldYKUavNEeuAe7aryelmNQ"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtIawQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_Password" value="" xmi:id="_bAxtIqwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtI6wQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtJKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtJawQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" type="id_Integer" value="" xmi:id="_bAxtJqwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtJ6wQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtKKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="tableIdQbase" prompt="tableIdQbase?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtKawQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtKqwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="file_PC_FR_USER" prompt="file_PC_FR_USER?" promptNeeded="false" type="id_String" value="" xmi:id="_ZGJ-Ia2-Eeu_8OtX5MqKzQ"/>
+    <contextParameter comment="" name="FTPHost_MoveIT" prompt="FTPHost_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y2LQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPPort_MoveIT" prompt="FTPPort_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y2bQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPUser_MoveIT" prompt="FTPUser_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y2rQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPPassword_MoveIT" prompt="FTPPassword_MoveIT?" promptNeeded="false" type="id_Password" value="" xmi:id="_ep3Y27QVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPRemoteDirectory_MoveIT" prompt="FTPRemoteDirectory_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y3LQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicABSRemoteDir" prompt="FicABSRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y3bQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicPERRemoteDir" prompt="FicPERRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y3rQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicCORRemoteDir" prompt="FicCORRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y37QVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="ByPassFTPGet" prompt="ByPassFTPGet?" promptNeeded="false" type="id_String" value="" xmi:id="_WIK_wbRxEeunFp3FYc0L9w"/>
+    <contextParameter comment="" name="UploadEquatisimportGTARemoteDir" prompt="UploadEquatisimportGTARemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CML7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisALICIAABSRemoteDir" prompt="UploadEquatisALICIAABSRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CMb7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPHost" prompt="UploadEquatisFTPHost?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CMr7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPort" prompt="UploadEquatisFTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CM77XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPUser" prompt="UploadEquatisFTPUser?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CNL7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPassword" prompt="UploadEquatisFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CNb7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPPKFile" prompt="UploadEquatisFTPPPKFile?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CNr7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadHoroquartzhopcodeRemoteDir" prompt="UploadHoroquartzhopcodeRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJMr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopsechRemoteDir" prompt="UploadHoroquartzhopsechRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJM775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzroleRemoteDir" prompt="UploadHoroquartzroleRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJNL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfpflowRemoteDir" prompt="UploadHoroquartzsfpflowRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJNb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfphiergRemoteDir" prompt="UploadHoroquartzsfphiergRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJNr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopmailRemoteDir" prompt="UploadHoroquartzhopmailRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJN775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopaffbRemoteDir" prompt="UploadHoroquartzhopaffbRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJOL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopemplRemoteDir" prompt="UploadHoroquartzhopemplRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJOb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinaffRemoteDir" prompt="UploadHoroquartzhoinaffRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJOr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopctraRemoteDir" prompt="UploadHoroquartzhopctraRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJO775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfphierdRemoteDir" prompt="UploadHoroquartzsfphierdRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJPL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinmcoRemoteDir" prompt="UploadHoroquartzhoinmcoRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJPb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzechangeRemoteDir" prompt="UploadHoroquartzechangeRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJPr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinacoRemoteDir" prompt="UploadHoroquartzhoinacoRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJP775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPHost" prompt="UploadHoroquartzFTPHost?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJQL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPort" prompt="UploadHoroquartzFTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJQb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPUser" prompt="UploadHoroquartzFTPUser?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJQr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPassword" prompt="UploadHoroquartzFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJQ775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPPKFile" prompt="UploadHoroquartzFTPPPKFile?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJRL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfpgrpsRemoteDir" prompt="UploadHoroquartzsfpgrpsRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_IfLrYb8CEeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALhoinaffRemoteDir" prompt="UploadEquatis_SOGEVALhoinaffRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXF793Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALhoinacoRemoteDir" prompt="UploadEquatis_SOGEVALhoinacoRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXGL93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPHost" prompt="UploadEquatis_SOGEVALFTPHost?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXGb93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPort" prompt="UploadEquatis_SOGEVALFTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXGr93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPUser" prompt="UploadEquatis_SOGEVALFTPUser?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXG793Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPassword" prompt="UploadEquatis_SOGEVALFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXHL93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPPKFile" prompt="UploadEquatis_SOGEVALFTPPPKFile?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXHb93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="file_hoinaco_sogeval" prompt="file_hoinaco_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_U5G_kr99Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="file_hoinaff_sogeval" prompt="file_hoinaff_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_U5G_k799Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="hoinaco_filename" prompt="hoinaco_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_ntZvkb9-Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="jmoins" prompt="jmoins?" promptNeeded="false" type="id_Integer" value="" xmi:id="_PQFjscBQEeuO6M0a5jUzGQ"/>
+    <contextParameter comment="" name="bypass_upload_hoinaco_sogeval" prompt="bypass_upload_hoinaco_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_ifnPUsHfEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_hoinaff_sogeval" prompt="bypass_upload_hoinaff_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_ifnPU8HfEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopcode" prompt="bypass_upload_horoquartz_hopcode?" promptNeeded="false" type="id_String" value="" xmi:id="_6B0f8sHgEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopsech" prompt="bypass_upload_horoquartz_hopsech?" promptNeeded="false" type="id_String" value="" xmi:id="_6B0f88HgEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_role" prompt="bypass_upload_horoquartz_role?" promptNeeded="false" type="id_String" value="" xmi:id="_k_hVY8HhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfpflow" prompt="bypass_upload_horoquartz_sfpflow?" promptNeeded="false" type="id_String" value="" xmi:id="_k_hVZMHhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfpgrps" prompt="bypass_upload_horoquartz_sfpgrps?" promptNeeded="false" type="id_String" value="" xmi:id="_k_hVZcHhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfphierg" prompt="bypass_upload_horoquartz_sfphierg?" promptNeeded="false" type="id_String" value="" xmi:id="_Raddh8HlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopmail" prompt="bypass_upload_horoquartz_hopmail?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddiMHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopctra" prompt="bypass_upload_horoquartz_hopctra?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddicHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfphierd" prompt="bypass_upload_horoquartz_sfphierd?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddisHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hoinmco" prompt="bypass_upload_horoquartz_hoinmco?" promptNeeded="false" type="id_String" value="" xmi:id="_Raddi8HlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_echange" prompt="bypass_upload_horoquartz_echange?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddjMHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hoinaco" prompt="bypass_upload_horoquartz_hoinaco?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddjcHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_other" prompt="bypass_upload_horoquartz_other?" promptNeeded="false" type="id_String" value="" xmi:id="_uVQ3wcIYEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="hoinaco_laval_liste_societe_traite" prompt="hoinaco_laval_liste_societe_traite?" promptNeeded="false" type="id_String" value="" xmi:id="_i0yJAcLaEeuFuPniJ0I-OQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_MmJHfDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_MISC_TEAMSRH.ini" xmi:id="_MmJHfTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_MmJHfjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\" xmi:id="_MmJHfzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="" xmi:id="_MmJHgDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="" xmi:id="_MmJHgTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MmJHhDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MmJHhTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MmJHiDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MmJHiTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MmJHijibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" type="id_String" value="&quot;&quot;" xmi:id="_MmJHkzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_VTwKAk94EeuNKpzAoxZhnQ"/>
+    <contextParameter comment="" name="persoTeamsFileMask" prompt="persoTeamsFileMask?" promptNeeded="false" type="id_String" value="" xmi:id="_pmxCYqHZEeu5f7pkqG2Epw"/>
+    <contextParameter comment="" name="ListeFIC_ABSFileMask" prompt="ListeFIC_ABSFileMask?" promptNeeded="false" type="id_String" value="" xmi:id="_V4Ys8qN-EeuiT9sUwYo_Mg"/>
+    <contextParameter comment="" name="filetransco_Code_Nom_Etablissment" prompt="filetransco_Code_Nom_Etablissment?" promptNeeded="false" type="id_String" value="" xmi:id="_CHlBMqQIEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_6FvcQqQIEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_nV5bgqQUEeu5Bu9RYxmtkQ"/>
+    <contextParameter comment="" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_rOlMMaQzEeupYKCsZjMfYQ"/>
+    <contextParameter comment="" name="file_ALICIA_ABS" prompt="file_ALICIA_ABS?" promptNeeded="false" type="id_String" value="" xmi:id="_M6nKIqZyEeuI9OfVZbK2dg"/>
+    <contextParameter comment="" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_XiZ9UqZ0EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_11GN1qZ2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="role_filename" prompt="role_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_11GN16Z2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_11GN2KZ2EeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_uAJOgqacEeuEhYrDpR0Wcg"/>
+    <contextParameter comment="" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_RY2e4qdVEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_RY2e46dVEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="datacollectorDir" prompt="datacollectorDir?" promptNeeded="false" type="id_String" value="" xmi:id="_FzI0cqdfEeuQu_s5cATrSQ"/>
+    <contextParameter comment="" name="MJM1B_OMFileMask" prompt="MJM1B_OMFileMask?" promptNeeded="false" type="id_String" value="" xmi:id="_F4IzwqdgEeuQu_s5cATrSQ"/>
+    <contextParameter comment="" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_brkxQqdoEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_gMaeMqdzEeuySfWLj0LNdg"/>
+    <contextParameter comment="" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_d6cggqgAEeulWfNpWtKdCw"/>
+    <contextParameter comment="" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_DnUDkqgDEeulWfNpWtKdCw"/>
+    <contextParameter comment="" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" type="id_String" value="" xmi:id="_f7uCkKjuEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_JC1B_ABS" prompt="file_JC1B_ABS?" promptNeeded="false" type="id_String" value="" xmi:id="_4eszsqjvEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_echange" prompt="file_echange?" promptNeeded="false" type="id_String" value="" xmi:id="_cUN-IqjzEeu0qYGjSfNfMA"/>
+    <contextParameter comment="" name="file_ImportCACeva" prompt="file_ImportCACeva?" promptNeeded="false" type="id_String" value="" xmi:id="_x8LGUqmpEeuB0ObLRpbRdg"/>
+    <contextParameter comment="" name="file_importGTA" prompt="file_importGTA?" promptNeeded="false" type="id_String" value="" xmi:id="_HflX4qm_EeuB0ObLRpbRdg"/>
+    <contextParameter comment="" name="hag_filename" prompt="hag_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_ldYKUqvNEeuAe7aryelmNQ"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtK6wQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" type="id_Password" value="" xmi:id="_bAxtLKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtLawQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtLqwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtL6wQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" type="id_Integer" value="" xmi:id="_bAxtMKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtMawQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtMqwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="tableIdQbase" prompt="tableIdQbase?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtM6wQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" type="id_String" value="" xmi:id="_bAxtNKwQEeua7p3uugEhAA"/>
+    <contextParameter comment="" name="file_PC_FR_USER" prompt="file_PC_FR_USER?" promptNeeded="false" type="id_String" value="" xmi:id="_ZGJ-Iq2-Eeu_8OtX5MqKzQ"/>
+    <contextParameter comment="" name="FTPHost_MoveIT" prompt="FTPHost_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y4LQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPPort_MoveIT" prompt="FTPPort_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y4bQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPUser_MoveIT" prompt="FTPUser_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y4rQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPPassword_MoveIT" prompt="FTPPassword_MoveIT?" promptNeeded="false" type="id_Password" value="" xmi:id="_ep3Y47QVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FTPRemoteDirectory_MoveIT" prompt="FTPRemoteDirectory_MoveIT?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y5LQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicABSRemoteDir" prompt="FicABSRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y5bQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicPERRemoteDir" prompt="FicPERRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y5rQVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="FicCORRemoteDir" prompt="FicCORRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_ep3Y57QVEeu5mtvM2cxP4g"/>
+    <contextParameter comment="" name="ByPassFTPGet" prompt="ByPassFTPGet?" promptNeeded="false" type="id_String" value="" xmi:id="_WIK_wrRxEeunFp3FYc0L9w"/>
+    <contextParameter comment="" name="UploadEquatisimportGTARemoteDir" prompt="UploadEquatisimportGTARemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CN77XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisALICIAABSRemoteDir" prompt="UploadEquatisALICIAABSRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7COL7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPHost" prompt="UploadEquatisFTPHost?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7COb7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPort" prompt="UploadEquatisFTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7COr7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPUser" prompt="UploadEquatisFTPUser?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CO77XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPassword" prompt="UploadEquatisFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CPL7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadEquatisFTPPPKFile" prompt="UploadEquatisFTPPPKFile?" promptNeeded="false" type="id_String" value="" xmi:id="_F_7CPb7XEeuhraYMQxen7A"/>
+    <contextParameter comment="" name="UploadHoroquartzhopcodeRemoteDir" prompt="UploadHoroquartzhopcodeRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJRb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopsechRemoteDir" prompt="UploadHoroquartzhopsechRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJRr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzroleRemoteDir" prompt="UploadHoroquartzroleRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJR775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfpflowRemoteDir" prompt="UploadHoroquartzsfpflowRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJSL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfphiergRemoteDir" prompt="UploadHoroquartzsfphiergRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJSb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopmailRemoteDir" prompt="UploadHoroquartzhopmailRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJSr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopaffbRemoteDir" prompt="UploadHoroquartzhopaffbRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJS775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopemplRemoteDir" prompt="UploadHoroquartzhopemplRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJTL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinaffRemoteDir" prompt="UploadHoroquartzhoinaffRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJTb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhopctraRemoteDir" prompt="UploadHoroquartzhopctraRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJTr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfphierdRemoteDir" prompt="UploadHoroquartzsfphierdRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJT775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinmcoRemoteDir" prompt="UploadHoroquartzhoinmcoRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJUL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzechangeRemoteDir" prompt="UploadHoroquartzechangeRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJUb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzhoinacoRemoteDir" prompt="UploadHoroquartzhoinacoRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJUr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPHost" prompt="UploadHoroquartzFTPHost?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJU775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPort" prompt="UploadHoroquartzFTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJVL75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPUser" prompt="UploadHoroquartzFTPUser?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJVb75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPassword" prompt="UploadHoroquartzFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJVr75EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzFTPPPKFile" prompt="UploadHoroquartzFTPPPKFile?" promptNeeded="false" type="id_String" value="" xmi:id="_LbbJV775EeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadHoroquartzsfpgrpsRemoteDir" prompt="UploadHoroquartzsfpgrpsRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_IfLrYr8CEeuQyr0DhiqHFQ"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALhoinaffRemoteDir" prompt="UploadEquatis_SOGEVALhoinaffRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXHr93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALhoinacoRemoteDir" prompt="UploadEquatis_SOGEVALhoinacoRemoteDir?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXH793Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPHost" prompt="UploadEquatis_SOGEVALFTPHost?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXIL93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPort" prompt="UploadEquatis_SOGEVALFTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXIb93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPUser" prompt="UploadEquatis_SOGEVALFTPUser?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXIr93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPassword" prompt="UploadEquatis_SOGEVALFTPPassword?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXI793Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="UploadEquatis_SOGEVALFTPPPKFile" prompt="UploadEquatis_SOGEVALFTPPPKFile?" promptNeeded="false" type="id_String" value="" xmi:id="_10xXJL93Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="file_hoinaco_sogeval" prompt="file_hoinaco_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_U5G_lL99Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="file_hoinaff_sogeval" prompt="file_hoinaff_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_U5G_lb99Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="hoinaco_filename" prompt="hoinaco_filename?" promptNeeded="false" type="id_String" value="" xmi:id="_ntZvkr9-Eeu736gE_ri7ww"/>
+    <contextParameter comment="" name="jmoins" prompt="jmoins?" promptNeeded="false" type="id_Integer" value="" xmi:id="_PQFjssBQEeuO6M0a5jUzGQ"/>
+    <contextParameter comment="" name="bypass_upload_hoinaco_sogeval" prompt="bypass_upload_hoinaco_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_ifnPVMHfEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_hoinaff_sogeval" prompt="bypass_upload_hoinaff_sogeval?" promptNeeded="false" type="id_String" value="" xmi:id="_ifnPVcHfEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopcode" prompt="bypass_upload_horoquartz_hopcode?" promptNeeded="false" type="id_String" value="" xmi:id="_6B0f9MHgEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopsech" prompt="bypass_upload_horoquartz_hopsech?" promptNeeded="false" type="id_String" value="" xmi:id="_6B0f9cHgEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_role" prompt="bypass_upload_horoquartz_role?" promptNeeded="false" type="id_String" value="" xmi:id="_k_hVZsHhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfpflow" prompt="bypass_upload_horoquartz_sfpflow?" promptNeeded="false" type="id_String" value="" xmi:id="_k_hVZ8HhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfpgrps" prompt="bypass_upload_horoquartz_sfpgrps?" promptNeeded="false" type="id_String" value="" xmi:id="_k_hVaMHhEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfphierg" prompt="bypass_upload_horoquartz_sfphierg?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddjsHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopmail" prompt="bypass_upload_horoquartz_hopmail?" promptNeeded="false" type="id_String" value="" xmi:id="_Raddj8HlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hopctra" prompt="bypass_upload_horoquartz_hopctra?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddkMHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_sfphierd" prompt="bypass_upload_horoquartz_sfphierd?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddkcHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hoinmco" prompt="bypass_upload_horoquartz_hoinmco?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddksHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_echange" prompt="bypass_upload_horoquartz_echange?" promptNeeded="false" type="id_String" value="" xmi:id="_Raddk8HlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_hoinaco" prompt="bypass_upload_horoquartz_hoinaco?" promptNeeded="false" type="id_String" value="" xmi:id="_RaddlMHlEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="bypass_upload_horoquartz_other" prompt="bypass_upload_horoquartz_other?" promptNeeded="false" type="id_String" value="" xmi:id="_uVQ3wsIYEeuXrpg57QioPQ"/>
+    <contextParameter comment="" name="hoinaco_laval_liste_societe_traite" prompt="hoinaco_laval_liste_societe_traite?" promptNeeded="false" type="id_String" value="" xmi:id="_i0yJAsLaEeuFuPniJ0I-OQ"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_eb7e868e-c240-452f-9616-4d628707ff38"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>PXmUWPSY/a0cdJlyiEdcHPKIfvizcupfce6g+HprkFWaiNDPVgdzvO0RoYOR0WYSiqQbbyBN9wjM&#13;
+E2HO8nGq+g==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_c5313628-58de-4434-9e56-94092fc0d8b6"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Q24lSX+HOM6njPiS/q0QEkEIG1d0fd+Be5I1rsDhVJc+Bzkyqij4mWZDFMTtH50AZOb58c9DzSwT&#13;
+6JuEjlVUug==</DigestValue></Reference></SignedInfo><SignatureValue>XiWK5G4LbjYv4KuSGc6fFjvWCaZmEZ0HKj+CPS4ef4s0uZVEvj/mR6LhzEMJLysjwe+C9ONqN692&#13;
+tA+rn6pgfg3kI7j5JNnNcDA6K6XTCmrkTsW4DHcqolUQQnFJu4NQkzNaSScAH2hcqjMChxq3BWmL&#13;
+DsnGvp/hpso8kCcwH5MOYx9FbxMrZ5ssBknERVg/OsJvS7/Ejzw7/+bxERBbYV3tE5l3ysNyLWWs&#13;
+oyIxtGhIot8TwcBq+O5+gdGP2EfPoAzQSv9CrPtvpapVfmUaiz5gybZ9yPamMX/fyywuwnBnaLYf&#13;
+lW1zIJFFbRkRK7C7VaQwJDpEZTTHubV/wD5KSQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_c5313628-58de-4434-9e56-94092fc0d8b6" Target="#_eb7e868e-c240-452f-9616-4d628707ff38"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

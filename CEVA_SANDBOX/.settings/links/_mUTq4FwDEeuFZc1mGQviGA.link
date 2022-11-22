@@ -1,0 +1,43 @@
+{
+  "itemId" : "_mUTq4FwDEeuFZc1mGQviGA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_XF4Y4VwDEeuFZc1mGQviGA",
+      "name" : "configDir"
+    }, {
+      "id" : "_XF4Y4FwDEeuFZc1mGQviGA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_5JG4lVwBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_XF4Y5FwDEeuFZc1mGQviGA",
+      "name" : "configDir"
+    }, {
+      "id" : "_XF4Y41wDEeuFZc1mGQviGA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_5g3RU1wBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_XF4Y51wDEeuFZc1mGQviGA",
+      "name" : "configDir"
+    }, {
+      "id" : "_XF4Y5lwDEeuFZc1mGQviGA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_5g3RaVwBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    } ]
+  } ]
+}

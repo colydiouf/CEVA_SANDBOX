@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_KapuIW1MEey427K0e5AY1A" label="CEVA_SANDBOX" description="CEVA_SANDBOX" language="java" technicalLabel="CEVA_SANDBOX" author="_KapuIm1MEey427K0e5AY1A" productVersion="Talend Cloud API Services Platform-7.3.1.20210818_1049-patch" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/TalendGitceva/CEVA_SANDBOX.git&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="DQ" itemsRelationVersion="1.3" bigData="false">
+    <migrationTask xmi:id="_KfH-cG1MEey427K0e5AY1A" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_KapuIm1MEey427K0e5AY1A" login="emmanuel.prevot-external@ceva.com" firstName="Emmanuel" lastName="PREVOT" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbUG1MEey427K0e5AY1A" login="remy.denoyer@ceva.com" firstName="Remy" lastName="Denoyer" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbUW1MEey427K0e5AY1A" login="christophe.pozo@ceva.com" firstName="Christophe" lastName="Pozo" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbUm1MEey427K0e5AY1A" login="claire.papet@ceva.com" firstName="Claire" lastName="Papet" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbU21MEey427K0e5AY1A" login="didier.vignes@ceva.com" firstName="Didier" lastName="Vignes" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbVG1MEey427K0e5AY1A" login="robin.fabre-external@ceva.com" firstName="Robin" lastName="Fabre" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbVW1MEey427K0e5AY1A" login="ha-thang.nguyen-external@ceva.com" firstName="HA -THANG" lastName="NGUYEN" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbVm1MEey427K0e5AY1A" login="santiago.tolosa-external@ceva.com" firstName="Santiago" lastName="TOLOSA" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbV21MEey427K0e5AY1A" login="evelyne.rouquet-external@ceva.com" firstName="Evelyne" lastName="Rouquet" type="DQ"/>
+  <TalendProperties:User xmi:id="__9MbWG1MEey427K0e5AY1A" login="clara.molia-external@ceva.com" firstName="CLARA" lastName="MOLIA" type="DQ"/>
+  <TalendProperties:User xmi:id="_MEE-wJsaEeyG1bjRAK20zg" login="dominique.aussaresses1-external@ceva.com" firstName="Dominique" lastName="Aussaresses" type="DQ"/>
+  <TalendProperties:User xmi:id="_gJ6HkMvNEeyaLrbXDgtNPA" login="dalia.jannene-external@ceva.com" firstName="Dalia" lastName="Jannene" type="DQ"/>
+</xmi:XMI>

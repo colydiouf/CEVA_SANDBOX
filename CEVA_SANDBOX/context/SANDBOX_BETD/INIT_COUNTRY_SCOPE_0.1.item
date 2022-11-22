@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_MlsbYDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_DYNASYS.csv" xmi:id="_MlsbYTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tempDir" prompt="tempDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\tmp\" xmi:id="_MlsbYjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Config\" xmi:id="_MlsbYzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Target\" xmi:id="_MlsbZDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Source\" xmi:id="_MlsbZTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="RefDir" prompt="RefDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\CEVA_MASTER\Config\" xmi:id="_MlsbZjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="OriginDir" prompt="OriginDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Origin\" xmi:id="_MlsbZzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="CountryRef" prompt="CountryRef?" promptNeeded="false" type="id_String" value="CountryRefPreprod.csv" xmi:id="_MlsbaDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MlsbaTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MlsbajibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileScope" prompt="FileScope?" promptNeeded="false" type="id_String" value="CountryScope.csv" xmi:id="_MlsbazibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileToTreat" prompt="FileToTreat?" promptNeeded="false" type="id_String" value="CountryToTreat.csv" xmi:id="_MlsbbDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MlsbbTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MlsbbjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MlsbbzibEeuQIYwLt3bWGw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_MlsbcDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_DYNASYS.csv" xmi:id="_MlsbcTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tempDir" prompt="tempDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\tmp\" xmi:id="_MlsbcjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Config\" xmi:id="_MlsbczibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Target\" xmi:id="_MlsbdDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Source\" xmi:id="_MlsbdTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="RefDir" prompt="RefDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\CEVA_MASTER\Config\" xmi:id="_MlsbdjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="OriginDir" prompt="OriginDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\DYNASYS\Origin\" xmi:id="_MlsbdzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="CountryRef" prompt="CountryRef?" promptNeeded="false" type="id_String" value="CountryRefPreprod.csv" xmi:id="_MlsbeDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MlsbeTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MlsbejibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileScope" prompt="FileScope?" promptNeeded="false" type="id_String" value="CountryScope.csv" xmi:id="_MlsbezibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileToTreat" prompt="FileToTreat?" promptNeeded="false" type="id_String" value="CountryToTreat.csv" xmi:id="_MlsbfDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MlsbfTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MlsbfjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MlsbfzibEeuQIYwLt3bWGw"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_MlsbgDibEeuQIYwLt3bWGw">
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_DYNASYS.csv" xmi:id="_MlsbgTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="tempDir" prompt="tempDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\DYNASYS\tmp\" xmi:id="_MlsbgjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\DYNASYS\Config\" xmi:id="_MlsbgzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\DYNASYS\Target\" xmi:id="_MlsbhDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\DYNASYS\Source\" xmi:id="_MlsbhTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="RefDir" prompt="RefDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\CEVA_MASTER\Config\" xmi:id="_MlsbhjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="OriginDir" prompt="OriginDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\DYNASYS\Origin\" xmi:id="_MlsbhzibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="CountryRef" prompt="CountryRef?" promptNeeded="false" type="id_String" value="CountryRefProd.csv" xmi:id="_MlsbiDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" type="id_String" value=";" xmi:id="_MlsbiTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="&quot;UTF-8&quot;" xmi:id="_MlsbijibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileScope" prompt="FileScope?" promptNeeded="false" type="id_String" value="CountryScope.csv" xmi:id="_MlsbizibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileToTreat" prompt="FileToTreat?" promptNeeded="false" type="id_String" value="CountryToTreat.csv" xmi:id="_MlsbjDibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" type="id_String" value="=" xmi:id="_MlsbjTibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" type="id_String" value="&quot;\n&quot;" xmi:id="_MlsbjjibEeuQIYwLt3bWGw"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value="&quot;;&quot;" xmi:id="_MlsbjzibEeuQIYwLt3bWGw"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a982f974-afb2-43f3-8612-d0d11135011c"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TqYhusdLzXxZDwE4emsHvwB2cl0KZZ7nbRIvQOC6UJN0klHVp6UmDTRAKdDIyVhyZfKHIJQnhFlK&#13;
+UvWuzUbwFw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_44cdf154-0fb6-4ca3-8ded-47b0f8a4b8f1"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>2a7mWYoim5/f6RXCMiSayLLBwhB7JNHb1gfouFMvdKapiVI54F6ah5QBstl34esClI+PB+7Xwib5&#13;
+mnCHZHCp7g==</DigestValue></Reference></SignedInfo><SignatureValue>jpZhdkMkcM7tgirRfzYOhy90HGX6Howq6zvmRsGgdeDOJwDBzfzdflFdUzR+VSO/U8DIni1DbDhp&#13;
+FiPN++tMKcD4ymo4FVZwvhjJyJr1xZoP8+682emApEijJvyOwk/a2o3MeHETSc+MHTq9XXM80Eqm&#13;
+/Y6wt61FI8LBVOYBokjOQFq362kUbU6FvDL20MrGaX2Pp5xBgZptPcr8FpnFyyyJyzjPdQjGSPbP&#13;
+9sPirE99byxypo5OMAKu+X26MjFvHwjKWN70L0hYQa/L28cw867DqqTkNYt978jkmRQnQb0lIZv+&#13;
+oXm2Wj014JElEQlMINrwk5LOV0d7FBlZg8cnIQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_44cdf154-0fb6-4ca3-8ded-47b0f8a4b8f1" Target="#_a982f974-afb2-43f3-8612-d0d11135011c"><Timestamp>2022-01-04 14:37:15</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

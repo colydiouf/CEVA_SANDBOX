@@ -1,0 +1,241 @@
+{
+  "itemId" : "_6F7LIGCsEeuSatUGLWPZLg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "__J1W0Vv_EeuFZc1mGQviGA",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "__J1W1Fv_EeuFZc1mGQviGA",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_zp9aN1v_EeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "__J1W0Fv_EeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "__J1W01v_EeuFZc1mGQviGA",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "__J1W0lv_EeuFZc1mGQviGA",
+      "name" : "BIVG_Mois_MM"
+    }, {
+      "id" : "_XF4Y4VwDEeuFZc1mGQviGA",
+      "name" : "configDir"
+    }, {
+      "id" : "_ZztLgWCtEeuSatUGLWPZLg",
+      "name" : "configDirBI_INDUS"
+    }, {
+      "id" : "_5JG4klwBEeuFZc1mGQviGA",
+      "name" : "configDirBIFR"
+    }, {
+      "id" : "_M_3qUWSXEeuhINcUYE6Rhg",
+      "name" : "contextDirBI_INDUS"
+    }, {
+      "id" : "_LsABIGJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_um_VQGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_0F1l8GSnEeuhINcUYE6Rhg",
+      "name" : "detailTempsOfTmp"
+    }, {
+      "id" : "_XF4Y4FwDEeuFZc1mGQviGA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_ZztLgGCtEeuSatUGLWPZLg",
+      "name" : "FileConfigBI_INDUS"
+    }, {
+      "id" : "_5JG4kFwBEeuFZc1mGQviGA",
+      "name" : "FileConfigBIFR"
+    }, {
+      "id" : "_5JG4lVwBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_5JG4k1wBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5JG4lFwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_M_3qUGSXEeuhINcUYE6Rhg",
+      "name" : "fileInclusion"
+    }, {
+      "id" : "_5JG4llwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_5JG4l1wBEeuFZc1mGQviGA",
+      "name" : "flagCommit"
+    }, {
+      "id" : "_5JG4kVwBEeuFZc1mGQviGA",
+      "name" : "tmpDir"
+    }, {
+      "id" : "_0Xb18GC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    }, {
+      "id" : "_zG_IYF8SEeuK6djtgPzAhw",
+      "name" : "tmpDirBIFR"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_5g3RSlwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_5g3RTVwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_5g3RSFwBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_5g3RSVwBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_5g3RTFwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_5g3RS1wBEeuFZc1mGQviGA",
+      "name" : "BIVG_Mois_MM"
+    }, {
+      "id" : "_XF4Y5FwDEeuFZc1mGQviGA",
+      "name" : "configDir"
+    }, {
+      "id" : "_ZztLg2CtEeuSatUGLWPZLg",
+      "name" : "configDirBI_INDUS"
+    }, {
+      "id" : "_5g3RUFwBEeuFZc1mGQviGA",
+      "name" : "configDirBIFR"
+    }, {
+      "id" : "_M_3qU2SXEeuhINcUYE6Rhg",
+      "name" : "contextDirBI_INDUS"
+    }, {
+      "id" : "_LsABIWJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_unCYkGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_0F1l8WSnEeuhINcUYE6Rhg",
+      "name" : "detailTempsOfTmp"
+    }, {
+      "id" : "_XF4Y41wDEeuFZc1mGQviGA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_ZztLgmCtEeuSatUGLWPZLg",
+      "name" : "FileConfigBI_INDUS"
+    }, {
+      "id" : "_5g3RTlwBEeuFZc1mGQviGA",
+      "name" : "FileConfigBIFR"
+    }, {
+      "id" : "_5g3RU1wBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_5g3RUVwBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5g3RUlwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_M_3qUmSXEeuhINcUYE6Rhg",
+      "name" : "fileInclusion"
+    }, {
+      "id" : "_5g3RVFwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_5g3RVVwBEeuFZc1mGQviGA",
+      "name" : "flagCommit"
+    }, {
+      "id" : "_5g3RT1wBEeuFZc1mGQviGA",
+      "name" : "tmpDir"
+    }, {
+      "id" : "_0Xb18WC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    }, {
+      "id" : "_zG_vcF8SEeuK6djtgPzAhw",
+      "name" : "tmpDirBIFR"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_kK32AFv_EeuFZc1mGQviGA",
+    "parameterList" : [ {
+      "id" : "_5g3RYFwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Annee_AAAA"
+    }, {
+      "id" : "_5g3RY1wBEeuFZc1mGQviGA",
+      "name" : "BIVG_Debut_Execution"
+    }, {
+      "id" : "_5g3RXlwBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT"
+    }, {
+      "id" : "_5g3RX1wBEeuFZc1mGQviGA",
+      "name" : "BIVG_DT_TRT_M"
+    }, {
+      "id" : "_5g3RYlwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Jour_JJ"
+    }, {
+      "id" : "_5g3RYVwBEeuFZc1mGQviGA",
+      "name" : "BIVG_Mois_MM"
+    }, {
+      "id" : "_XF4Y51wDEeuFZc1mGQviGA",
+      "name" : "configDir"
+    }, {
+      "id" : "_ZztLhWCtEeuSatUGLWPZLg",
+      "name" : "configDirBI_INDUS"
+    }, {
+      "id" : "_5g3RZlwBEeuFZc1mGQviGA",
+      "name" : "configDirBIFR"
+    }, {
+      "id" : "_M_3qVWSXEeuhINcUYE6Rhg",
+      "name" : "contextDirBI_INDUS"
+    }, {
+      "id" : "_LsAoMGJGEeu_k9ApNvL21w",
+      "name" : "detailOfTmp"
+    }, {
+      "id" : "_unC_oGRzEeuhINcUYE6Rhg",
+      "name" : "detailOfTmpTypeGamme"
+    }, {
+      "id" : "_0F1l8mSnEeuhINcUYE6Rhg",
+      "name" : "detailTempsOfTmp"
+    }, {
+      "id" : "_XF4Y5lwDEeuFZc1mGQviGA",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_ZztLhGCtEeuSatUGLWPZLg",
+      "name" : "FileConfigBI_INDUS"
+    }, {
+      "id" : "_5g3RZFwBEeuFZc1mGQviGA",
+      "name" : "FileConfigBIFR"
+    }, {
+      "id" : "_5g3RaVwBEeuFZc1mGQviGA",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_5g3RZ1wBEeuFZc1mGQviGA",
+      "name" : "FileCsvDelimiter"
+    }, {
+      "id" : "_5g3RaFwBEeuFZc1mGQviGA",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_M_3qVGSXEeuhINcUYE6Rhg",
+      "name" : "fileInclusion"
+    }, {
+      "id" : "_5g3RalwBEeuFZc1mGQviGA",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_5g3Ra1wBEeuFZc1mGQviGA",
+      "name" : "flagCommit"
+    }, {
+      "id" : "_5g3RZVwBEeuFZc1mGQviGA",
+      "name" : "tmpDir"
+    }, {
+      "id" : "_0Xb18mC6EeuSatUGLWPZLg",
+      "name" : "tmpDirBI_INDUS"
+    }, {
+      "id" : "_zG_vcV8SEeuK6djtgPzAhw",
+      "name" : "tmpDirBIFR"
+    } ]
+  } ]
+}

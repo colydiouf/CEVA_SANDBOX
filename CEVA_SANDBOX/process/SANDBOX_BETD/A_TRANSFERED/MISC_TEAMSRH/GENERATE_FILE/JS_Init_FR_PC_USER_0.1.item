@@ -1,0 +1,1285 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:TalendMapper="http://www.talend.org/mapper" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" defaultContext="Dev" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" name="tld_log_Database" prompt="tld_log_Database?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value=""/>
+    <contextParameter comment="" name="tld_log_Login" prompt="tld_log_Login?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value=""/>
+    <contextParameter comment="" name="tld_log_Password" prompt="tld_log_Password?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_Password" value=""/>
+    <contextParameter comment="" name="tld_log_Port" prompt="tld_log_Port?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value=""/>
+    <contextParameter comment="" name="tld_log_Server" prompt="tld_log_Server?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="MJM1B_OMFileMask" prompt="MJM1B_OMFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_JC1B_ABS" prompt="file_JC1B_ABS?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-prod-exec1\project_resources\"/>
+    <contextParameter comment="" name="file_importGTA" prompt="file_importGTA?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;UTF-8&quot;"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_Password" value=""/>
+    <contextParameter comment="" name="file_ALICIA_ABS" prompt="file_ALICIA_ABS?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=";"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="tableIdQbase" prompt="tableIdQbase?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_ImportCACeva" prompt="file_ImportCACeva?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="role_filename" prompt="role_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_echange" prompt="file_echange?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hag_filename" prompt="hag_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="CONFIG_MISC_TEAMSRH.ini"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="persoTeamsFileMask" prompt="persoTeamsFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="="/>
+    <contextParameter comment="" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="filetransco_Code_Nom_Etablissment" prompt="filetransco_Code_Nom_Etablissment?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="ListeFIC_ABSFileMask" prompt="ListeFIC_ABSFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="datacollectorDir" prompt="datacollectorDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_PC_FR_USER" prompt="file_PC_FR_USER?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_Integer" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" name="tld_log_Database" prompt="tld_log_Database?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="tld_dev_log"/>
+    <contextParameter comment="" name="tld_log_Login" prompt="tld_log_Login?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="talend"/>
+    <contextParameter comment="" name="tld_log_Password" prompt="tld_log_Password?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_Password" value="enc:system.encryption.key.v1:vL1vcGxcLDxB3TKAeOF1dmPQXEPIsIOOKl4N+1arfD5W/Zj24QY="/>
+    <contextParameter comment="" name="tld_log_Port" prompt="tld_log_Port?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="3306"/>
+    <contextParameter comment="" name="tld_log_Server" prompt="tld_log_Server?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="172.24.250.13"/>
+    <contextParameter comment="" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="MJM1B_OMFileMask" prompt="MJM1B_OMFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_JC1B_ABS" prompt="file_JC1B_ABS?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\config\"/>
+    <contextParameter comment="" name="file_importGTA" prompt="file_importGTA?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;UTF-8&quot;"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_Password" value=""/>
+    <contextParameter comment="" name="file_ALICIA_ABS" prompt="file_ALICIA_ABS?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=";"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="tableIdQbase" prompt="tableIdQbase?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_ImportCACeva" prompt="file_ImportCACeva?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="role_filename" prompt="role_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_echange" prompt="file_echange?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hag_filename" prompt="hag_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="CONFIG_MISC_TEAMSRH.ini"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="persoTeamsFileMask" prompt="persoTeamsFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="="/>
+    <contextParameter comment="" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="filetransco_Code_Nom_Etablissment" prompt="filetransco_Code_Nom_Etablissment?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="ListeFIC_ABSFileMask" prompt="ListeFIC_ABSFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="datacollectorDir" prompt="datacollectorDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="file_PC_FR_USER" prompt="file_PC_FR_USER?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_Integer" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" name="tld_log_Database" prompt="tld_log_Database?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="tld_dev_log"/>
+    <contextParameter comment="" name="tld_log_Login" prompt="tld_log_Login?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="talend"/>
+    <contextParameter comment="" name="tld_log_Password" prompt="tld_log_Password?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_Password" value="enc:system.encryption.key.v1:/H6J+hMs4LmwjZ+IKMMn8yv+womhpj6HZCwPkb3Q3ZIdqh5lKnw="/>
+    <contextParameter comment="" name="tld_log_Port" prompt="tld_log_Port?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="3306"/>
+    <contextParameter comment="" name="tld_log_Server" prompt="tld_log_Server?" promptNeeded="false" repositoryContextId="_PPdfsKNTEeuiT9sUwYo_Mg" type="id_String" value="172.24.250.13"/>
+    <contextParameter comment="" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopctra.csv"/>
+    <contextParameter comment="" name="MJM1B_OMFileMask" prompt="MJM1B_OMFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="MJM1B_OM*.txt"/>
+    <contextParameter comment="" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopmail.csv"/>
+    <contextParameter comment="" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopaffb.csv"/>
+    <contextParameter comment="" name="file_JC1B_ABS" prompt="file_JC1B_ABS?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="JC1B_ABS.txt"/>
+    <contextParameter comment="" name="QuickBaseTicket" prompt="QuickBaseTicket?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfpflow.csv"/>
+    <contextParameter comment="" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopcode.csv"/>
+    <contextParameter comment="" name="QuickBaseUser" prompt="QuickBaseUser?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="it.qbase@ceva.com"/>
+    <contextParameter comment="" name="QuickBaseApptoken" prompt="QuickBaseApptoken?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="dpg3nc8nvikywcxvqtiyc4ciikp"/>
+    <contextParameter comment="" name="QuickBaseTableId" prompt="QuickBaseTableId?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="filename" prompt="filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;&quot;"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\config\"/>
+    <contextParameter comment="" name="file_importGTA" prompt="file_importGTA?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="importGTA.txt"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;UTF-8&quot;"/>
+    <contextParameter comment="" name="ticketParamName" prompt="ticketParamName?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\Target\"/>
+    <contextParameter comment="" name="QuickBasePwd" prompt="QuickBasePwd?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_Password" value="enc:system.encryption.key.v1:zAnXmMTx3xNm3vMVfB4C1OtrnxeypvK9HCtYbMya7ObhdGHJSQ=="/>
+    <contextParameter comment="" name="file_ALICIA_ABS" prompt="file_ALICIA_ABS?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="ALICIA_ABS.txt"/>
+    <contextParameter comment="" name="FilecsvDelimiter" prompt="FilecsvDelimiter?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=";"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;;&quot;"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\tmp\"/>
+    <contextParameter comment="" name="tableIdQbase" prompt="tableIdQbase?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="tableIdQbase_teamsrh.csv"/>
+    <contextParameter comment="" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hoinaco.csv"/>
+    <contextParameter comment="" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfphierd.csv"/>
+    <contextParameter comment="" name="file_ImportCACeva" prompt="file_ImportCACeva?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="ImportCACeva.csv"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\context\"/>
+    <contextParameter comment="" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfphierg.csv"/>
+    <contextParameter comment="" name="role_filename" prompt="role_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="role.csv"/>
+    <contextParameter comment="" name="file_echange" prompt="file_echange?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="echange.dat"/>
+    <contextParameter comment="" name="hag_filename" prompt="hag_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="HAG.csv"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="CONFIG_MISC_TEAMSRH.ini"/>
+    <contextParameter comment="" name="ProjectDirectory" prompt="ProjectDirectory?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\tmp\"/>
+    <contextParameter comment="" name="persoTeamsFileMask" prompt="persoTeamsFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;persoTEAMS.txt&quot;"/>
+    <contextParameter comment="" name="SourceDir" prompt="SourceDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\Source\"/>
+    <contextParameter comment="" name="FileConfigSeparator" prompt="FileConfigSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="="/>
+    <contextParameter comment="" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hoinaff.dat"/>
+    <contextParameter comment="" name="columnList" prompt="columnList?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopsech.cv"/>
+    <contextParameter comment="" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfpgrps.csv"/>
+    <contextParameter comment="" name="filetransco_Code_Nom_Etablissment" prompt="filetransco_Code_Nom_Etablissment?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="transco_Code_Nom_Ste.txt"/>
+    <contextParameter comment="" name="ListeFIC_ABSFileMask" prompt="ListeFIC_ABSFileMask?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="ListeFIC_ABS*.txt"/>
+    <contextParameter comment="" name="FileRowSeparator" prompt="FileRowSeparator?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="&quot;\n&quot;"/>
+    <contextParameter comment="" name="datacollectorDir" prompt="datacollectorDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\DATA_COLLECTOR\"/>
+    <contextParameter comment="" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hoinmco.csv"/>
+    <contextParameter comment="" name="flagCommit" prompt="flagCommit?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="N"/>
+    <contextParameter comment="" name="file_PC_FR_USER" prompt="file_PC_FR_USER?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="PC_FR_USER.txt"/>
+    <contextParameter comment="" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopempl.csv"/>
+    <contextParameter comment="" name="batchSize" prompt="batchSize?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_Integer" value="1000"/>
+  </context>
+  <parameters>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="0"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="PROPERTY_TYPE_IMPLICIT_CONTEXT:REPOSITORY_PROPERTY_TYPE" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:lvYB3HlJaYgkyiDSvE2zzUd71EMSt2jf6zdx6Ew6"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/6.4.1/studio/workspace/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_11"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:yN2r+qVLDggsLyF5AL1zIMpUlvR2hSnkT+yMPDjr"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_tTLSACW_EeuC8ZitBQrV9g" name="DQTechnical"/>
+    <routinesParameter id="_tS4XGCW_EeuC8ZitBQrV9g" name="DataMasking"/>
+    <routinesParameter id="_tSbrKCW_EeuC8ZitBQrV9g" name="DataOperation"/>
+    <routinesParameter id="_tTCIFCW_EeuC8ZitBQrV9g" name="DataQualityDependencies"/>
+    <routinesParameter id="_tTCIECW_EeuC8ZitBQrV9g" name="DataQuality"/>
+    <routinesParameter id="_tTCIGiW_EeuC8ZitBQrV9g" name="DqStringHandling"/>
+    <routinesParameter id="_tSlcIyW_EeuC8ZitBQrV9g" name="Mathematical"/>
+    <routinesParameter id="_tSlcJyW_EeuC8ZitBQrV9g" name="Numeric"/>
+    <routinesParameter id="_tSlcKyW_EeuC8ZitBQrV9g" name="Relational"/>
+    <routinesParameter id="_tSbrJCW_EeuC8ZitBQrV9g" name="SQLike"/>
+    <routinesParameter id="_tSlcLyW_EeuC8ZitBQrV9g" name="StringHandling"/>
+    <routinesParameter id="_tSumECW_EeuC8ZitBQrV9g" name="TalendDataGenerator"/>
+    <routinesParameter id="_tSumFCW_EeuC8ZitBQrV9g" name="TalendDate"/>
+    <routinesParameter id="_tS4XFCW_EeuC8ZitBQrV9g" name="TalendStringUtil"/>
+    <routinesParameter id="_tS4XECW_EeuC8ZitBQrV9g" name="TalendString"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="64">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;Start job : &quot;+ jobName);&#10;System.out.println(&quot;Version: &quot; + jobVersion);&#10;System.out.println(&quot;Start Execution &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="StartJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tDie" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="96" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="MESSAGE" value="&quot;Connexion Database TLD_LOG KO&quot;"/>
+    <elementParameter field="TEXT" name="CODE" value="4"/>
+    <elementParameter field="CLOSED_LIST" name="PRIORITY" value="5"/>
+    <elementParameter field="CHECK" name="EXIT_JVM" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tDie_1"/>
+  </node>
+  <node componentName="tMysqlConnection" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlConnection_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" value="MYSQL_5"/>
+    <elementParameter field="TEXT" name="HOST" value="context.tld_log_Server"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="PORT" value="context.tld_log_Port"/>
+    <elementParameter field="TEXT" name="DBNAME" value="context.tld_log_Database"/>
+    <elementParameter field="TEXT" name="PROPERTIES" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" value="context.tld_log_Login"/>
+    <elementParameter field="PASSWORD" name="PASS" value="enc:system.encryption.key.v1:zwSG/mnjHOcwFzBfmh3iHwvNRU5CO82CHcnWT7klyY1Akj5ef98Dem5MexTG9p9asVBqXg=="/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="USE_SHARED_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="SHARED_CONNECTION_NAME" show="false" value=""/>
+    <elementParameter field="LABEL" name="NOTE" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="AUTO_COMMIT" value="false"/>
+    <elementParameter field="TEXT" name="LABEL" value="TLD_LOG"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="352" posY="192">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;Connexion à TLD_LOG OK le &quot; +TalendDate.formatDate(&quot;dd-MM-yyyy&quot;, TalendDate.getCurrentDate())+&quot; à &quot;+TalendDate.formatDate(&quot;HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;BD : &quot; + context.tld_log_Database);&#10;System.out.println(&quot;User : &quot; + context.tld_log_Login);&#10;System.out.println(&quot;Port: &quot; +  context.tld_log_Port);&#10;System.out.println(&quot;Serveur: &quot; +  context.tld_log_Server);&#10;System.out.println(&quot;*****************************************************&quot;);&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="Log"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.getCurrentDate())+ &quot; *Insert into &quot; + context.file_PC_FR_USER);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_3"/>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlInput_1"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_5"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMysqlConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:LgrfMhcma69jXcRODEmi569ZjCkkAvW2eb/RDinm"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;teams_rh_tmp_Wrk_Perso_TEAMS&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;&#13;&#10;SELECT  G_T3.G_F1 as Matricule, &#13;&#10;G_T3.G_F2 as NomUse, &#13;&#10;G_T3.G_F3 as NomPatr, &#13;&#10;G_T3.G_F4 as PrenomUse, &#13;&#10;G_T3.G_F5 as PrenomPatr, &#13;&#10;G_T3.G_F6 as Sexe,&#13;&#10;CASE WHEN trim(G_T3.G_F6)='$1' THEN 'MR.' ELSE 'MRS' END AS Prefix, &#13;&#10;G_T3.G_F7 as Date_Naiss,&#13;&#10;CONCAT(CONCAT(CONCAT( CONCAT(LEFT(G_T3.G_F7,4),'-'),MID(G_T3.G_F7,7,2) ),'-'),mid(G_T3.G_F7,5,2) ) as birth_date,&#13;&#10;G_T3.G_F8 as Titre, &#13;&#10;G_T3.G_F9 as Email, &#13;&#10;G_T3.G_F10 as ULogin, &#13;&#10;G_T3.G_F11 as IdEquatis, &#13;&#10;G_T3.G_F12 as IdAIMS, &#13;&#10;G_T3.G_F13 as ProfilAIMS, &#13;&#10;G_T3.G_F14 as SecteurGEO, &#13;&#10;G_T3.G_F15 as BQE_Titulaire, &#13;&#10;G_T3.G_F16 as BQE_IBAN, &#13;&#10;G_T3.G_F17 as BQE_BIC, &#13;&#10;G_T3.G_F18 as Code_STE,&#13;&#10;CONCAT('S',G_T3.G_F18) as Legal_Entities,&#13;&#10;G_T3.G_F19 as Code_Etabt, &#13;&#10;G_T3.G_F20 as Section,&#13;&#10;CASE WHEN LEFT(TRIM(G_T3.G_F20),3)='700' then MID(G_T3.G_F20,7,LENGTH(trim(G_T3.G_F20)) -9 )&#13;&#10;ELSE MID(G_T3.G_F20,4,2)&#13;&#10;end as Wrk_ExpType,&#13;&#10;CASE WHEN LEFT(TRIM(G_T3.G_F20),3)='700' then MID(G_T3.G_F20,4,3)&#13;&#10;else mid(G_T3.G_F20,6,3)&#13;&#10;end as Wrk_Acc_Section,&#13;&#10;G_T3.G_F21 as Section_Label, &#13;&#10;G_T3.G_F22 as DateDebContrat, &#13;&#10;G_T3.G_F23 as DateFinContrat, &#13;&#10;G_T3.G_F24 as DateSortiePhysique, &#13;&#10;G_T3.G_F25 as DateAnciennete, &#13;&#10;G_T3.G_F26 as MatriculeHierarch, &#13;&#10;G_T3.G_F27 as NomHierarchique, &#13;&#10;G_T3.G_F28 as MatriculeValide, &#13;&#10;G_T3.G_F29 as TypeContrat, &#13;&#10;G_T3.G_F30 as JobCategory, &#13;&#10;G_T3.G_F31 as JobListing, &#13;&#10;G_T3.G_F32 as Position, &#13;&#10;G_T3.G_F33 as JobStatus, &#13;&#10;G_T3.G_F34 as UserCategory, &#13;&#10;G_T3.G_F35 as Voiture, &#13;&#10;G_T3.G_F36 as Delegue, &#13;&#10;G_T3.G_F37 as PaysdeTravail, &#13;&#10;G_T3.G_F38 as Id_JDE, &#13;&#10;G_T3.G_F39 as DateDebContrat1, &#13;&#10;G_T3.G_F40 as SectionHoraire, &#13;&#10;G_T3.G_F41 as LibelleSectionHoraire, &#13;&#10;G_T3.G_F42 as DateOuverture, &#13;&#10;G_T3.G_F43 as CodePostal, &#13;&#10;G_T3.G_F44 as Ville, &#13;&#10;G_T3.G_F45 as TelephonePortPerso , &#13;&#10;G_T3.G_F46 as MailPerso, &#13;&#10;G_T3.G_F47 as Division,&#13;&#10;CASE WHEN LEFT(TRIM(G_T3.G_F47),2)='01' THEN 'CORP'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='02' THEN 'BIO'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='03' then 'SF'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='04' then 'GO'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='05' then 'PHARMA'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='06' then 'HR'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='07' then 'SBD'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='08' then 'SF'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='09' then 'SF'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='12' then 'GO'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='13' then 'PHARMA'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='14' then 'PHARMA'&#13;&#10;WHEN LEFT(TRIM(G_T3.G_F47),2)='15' then 'PHARMA'&#13;&#10;else '??' end as Wrk_BU,&#13;&#10;G_T3.G_F48 as Direction, &#13;&#10;G_T3.G_F49 as ModMoi, &#13;&#10;G_T3.G_F50 as CodeLieu, &#13;&#10;G_T3.G_F51 as MotifContrat, &#13;&#10;G_T3.G_F52 as  TypeDeContrat, &#13;&#10;G_T3.G_F53 as ContratParticulier, &#13;&#10;(G_T3.G_F54/100) as PourTempsDeTravail, &#13;&#10;G_T3.G_F55 as HoraireHebdo, &#13;&#10;G_T3.G_F56 as HoraireJourn, &#13;&#10;G_T3.G_F57 as HoraireDateDebut, &#13;&#10;G_T3.G_F58 as HoraireDateFin, &#13;&#10;G_T3.G_F59 as CategorieDateDebut, &#13;&#10;G_T3.G_F60 as CategorieDateFin, &#13;&#10;G_T3.G_F61 as RegimeTempsDeTrav, &#13;&#10;G_T3.G_F62 as NumeroDeBadge, &#13;&#10;G_T3.G_F63 as DebutBadge, &#13;&#10;G_T3.G_F64 as FinBadge, &#13;&#10;G_T3.G_F65 as Niveau, &#13;&#10;G_T3.G_F66 as ClassificationDateDebut, &#13;&#10;G_T3.G_F67 as ClassificationDateFin, &#13;&#10;G_T3.G_F68 as Username, &#13;&#10;G_T3.G_F69 as MailPro, &#13;&#10;CONCAT(CONCAT(TRIM(G_T3.G_F71),' '),TRIM(G_T3.G_F73)) as Line1,&#13;&#10;G_T3.G_F70 as AdressePays, &#13;&#10;G_T3.G_F71 as AdresseNumero, &#13;&#10;G_T3.G_F72  as AdresseBis, &#13;&#10;G_T3.G_F73 as AdresseRue, &#13;&#10;G_T3.G_F74 as AdresseComplement, &#13;&#10;G_T3.G_F75 as AdresseVille, &#13;&#10;G_T3.G_F76 as Site,&#13;&#10;CASE WHEN TRIM(G_T3.G_F19)  = '610' THEN 'PARIS'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='611' THEN 'LIBOURNE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='612' THEN 'LOUDEAC'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='617' THEN 'LIBOURNE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='618' then 'LIBOURNE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='620' THEN 'LIBOURNE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='621' THEN 'LAVAL'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='631' THEN 'LAVAL'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='622' THEN 'CHANGE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='632' THEN 'CHANGE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='623' THEN 'LOUVERNE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='633' then 'LOUVERNE 1'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='624' THEN 'LOUVERNE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='634' then 'LOUVERNE 2'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='635' then 'LOUVERNE 4'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='S335' then 'SAINT-BARTHELEMY-D-ANJOU'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='701' then 'BEAUCOUZE'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='702' then 'LANDIVISIAU'&#13;&#10;WHEN TRIM(G_T3.G_F19)  ='703' then 'PLOUEDERN'&#13;&#10;ELSE TRIM(G_T3.G_F19 ) END AS Wrk_IDSite,&#13;&#10;G_T3.G_F77 as JobListing_PC, &#13;&#10;G_T3.G_F78 as JobTitle, &#13;&#10;G_T3.G_F79 as HRManager, &#13;&#10;G_T3.G_F80 as Devise, &#13;&#10;G_T3.G_F81 as MotifDeSortie, &#13;&#10;G_T3.G_F82 as Regl, &#13;&#10;G_T3.G_F83 as Batiment, &#13;&#10;G_T3.G_F84 as acc_section, &#13;&#10;G_T3.G_F85 as NiveauHAY, &#13;&#10;G_T3.G_F86 AS Filiere,&#13;&#10;CASE WHEN TRIM(UPPER(G_T3.G_F86)) = 'QUALITÉ' then 'QUALITY'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'INDUSTRIEL' then 'INDUSTRIAL'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'JURIDIQUE' then 'LEGAL'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'CONTRÔLE DE GESTION' then 'CONTROLLING'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'INFORMATIQUE' then 'IT'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'ACHAT' then 'PURCHASING'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'AFFAIRES RÉGLEMENTAIRES' then 'REGULATORY AFFAIRS'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'SDB' then 'STRATEGY'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'DIRECTION GÉNÉRALE' then 'GENERAL MANAGEMENT'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'RH/SERVICES GÉNÉRAUX' then 'HR - OFFICE SUPPORT'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'HR/OFFICE SUPPORT' then 'HR - OFFICE SUPPORT'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'STRATEGY' then 'SBD'&#13;&#10; WHEN TRIM(UPPER(G_T3.G_F86)) = 'INFORMATION TECHNOLOGY' then 'IT'&#13;&#10;ELSE trim(upper(G_T3.G_F86)) end as Wrk_Department,&#13;&#10;G_T0.ULogin as ULogin1, &#13;&#10;G_T1.ULogin as ULogin2, &#13;&#10;G_T2.ULogin as ULogin3, &#13;&#10;G_T10.G_F1 as Matricule1, &#13;&#10;G_T3.G_F87 as MatManager, &#13;&#10;G_T3.G_F88 as SectionSIRH, &#13;&#10;G_T3.G_F89 as CompteMajeur, &#13;&#10;G_T3.G_F90   as SortieDefinitive&#13;&#10;FROM  teams_rh_tmp_Wrk_Perso_TEAMS G_T0 &#13;&#10;RIGHT OUTER JOIN (SELECT  G_T4.Matricule  AS G_F1, &#13;&#10;G_T4.NomUse  AS G_F2, &#13;&#10;G_T4.NomPatr  AS G_F3, &#13;&#10;G_T4.PrenomUse  AS G_F4, &#13;&#10;G_T4.PrenomPatr  AS G_F5, &#13;&#10;G_T4.Sexe  AS G_F6, &#13;&#10;G_T4.Date_Naiss  AS G_F7, &#13;&#10;G_T4.Titre  AS G_F8, &#13;&#10;G_T4.Email  AS G_F9, &#13;&#10;G_T4.ULogin  AS G_F10, &#13;&#10;G_T4.IdEquatis  AS G_F11, &#13;&#10;G_T4.IdAIMS  AS G_F12, &#13;&#10;G_T4.ProfilAIMS  AS G_F13, &#13;&#10;G_T4.SecteurGEO  AS G_F14, &#13;&#10;G_T4.BQE_Titulaire  AS G_F15, &#13;&#10;G_T4.BQE_IBAN  AS G_F16, &#13;&#10;G_T4.BQE_BIC  AS G_F17, &#13;&#10;G_T4.Code_STE  AS G_F18, &#13;&#10;G_T4.Code_Etabt  AS G_F19, &#13;&#10;G_T4.Section  AS G_F20, &#13;&#10;G_T4.Section_Label  AS G_F21, &#13;&#10;MAX(G_T4.DateDebContrat)  AS G_F22, &#13;&#10;MAX(G_T4.DateFinContrat)  AS G_F23, &#13;&#10;MAX(G_T4.DateSortiePhysique)  AS G_F24, &#13;&#10;MAX(G_T4.DateAnciennete)  AS G_F25, &#13;&#10;G_T4.MatriculeHierarch  AS G_F26, &#13;&#10;G_T4.NomHierarchique  AS G_F27, &#13;&#10;G_T4.MatriculeValid  AS G_F28, &#13;&#10;G_T4.TypeContrat  AS G_F29, &#13;&#10;G_T4.JobCategory  AS G_F30, &#13;&#10;G_T4.JobListing  AS G_F31, &#13;&#10;G_T4.Position  AS G_F32, &#13;&#10;G_T4.JobStatus  AS G_F33, &#13;&#10;G_T4.UserCategory  AS G_F34, &#13;&#10;G_T4.Voiture  AS G_F35, &#13;&#10;G_T4.Delegue  AS G_F36, &#13;&#10;G_T4.PaysdeTravail  AS G_F37, &#13;&#10;G_T4.Id_JDE  AS G_F38, &#13;&#10;G_T8.G_F2  AS G_F39, &#13;&#10;G_T4.SectionHoraire  AS G_F40, &#13;&#10;G_T4.LibelleSectionHoraire  AS G_F41, &#13;&#10;G_T4.DateOuverture  AS G_F42, &#13;&#10;G_T4.CodePostal  AS G_F43, &#13;&#10;G_T4.Ville  AS G_F44, &#13;&#10;G_T4.TelephonePortPerso  AS G_F45, &#13;&#10;G_T4.MailPerso  AS G_F46, &#13;&#10;G_T4.Division  AS G_F47, &#13;&#10;G_T4.Direction  AS G_F48, &#13;&#10;G_T4.`Mod-Moi`  AS G_F49, &#13;&#10;G_T4.CodeLieu  AS G_F50, &#13;&#10;G_T4.MotifContrat  AS G_F51, &#13;&#10;G_T4.TypeDeContrat  AS G_F52, &#13;&#10;G_T4.ContratParticulier  AS G_F53, &#13;&#10;G_T4.PourTempsDeTravail  AS G_F54, &#13;&#10;G_T4.HoraireHebdo  AS G_F55, &#13;&#10;G_T4.HoraireJourn  AS G_F56, &#13;&#10;G_T4.HoraireDateDebut  AS G_F57, &#13;&#10;G_T4.HoraireDateFin  AS G_F58, &#13;&#10;G_T4.CategorieDateDebut  AS G_F59, &#13;&#10;G_T4.CategorieDateFin  AS G_F60, &#13;&#10;G_T4.RegimeTempsDeTravail  AS G_F61, &#13;&#10;G_T4.NumeroDeBadge  AS G_F62, &#13;&#10;G_T4.DebutBadge  AS G_F63, &#13;&#10;G_T4.FinBadge  AS G_F64, &#13;&#10;G_T4.Niveau  AS G_F65, &#13;&#10;G_T4.ClassificationDateDebut  AS G_F66, &#13;&#10;G_T4.ClassificationDateFin  AS G_F67, &#13;&#10;G_T4.Username  AS G_F68, &#13;&#10;G_T4.MailPro  AS G_F69, &#13;&#10;G_T4.AdressePays  AS G_F70, &#13;&#10;G_T4.AdresseNumero  AS G_F71, &#13;&#10;G_T4.AdresseBis  AS G_F72, &#13;&#10;G_T4.AdresseRue  AS G_F73, &#13;&#10;G_T4.AdresseComplement  AS G_F74, &#13;&#10;G_T4.AdresseVille  AS G_F75, &#13;&#10;G_T4.Site  AS G_F76, &#13;&#10;G_T4.JobListing_PC  AS G_F77, &#13;&#10;G_T4.JobTitle  AS G_F78, &#13;&#10;G_T4.HRManager  AS G_F79, &#13;&#10;G_T4.Devise  AS G_F80, &#13;&#10;G_T4.MotifDeSortie  AS G_F81, &#13;&#10;G_T4.Regl  AS G_F82, &#13;&#10;G_T4.Batiment  AS G_F83, &#13;&#10;G_T4.acc_section  AS G_F84, &#13;&#10;G_T4.NiveauHAY  AS G_F85, &#13;&#10;G_T4.Filiere  AS G_F86, &#13;&#10;G_T4.MatManager  AS G_F87, &#13;&#10;G_T4.SectionRH  AS G_F88, &#13;&#10;G_T4.ComptaMajeur  AS G_F89, &#13;&#10;G_T4.SortieDefinitive  AS G_F90  &#13;&#10;FROM  teams_rh_tmp_Wrk_Perso_TEAMS G_T4, &#13;&#10;(SELECT  G_T6.Matricule  AS G_F1, &#13;&#10;MAX(G_T6.DateDebContrat)  AS G_F2  &#13;&#10;FROM  teams_rh_tmp_Wrk_Perso_TEAMS G_T6  &#13;&#10;WHERE LTRIM(RTRIM(G_T6.ContratParticulier))  &lt;&gt; '$mandat'   OR G_T6.Matricule = '521098'     &#13;&#10;GROUP BY G_T6.Matricule   &#13;&#10;) G_T5, &#13;&#10;(SELECT  G_T9.Matricule  AS G_F1, &#13;&#10;MIN(G_T9.DateDebContrat)  AS G_F2  &#13;&#10;FROM  teams_rh_tmp_Wrk_Perso_TEAMS G_T9  &#13;&#10;GROUP BY G_T9.Matricule   &#13;&#10;) G_T8  &#13;&#10;WHERE ( G_T4.Matricule = G_T5.G_F1  AND G_T4.DateDebContrat = G_T5.G_F2  )&#13;&#10;AND ( G_T4.Matricule = G_T8.G_F1 )&#13;&#10;AND ( LTRIM(RTRIM(G_T4.ContratParticulier))  &lt;&gt; '$mandat'  )  &#13;&#10;GROUP BY G_T4.Matricule , &#13;&#10;G_T4.NomUse , &#13;&#10;G_T4.NomPatr , &#13;&#10;G_T4.PrenomUse , &#13;&#10;G_T4.PrenomPatr , &#13;&#10;G_T4.Sexe , &#13;&#10;G_T4.Date_Naiss , &#13;&#10;G_T4.Titre , &#13;&#10;G_T4.Email , &#13;&#10;G_T4.ULogin , &#13;&#10;G_T4.IdEquatis , &#13;&#10;G_T4.IdAIMS , &#13;&#10;G_T4.ProfilAIMS , &#13;&#10;G_T4.SecteurGEO , &#13;&#10;G_T4.BQE_Titulaire , &#13;&#10;G_T4.BQE_IBAN , &#13;&#10;G_T4.BQE_BIC , &#13;&#10;G_T4.Code_STE , &#13;&#10;G_T4.Code_Etabt , &#13;&#10;G_T4.Section , &#13;&#10;G_T4.Section_Label , &#13;&#10;G_T4.MatriculeHierarch , &#13;&#10;G_T4.NomHierarchique , &#13;&#10;G_T4.MatriculeValid , &#13;&#10;G_T4.TypeContrat , &#13;&#10;G_T4.JobCategory , &#13;&#10;G_T4.JobListing , &#13;&#10;G_T4.Position , &#13;&#10;G_T4.JobStatus , &#13;&#10;G_T4.UserCategory , &#13;&#10;G_T4.Voiture , &#13;&#10;G_T4.Delegue , &#13;&#10;G_T4.PaysdeTravail , &#13;&#10;G_T4.Id_JDE , &#13;&#10;G_T8.G_F2 , &#13;&#10;G_T4.SectionHoraire , &#13;&#10;G_T4.LibelleSectionHoraire , &#13;&#10;G_T4.DateOuverture , &#13;&#10;G_T4.CodePostal , &#13;&#10;G_T4.Ville , &#13;&#10;G_T4.TelephonePortPerso , &#13;&#10;G_T4.MailPerso , &#13;&#10;G_T4.Division , &#13;&#10;G_T4.Direction , &#13;&#10;G_T4.`Mod-Moi` , &#13;&#10;G_T4.CodeLieu , &#13;&#10;G_T4.MotifContrat , &#13;&#10;G_T4.TypeDeContrat , &#13;&#10;G_T4.ContratParticulier , &#13;&#10;G_T4.PourTempsDeTravail , &#13;&#10;G_T4.HoraireHebdo , &#13;&#10;G_T4.HoraireJourn , &#13;&#10;G_T4.HoraireDateDebut , &#13;&#10;G_T4.HoraireDateFin , &#13;&#10;G_T4.CategorieDateDebut , &#13;&#10;G_T4.CategorieDateFin , &#13;&#10;G_T4.RegimeTempsDeTravail , &#13;&#10;G_T4.NumeroDeBadge , &#13;&#10;G_T4.DebutBadge , &#13;&#10;G_T4.FinBadge , &#13;&#10;G_T4.Niveau , &#13;&#10;G_T4.ClassificationDateDebut , &#13;&#10;G_T4.ClassificationDateFin , &#13;&#10;G_T4.Username , &#13;&#10;G_T4.MailPro , &#13;&#10;G_T4.AdressePays , &#13;&#10;G_T4.AdresseNumero , &#13;&#10;G_T4.AdresseBis , &#13;&#10;G_T4.AdresseRue , &#13;&#10;G_T4.AdresseComplement , &#13;&#10;G_T4.AdresseVille , &#13;&#10;G_T4.Site , &#13;&#10;G_T4.JobListing_PC , &#13;&#10;G_T4.JobTitle , &#13;&#10;G_T4.HRManager , &#13;&#10;G_T4.Devise , &#13;&#10;G_T4.MotifDeSortie , &#13;&#10;G_T4.Regl , &#13;&#10;G_T4.Batiment , &#13;&#10;G_T4.acc_section , &#13;&#10;G_T4.NiveauHAY , &#13;&#10;G_T4.Filiere , &#13;&#10;G_T4.MatManager , &#13;&#10;G_T4.SectionRH , &#13;&#10;G_T4.ComptaMajeur , &#13;&#10;G_T4.SortieDefinitive   &#13;&#10;ORDER BY G_T4.Matricule  ASC  &#13;&#10;) G_T3 LEFT OUTER JOIN (SELECT  G_T11.Matricule  AS G_F1, &#13;&#10;G_T11.TypeABS  AS G_F2, &#13;&#10;G_T11.DateDEB  AS G_F3, &#13;&#10;G_T11.DateFIN  AS G_F4  &#13;&#10;FROM  teams_rh_tmp_TBL_ABSENCES_HISTO G_T11  &#13;&#10;WHERE G_T11.TypeABS  IN ('INANL' , 'INAAT' )  AND G_T11.DateDEB  &lt;= SYSDATE()    AND G_T11.DateFIN &gt;= SYSDATE()    &#13;&#10;) G_T10 &#13;&#10;ON G_T3.G_F1 = G_T10.G_F1  LEFT OUTER JOIN teams_rh_tmp_Wrk_Perso_TEAMS G_T2 &#13;&#10;ON G_T3.G_F79 = G_T2.Matricule  LEFT OUTER JOIN teams_rh_tmp_Wrk_Perso_TEAMS G_T1 &#13;&#10;ON G_T3.G_F28 = G_T1.Matricule  &#13;&#10;ON G_T0.Matricule = G_T3.G_F26&#13;&#10;WHERE TRIM(G_T3.G_F81) not in ('$TF') &#13;&#10;AND TRIM(G_T3.G_F10) not in ('nstephan','lgoutier','alussac','meleite','abelleve','mrichar1','mcoloign','cchiron','mpoint','ajeannet','mcorre1','hfelin')&#13;&#10;AND TRIM(G_T3.G_F1) NOT IN ('700645','322259','702022','700801','701016','701522','701407','521098','701966')&#13;&#10;GROUP BY G_T3.G_F1 , &#13;&#10;G_T3.G_F2 , &#13;&#10;G_T3.G_F3 , &#13;&#10;G_T3.G_F4 , &#13;&#10;G_T3.G_F5 , &#13;&#10;G_T3.G_F6 , &#13;&#10;G_T3.G_F7 , &#13;&#10;G_T3.G_F8 , &#13;&#10;G_T3.G_F9 , &#13;&#10;G_T3.G_F10 , &#13;&#10;G_T3.G_F11 , &#13;&#10;G_T3.G_F12 , &#13;&#10;G_T3.G_F13 , &#13;&#10;G_T3.G_F14 , &#13;&#10;G_T3.G_F15 , &#13;&#10;G_T3.G_F16 , &#13;&#10;G_T3.G_F17 , &#13;&#10;G_T3.G_F18 , &#13;&#10;G_T3.G_F19 , &#13;&#10;G_T3.G_F20 , &#13;&#10;G_T3.G_F21 , &#13;&#10;G_T3.G_F22 , &#13;&#10;G_T3.G_F23 , &#13;&#10;G_T3.G_F24 , &#13;&#10;G_T3.G_F25 , &#13;&#10;G_T3.G_F26 , &#13;&#10;G_T3.G_F27 , &#13;&#10;G_T3.G_F28 , &#13;&#10;G_T3.G_F29 , &#13;&#10;G_T3.G_F30 , &#13;&#10;G_T3.G_F31 , &#13;&#10;G_T3.G_F32 , &#13;&#10;G_T3.G_F33 , &#13;&#10;G_T3.G_F34 , &#13;&#10;G_T3.G_F35 , &#13;&#10;G_T3.G_F36 , &#13;&#10;G_T3.G_F37 , &#13;&#10;G_T3.G_F38 , &#13;&#10;G_T3.G_F39 , &#13;&#10;G_T3.G_F40 , &#13;&#10;G_T3.G_F41 , &#13;&#10;G_T3.G_F42 , &#13;&#10;G_T3.G_F43 , &#13;&#10;G_T3.G_F44 , &#13;&#10;G_T3.G_F45 , &#13;&#10;G_T3.G_F46 , &#13;&#10;G_T3.G_F47 , &#13;&#10;G_T3.G_F48 , &#13;&#10;G_T3.G_F49 , &#13;&#10;G_T3.G_F50 , &#13;&#10;G_T3.G_F51 , &#13;&#10;G_T3.G_F52 , &#13;&#10;G_T3.G_F53 , &#13;&#10;G_T3.G_F54 , &#13;&#10;G_T3.G_F55 , &#13;&#10;G_T3.G_F56 , &#13;&#10;G_T3.G_F57 , &#13;&#10;G_T3.G_F58 , &#13;&#10;G_T3.G_F59 , &#13;&#10;G_T3.G_F60 , &#13;&#10;G_T3.G_F61 , &#13;&#10;G_T3.G_F62 , &#13;&#10;G_T3.G_F63 , &#13;&#10;G_T3.G_F64 , &#13;&#10;G_T3.G_F65 , &#13;&#10;G_T3.G_F66 , &#13;&#10;G_T3.G_F67 , &#13;&#10;G_T3.G_F68 , &#13;&#10;G_T3.G_F69 , &#13;&#10;G_T3.G_F70 , &#13;&#10;G_T3.G_F71 , &#13;&#10;G_T3.G_F72 , &#13;&#10;G_T3.G_F73 , &#13;&#10;G_T3.G_F74 , &#13;&#10;G_T3.G_F75 , &#13;&#10;G_T3.G_F76 , &#13;&#10;G_T3.G_F77 , &#13;&#10;G_T3.G_F78 , &#13;&#10;G_T3.G_F79 , &#13;&#10;G_T3.G_F80 , &#13;&#10;G_T3.G_F81 , &#13;&#10;G_T3.G_F82 , &#13;&#10;G_T3.G_F83 , &#13;&#10;G_T3.G_F84 , &#13;&#10;G_T3.G_F85 , &#13;&#10;G_T3.G_F86 , &#13;&#10;G_T0.ULogin , &#13;&#10;G_T1.ULogin , &#13;&#10;G_T2.ULogin , &#13;&#10;G_T10.G_F1 , &#13;&#10;G_T3.G_F87 , &#13;&#10;G_T3.G_F88 , &#13;&#10;G_T3.G_F89 , &#13;&#10;G_T3.G_F90   &#13;&#10;ORDER BY G_T3.G_F1  ASC  &#13;&#10;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="Matricule"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NomUse"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PrenomUse"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F5"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Sexe"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Prefix"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F7"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="birth_date"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F8"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Email"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ULogin"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F11"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F12"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F13"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F14"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F15"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F16"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F17"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Code_STE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Legal_Entities"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F19"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Section"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Wrk_ExpType"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Wrk_Acc_Section"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F21"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateDebContrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateFinContrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateSortiePhysique"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="DateAnciennete"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F26"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F27"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F28"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TypeContrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobCategory"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobListing"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F32"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobStatus"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F34"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F35"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F36"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PaysdeTravail"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F38"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F39"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F40"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F41"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F42"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CodePostal"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F44"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F45"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F46"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Division"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Wrk_BU"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F48"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F49"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F50"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F51"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="TypeDeContrat"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F53"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="PourTempsDeTravail"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F55"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F56"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F57"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F58"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F59"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F60"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F61"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F62"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F63"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F64"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F65"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F66"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F67"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F68"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F69"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Line1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F70"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F71"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F72"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F73"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AdresseComplement"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="AdresseVille"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Site"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Wrk_IDSite"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobListing_PC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="JobTitle"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F79"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F80"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MotifDeSortie"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F82"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="G_F83"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="acc_section"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="NiveauHAY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Filiere"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Wrk_Department"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ULogin1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ULogin2"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="ULogin3"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="Matricule1"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="MatManager"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SectionSIRH"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="CompteMajeur"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="SortieDefinitive"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMysqlInput_1">
+      <column comment="" key="false" length="6" name="Matricule" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="NomUse" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F3" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="PrenomUse" nullable="true" originalDbColumnName="G_F4" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F5" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="Sexe" nullable="true" originalDbColumnName="G_F6" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="Prefix" nullable="true" originalLength="10" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="G_F7" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="birth_date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="G_F8" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="Email" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ULogin" nullable="true" originalDbColumnName="G_F10" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F11" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="11" name="G_F12" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="INT" type="id_Integer" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="G_F13" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="G_F14" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F15" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="G_F16" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="11" name="G_F17" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="Code_STE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Legal_Entities" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="G_F19" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="Section" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Wrk_ExpType" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Wrk_Acc_Section" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F21" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DateDebContrat" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DateFinContrat" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DateSortiePhysique" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="DateAnciennete" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="G_F26" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F27" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="G_F28" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="TypeContrat" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="JobCategory" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="JobListing" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="G_F32" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="JobStatus" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="G_F34" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="G_F35" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="G_F36" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="PaysdeTravail" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="G_F38" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="G_F39" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="12" name="G_F40" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F41" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F42" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="CodePostal" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F44" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="20" name="G_F45" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F46" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="Division" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Wrk_BU" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F48" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F49" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="G_F50" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="G_F51" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="TypeDeContrat" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="15" name="G_F53" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="PourTempsDeTravail" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="G_F55" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="G_F56" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F57" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F58" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F59" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F60" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="G_F61" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="16" name="G_F62" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F63" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F64" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="G_F65" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F66" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F67" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="G_F68" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F69" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Line1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="G_F70" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="G_F71" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="G_F72" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="G_F73" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="100" name="AdresseComplement" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="AdresseVille" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="Site" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Wrk_IDSite" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="JobListing_PC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="150" name="JobTitle" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="G_F79" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="4" name="G_F80" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="6" name="MotifDeSortie" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="G_F82" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="G_F83" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="3" name="acc_section" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="NiveauHAY" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="50" name="Filiere" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Wrk_Department" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ULogin1" nullable="true" originalDbColumnName="ULogin" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ULogin2" nullable="true" originalDbColumnName="ULogin" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="ULogin3" nullable="true" originalDbColumnName="ULogin" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="255" name="Matricule1" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="MatManager" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="SectionSIRH" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="5" name="CompteMajeur" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="8" name="SortieDefinitive" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMap" componentVersion="2.1" offsetLabelX="0" offsetLabelY="0" posX="608" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMap_1"/>
+    <elementParameter field="EXTERNAL" name="MAP" value=""/>
+    <elementParameter field="CLOSED_LIST" name="LINK_STYLE" value="AUTO"/>
+    <elementParameter field="DIRECTORY" name="TEMPORARY_DATA_DIRECTORY" value=""/>
+    <elementParameter field="IMAGE" name="PREVIEW" value="_A0oZMKzoEeuZ_IFcUxOOpw-tMap_1-PREVIEW.bmp"/>
+    <elementParameter field="CHECK" name="DIE_ON_ERROR" show="false" value="true"/>
+    <elementParameter field="CHECK" name="LKUP_PARALLELIZE" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ENABLE_AUTO_CONVERT_TYPE" show="false" value="false"/>
+    <elementParameter field="TEXT" name="ROWS_BUFFER_SIZE" value="2000000"/>
+    <elementParameter field="CHECK" name="CHANGE_HASH_AND_EQUALS_FOR_BIGDECIMAL" value="false"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="out1">
+      <column comment="" key="false" length="-1" name="User_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Username" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Active" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Absent" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Reconcile" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Prefix" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="First_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Middle_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Last_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Suffix" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Email" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Phone" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fax" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Country_Code" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Line1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Line2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="City" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="State_Province" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Postal_Code" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Legal_Entities" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Site" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Position_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Cost_Center_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Grade_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Last_Hire_Date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Original_Hire_Date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Required_Approvals" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Approver_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Manager_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Gender" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Ethnicity" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BU" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Species" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Job_Listing" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Country" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Zone" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Department" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Job_Title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="User_Gender" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FTE_Annual_Salary_Base" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Salary_Effective_Date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Paid_Month_Numbe" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Last_Ratio_Of_Work" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Contract_Type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Local_employee_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="HR_Manager" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fonctional_Manager" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BU_HR_Manager" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Currency" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Type_of_expenses" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Accounting_section" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Termination_date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="birth_date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Termination_reason" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Id_Sales" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Id_EXPAT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="comex_country" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+    <nodeData xsi:type="TalendMapper:MapperData">
+      <uiProperties/>
+      <varTables name="Var" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="!Relational.ISNULL(row1.NomUse)?&#13;&#10;&quot;LE PELLETIER DE WOILLEMONT&quot;.equals(row1.NomUse)?&#13;&#10;&quot;DE WOILLEMONT&quot;:&#13;&#10;row1.NomUse:&#10;null " name="Wrk_NomUse" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(row1.MatManager)?&#13;&#10;row1.ULogin1:&#13;&#10;row1.MatManager " name="ManagerID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="!Relational.ISNULL(row1.Sexe) &amp;&amp; &quot;$1&quot;.equals(row1.Sexe)?&#13;&#10;&quot;Male&quot; : &quot;Female&quot; " name="Gender" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="!Relational.ISNULL(row1.Section)?&#13;&#10;StringHandling.RIGHT(row1.Section,3):&#13;&#10;null " name="Wrk_Species" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;$1&quot;.equals(row1.Sexe) ?&#13;&#10;&quot;M&quot; : &quot;F&quot; " name="UserGender" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="!Relational.ISNULL(row1.TypeDeContrat)?&#13;&#10;&quot;CDD&quot;.equals(row1.TypeDeContrat)?&#13;&#10;&quot;Short Term&quot; :&#13;&#10;&quot;CDI&quot;.equals(row1.TypeDeContrat)?&#13;&#10;&quot;Permanent&quot; : &#13;&#10;&quot;APP&quot;.equals(row1.TypeDeContrat)? &#13;&#10;&quot;Apprentice&quot; : &#13;&#10;&quot;STG&quot;.equals(row1.TypeDeContrat)?&#13;&#10;&quot;Trainee&quot;:&#13;&#10;&quot;VIE&quot;.equals(row1.TypeDeContrat)?&#13;&#10;&quot;VIE&quot; :&#13;&#10;&quot;NA&quot; :&#10;&quot;NA&quot; " name="Wrk_TypeContrat" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;EXP&quot;.equals(row1.Code_STE) ?&#13;&#10; &quot;1&quot; : &quot;0&quot; " name="Id_EXPAT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;cadcom&quot;.equals(row1.JobStatus)?&#13;&#10;&quot;SALES&quot; : &quot;STD&quot; " name="Id_Sales" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;$empty&quot;.equals(row1.MotifDeSortie)?&#13;&#10;&quot;&quot; :&#13;&#10;&quot;$FT&quot;.equals(row1.MotifDeSortie)?&#13;&#10;&quot;end-of-contract&quot; :&#13;&#10;&quot;$DM&quot;.equals(row1.MotifDeSortie)?&#13;&#10;&quot;resigned&quot;:&#13;&#10;&quot;$LC&quot;.equals(row1.MotifDeSortie)?&#13;&#10;&quot;dismissal&quot;:&#13;&#10;row1.MotifDeSortie " name="Termination_reason" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="!Relational.ISNULL(row1.SortieDefinitive)?&#13;&#10;row1.SortieDefinitive:&#13;&#10;!Relational.ISNULL(row1.ULogin) &amp;&amp;&#13;&#10;(&quot;egourvil&quot;.equals(row1.ULogin.toLowerCase()) || &#13;&#10;&quot;pjabiol&quot;.equals(row1.ULogin.toLowerCase()) ||&#13;&#10;&quot;mguillou&quot;.equals(row1.ULogin.toLowerCase()) ||&#13;&#10;&quot;ldiot&quot;.equals(row1.ULogin.toLowerCase()) ||&#13;&#10;&quot;pdeisasi&quot;.equals(row1.ULogin.toLowerCase()) ||&#13;&#10;&quot;cbabikia&quot;.equals(row1.ULogin.toLowerCase()) ||&#13;&#10;&quot;atrichie&quot;.equals(row1.ULogin.toLowerCase()) ||&#13;&#10;&quot;ejaouen&quot;.equals(row1.ULogin.toLowerCase())) ?&#13;&#10;&quot;20600101&quot;&#13;&#10;: row1.DateFinContrat " name="Wrk_DateFinContrat" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="!Relational.ISNULL(Var.Wrk_DateFinContrat)?&#13;&#10;StringHandling.LEFT(Var.Wrk_DateFinContrat,4) &#13;&#10;+ &quot;-&quot; &#13;&#10;+ SQLike.mid(Var.Wrk_DateFinContrat,7,2) &#13;&#10;+ &quot;-&quot; &#13;&#10;+ SQLike.mid(Var.Wrk_DateFinContrat,5,2) &#13;&#10;: null " name="Termination_date" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="!Relational.ISNULL(row1.DateAnciennete)?&#13;&#10;StringHandling.LEFT(row1.DateAnciennete,4) +&#13;&#10;&quot;-&quot; +&#13;&#10;SQLike.mid(row1.DateAnciennete,7,2) + &quot;-&quot; + SQLike.mid(row1.DateAnciennete,5,2)&#13;&#10;: null " name="OriginalHireDate" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="!Relational.ISNULL(row1.DateDebContrat)?&#13;&#10;StringHandling.LEFT(row1.DateDebContrat,4) +&#13;&#13;&#10;&quot;-&quot; +&#13;&#13;&#10;SQLike.mid(row1.DateDebContrat,7,2) +&#13;&#13;&#10;&quot;-&quot; +&#13;&#13;&#10;SQLike.mid(row1.DateDebContrat,5,2) &#13;&#10;: null " name="LastHireDate" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(row1.DateSortiePhysique) || &quot;&quot;.equals(row1.DateSortiePhysique)?&#13;&#10;null:&#13;&#10;TalendDate.parseDate(&quot;yyyyMMdd&quot;,row1.DateSortiePhysique) " name="Wrk_Date_fin" nullable="true" type="id_Date"/>
+        <mapperTableEntries expression="!Relational.ISNULL(row1.Matricule1)?&#13;&#10;&quot;false&quot; :&#10;!Relational.ISNULL(row1.ULogin) &amp;&amp;&#10;(&quot;egourvil&quot;.equals(row1.ULogin.toLowerCase()) || &#10;&quot;pjabiol&quot;.equals(row1.ULogin.toLowerCase()) ||&#10;&quot;mguillou&quot;.equals(row1.ULogin.toLowerCase()) ||&#10;&quot;ldiot&quot;.equals(row1.ULogin.toLowerCase()) ||&#10;&quot;pdeisasi&quot;.equals(row1.ULogin.toLowerCase()) ||&#10;&quot;cbabikia&quot;.equals(row1.ULogin.toLowerCase()) ||&#10;&quot;atrichie&quot;.equals(row1.ULogin.toLowerCase()) ||&#10;&quot;ejaouen&quot;.equals(row1.ULogin.toLowerCase())) ?&#13;&#10;&quot;true&quot; :&#13;&#10;Relational.ISNULL(row1.DateSortiePhysique)?&#10;&quot;true&quot; :&#10;TalendDate.compareDate(Var.Wrk_Date_fin,TalendDate.getCurrentDate())==-1 ?&#10;&quot;false&quot;&#10;: &quot;true&quot; " name="Wrk_Active" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Relational.ISNULL(row1.CompteMajeur) ?&#13;&#10;row2.wrk_DRSPHD :&#13;&#10;row1.CompteMajeur " name="Wrk_Code_BO" nullable="true" type="id_String"/>
+      </varTables>
+      <outputTables name="out1" sizeState="INTERMEDIATE">
+        <mapperTableEntries expression="row1.ULogin " name="User_Id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ULogin " name="Username" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Wrk_Active " name="Active" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;false&quot;" name="Absent" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;false&quot;" name="Reconcile" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Prefix " name="Prefix" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PrenomUse " name="First_Name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Middle_Name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Wrk_NomUse " name="Last_Name" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Suffix" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Email " name="Email" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Phone" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Fax" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PaysdeTravail " name="Country_Code" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Line1 " name="Line1" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.AdresseComplement " name="Line2" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.AdresseVille " name="City" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="State_Province" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.CodePostal " name="Postal_Code" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Legal_Entities " name="Legal_Entities" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Wrk_IDSite " name="Site" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Wrk_BU + row1.JobListing_PC" name="Position_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Wrk_Code_BO " name="Cost_Center_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.NiveauHAY " name="Grade_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.LastHireDate " name="Last_Hire_Date" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.OriginalHireDate " name="Original_Hire_Date" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Required_Approvals" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ULogin2" name="Approver_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.ManagerID " name="Manager_ID" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Gender " name="Gender" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Ethnicity" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Wrk_BU " name="BU" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Wrk_Species " name="Species" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.JobListing" name="Job_Listing" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;FR&quot;" name="Country" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;1&quot;" name="Zone" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Wrk_Department " name="Department" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.JobTitle" name="Job_Title" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.UserGender " name="User_Gender" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="FTE_Annual_Salary_Base" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Salary_Effective_Date" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;12&quot;" name="Paid_Month_Numbe" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.PourTempsDeTravail" name="Last_Ratio_Of_Work" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Wrk_TypeContrat " name="Contract_Type" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Matricule" name="Local_employee_id" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.ULogin3" name="HR_Manager" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="Fonctional_Manager" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;&quot;" name="BU_HR_Manager" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="&quot;EUR&quot;" name="Currency" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Wrk_ExpType " name="Type_of_expenses" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.Wrk_Acc_Section " name="Accounting_section" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Termination_date " name="Termination_date" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.birth_date" name="birth_date" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Termination_reason " name="Termination_reason" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Id_Sales " name="Id_Sales" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="Var.Id_EXPAT " name="Id_EXPAT" nullable="true" type="id_String"/>
+        <mapperTableEntries expression="row1.SectionSIRH  " name="comex_country" nullable="true" type="id_String"/>
+      </outputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row1" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="Matricule" nullable="true" type="id_String"/>
+        <mapperTableEntries name="NomUse" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F3" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PrenomUse" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F5" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Sexe" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Prefix" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F7" nullable="true" type="id_String"/>
+        <mapperTableEntries name="birth_date" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F8" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Email" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ULogin" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F11" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F12" nullable="true" type="id_Integer"/>
+        <mapperTableEntries name="G_F13" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F14" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F15" type="id_String"/>
+        <mapperTableEntries name="G_F16" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F17" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Code_STE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Legal_Entities" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F19" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Section" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Wrk_ExpType" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Wrk_Acc_Section" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F21" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DateDebContrat" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DateFinContrat" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DateSortiePhysique" nullable="true" type="id_String"/>
+        <mapperTableEntries name="DateAnciennete" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F26" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F27" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F28" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TypeContrat" nullable="true" type="id_String"/>
+        <mapperTableEntries name="JobCategory" nullable="true" type="id_String"/>
+        <mapperTableEntries name="JobListing" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F32" nullable="true" type="id_String"/>
+        <mapperTableEntries name="JobStatus" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F34" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F35" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F36" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PaysdeTravail" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F38" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="G_F39" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F40" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F41" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F42" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CodePostal" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F44" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F45" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F46" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Division" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Wrk_BU" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F48" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F49" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F50" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F51" nullable="true" type="id_String"/>
+        <mapperTableEntries name="TypeDeContrat" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F53" nullable="true" type="id_String"/>
+        <mapperTableEntries name="PourTempsDeTravail" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F55" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F56" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F57" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F58" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F59" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F60" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F61" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F62" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F63" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F64" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F65" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F66" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F67" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F68" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F69" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Line1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F70" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F71" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F72" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F73" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AdresseComplement" nullable="true" type="id_String"/>
+        <mapperTableEntries name="AdresseVille" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Site" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Wrk_IDSite" nullable="true" type="id_String"/>
+        <mapperTableEntries name="JobListing_PC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="JobTitle" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F79" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F80" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MotifDeSortie" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F82" nullable="true" type="id_String"/>
+        <mapperTableEntries name="G_F83" nullable="true" type="id_String"/>
+        <mapperTableEntries name="acc_section" nullable="true" type="id_String"/>
+        <mapperTableEntries name="NiveauHAY" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Filiere" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Wrk_Department" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ULogin1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ULogin2" nullable="true" type="id_String"/>
+        <mapperTableEntries name="ULogin3" nullable="true" type="id_String"/>
+        <mapperTableEntries name="Matricule1" nullable="true" type="id_String"/>
+        <mapperTableEntries name="MatManager" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SectionSIRH" nullable="true" type="id_String"/>
+        <mapperTableEntries name="CompteMajeur" nullable="true" type="id_String"/>
+        <mapperTableEntries name="SortieDefinitive" nullable="true" type="id_String"/>
+      </inputTables>
+      <inputTables lookupMode="LOAD_ONCE" matchingMode="UNIQUE_MATCH" name="row2" sizeState="INTERMEDIATE">
+        <mapperTableEntries name="wrk_DRSY" type="id_String"/>
+        <mapperTableEntries name="wrk_DRRT" type="id_String"/>
+        <mapperTableEntries expression="row1.acc_section" name="wrk_DRKY" type="id_String"/>
+        <mapperTableEntries expression="" name="wrk_DRDL01" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRDL02" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRSPHD" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRUDCO" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRHRDC" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRUSER" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRPID" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRUPMJ" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="wrk_DRJOBN" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_DRUPMT" nullable="true" type="id_BigDecimal"/>
+        <mapperTableEntries name="wrk_STE" nullable="true" type="id_String"/>
+        <mapperTableEntries name="wrk_Country" nullable="true" type="id_String"/>
+      </inputTables>
+    </nodeData>
+  </node>
+  <node componentName="tFileOutputDelimited" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="800" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileOutputDelimited_1"/>
+    <elementParameter field="CHECK" name="USESTREAM" value="false"/>
+    <elementParameter field="TEXT" name="STREAMNAME" show="false" value="outputStream"/>
+    <elementParameter field="FILE" name="FILENAME" value="context.TargetDir + context.file_PC_FR_USER"/>
+    <elementParameter field="TEXT" name="ROWSEPARATOR" value="context.FileRowSeparator"/>
+    <elementParameter field="CHECK" name="OS_LINE_SEPARATOR_AS_ROW_SEPARATOR" show="false" value="true"/>
+    <elementParameter field="OPENED_LIST" name="CSVROWSEPARATOR" show="false" value="&quot;\n&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" value="context.FileFieldSeparator"/>
+    <elementParameter field="CHECK" name="APPEND" value="false"/>
+    <elementParameter field="CHECK" name="INCLUDEHEADER" value="false"/>
+    <elementParameter field="CHECK" name="COMPRESS" value="false"/>
+    <elementParameter field="CHECK" name="ADVANCED_SEPARATOR" value="false"/>
+    <elementParameter field="TEXT" name="THOUSANDS_SEPARATOR" show="false" value="&quot;,&quot;"/>
+    <elementParameter field="TEXT" name="DECIMAL_SEPARATOR" show="false" value="&quot;.&quot;"/>
+    <elementParameter field="CHECK" name="CSV_OPTION" value="false"/>
+    <elementParameter field="TEXT" name="ESCAPE_CHAR" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TEXT_ENCLOSURE" show="false" value="&quot;&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CREATE" value="true"/>
+    <elementParameter field="CHECK" name="SPLIT" value="false"/>
+    <elementParameter field="TEXT" name="SPLIT_EVERY" show="false" value="1000"/>
+    <elementParameter field="CHECK" name="FLUSHONROW" value="false"/>
+    <elementParameter field="TEXT" name="FLUSHONROW_NUM" show="false" value="1"/>
+    <elementParameter field="CHECK" name="ROW_MODE" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" value="&quot;UTF-8&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="UTF-8"/>
+    <elementParameter field="CHECK" name="DELETE_EMPTYFILE" value="false"/>
+    <elementParameter field="CHECK" name="FILE_EXIST_EXCEPTION" value="true"/>
+    <elementParameter field="TEXT" name="SCHEMA_OPT_NUM" show="false" value="90"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__FILENAME__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tFileOutputDelimited_1">
+      <column comment="" key="false" length="-1" name="User_Id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Username" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Active" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Absent" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Reconcile" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Prefix" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="First_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Middle_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Last_Name" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Suffix" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Email" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Phone" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fax" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Country_Code" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Line1" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Line2" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="City" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="State_Province" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Postal_Code" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Legal_Entities" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Site" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Position_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Cost_Center_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Grade_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Last_Hire_Date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Original_Hire_Date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Required_Approvals" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Approver_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Manager_ID" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Gender" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Ethnicity" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BU" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Species" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Job_Listing" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Country" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Zone" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Department" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Job_Title" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="User_Gender" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="FTE_Annual_Salary_Base" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Salary_Effective_Date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Paid_Month_Numbe" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Last_Ratio_Of_Work" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Contract_Type" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Local_employee_id" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="HR_Manager" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Fonctional_Manager" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="BU_HR_Manager" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Currency" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Type_of_expenses" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Accounting_section" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Termination_date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="birth_date" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Termination_reason" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Id_Sales" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="Id_EXPAT" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="-1" name="comex_country" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tMysqlInput" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="608" posY="448">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlInput_2"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="MYSQL_5"/>
+    <elementParameter field="CHECK" name="USE_EXISTING_CONNECTION" value="true"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMysqlConnection_1"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;3306&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="TYPE" show="false" value="MySQL"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:Kiu/yDWX6WLs+Gq/sQRLkQiGOWLEOFmJJmJk7xtQ"/>
+    <elementParameter field="DBTABLE" name="TABLE" value="&quot;teams_rh_tmp_wrk_f0005&quot;"/>
+    <elementParameter field="QUERYSTORE_TYPE" name="QUERYSTORE" value="&quot;&quot;"/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:REPOSITORY_QUERYSTORE_TYPE" show="false" value=""/>
+    <elementParameter field="TECHNICAL" name="QUERYSTORE:QUERYSTORE_TYPE" value="BUILT_IN"/>
+    <elementParameter field="GUESS_SCHEMA" name="GUESS_SCHEMA" value="&quot;&quot;"/>
+    <elementParameter field="MEMO_SQL" name="QUERY" value="&quot;SELECT &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRSY`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRRT`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRKY`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRDL01`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRDL02`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRSPHD`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRUDCO`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRHRDC`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRUSER`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRPID`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRUPMJ`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRJOBN`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_DRUPMT`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_STE`, &#10;  `teams_rh_tmp_wrk_f0005`.`wrk_Country`&#10;FROM `teams_rh_tmp_wrk_f0005`&#13;&#10;WHERE  `teams_rh_tmp_wrk_f0005`.`wrk_DRRT` = 'C1'&#13;&#10;AND  `teams_rh_tmp_wrk_f0005`.`wrk_STE` = 'S602'&#13;&#10;&quot;"/>
+    <elementParameter field="LABEL" name="NOTE" show="false" value="This option only applies when deploying and running in the Talend Runtime"/>
+    <elementParameter field="CHECK" name="SPECIFY_DATASOURCE_ALIAS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="DATASOURCE_ALIAS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="MAPPING_TYPE" name="MAPPING" show="false" value="mysql_id"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;noDatetimeStringSync=true&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="&quot;ISO-8859-15&quot;"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ENABLE_STREAM" value="false"/>
+    <elementParameter field="CHECK" name="TRIM_ALL_COLUMN" value="true"/>
+    <elementParameter field="TABLE" name="TRIM_COLUMN" show="false">
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRSY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRRT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRKY"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRDL01"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRDL02"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRSPHD"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRUDCO"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRHRDC"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRUSER"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRPID"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRUPMJ"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRJOBN"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_DRUPMT"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_STE"/>
+      <elementValue elementRef="TRIM" value="false"/>
+      <elementValue elementRef="SCHEMA_COLUMN" value="wrk_Country"/>
+      <elementValue elementRef="TRIM" value="false"/>
+    </elementParameter>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__&lt;br&gt;__TABLE__"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tMysqlInput_2">
+      <column comment="" key="false" length="4" name="wrk_DRSY" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="2" name="wrk_DRRT" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="wrk_DRKY" nullable="false" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="wrk_DRDL01" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="30" name="wrk_DRDL02" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="wrk_DRSPHD" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="wrk_DRUDCO" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="1" name="wrk_DRHRDC" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="wrk_DRUSER" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" key="false" length="10" name="wrk_DRPID" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="6" name="wrk_DRUPMJ" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="wrk_DRJOBN" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="10" name="wrk_DRUPMT" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="DECIMAL" type="id_BigDecimal" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="255" name="wrk_STE" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+      <column comment="" defaultValue="" key="false" length="255" name="wrk_Country" nullable="true" originalLength="-1" pattern="" precision="0" sourceType="VARCHAR" type="id_String" usefulColumn="true"/>
+    </metadata>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="1024" posY="320">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(TalendDate.formatDate(&quot;yyyy-MM-dd HH:mm:ss&quot;,TalendDate.getCurrentDate())+ &quot; Number of rows inserted into &quot; + context.file_PC_FR_USER + &quot; : &quot; + ((Integer)globalMap.get(&quot;tFileOutputDelimited_1_NB_LINE&quot;)));&#10;"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_4"/>
+  </node>
+  <node componentName="tMysqlClose" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="224" posY="576">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlClose_1"/>
+    <elementParameter field="COMPONENT_LIST" name="CONNECTION" value="tMysqlConnection_1"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="224" posY="704">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;End job : &quot;+ jobName);&#10;System.out.println(&quot;End Execution &quot;+TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="EndJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_5"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tMysqlConnection_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tMysqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlConnection_1" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk1"/>
+  </connection>
+  <connection connectorName="COMPONENT_ERROR" label="OnComponentError" lineStyle="5" metaname="tMysqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlConnection_1" target="tDie_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentError1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMysqlConnection_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlConnection_1" target="tJava_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tMysqlInput_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_3" offsetLabelX="0" offsetLabelY="0" source="tJava_3" target="tMysqlClose_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="FLOW" label="row1" lineStyle="0" metaname="tMysqlInput_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_1" target="tMap_1">
+    <elementParameter field="TABLE" name="TRACES_CONNECTION_FILTER" show="false">
+      <elementValue elementRef="TRACE_COLUMN" value="Prefix"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Line1"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Legal_Entities"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Wrk_IDSite"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Wrk_BU"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Wrk_Department"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Wrk_ExpType"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="Wrk_Acc_Section"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+      <elementValue elementRef="TRACE_COLUMN" value="birth_date"/>
+      <elementValue elementRef="TRACE_COLUMN_CHECKED" value="true"/>
+      <elementValue elementRef="TRACE_COLUMN_CONDITION" value=""/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row1"/>
+  </connection>
+  <connection connectorName="FLOW" label="out1" lineStyle="0" metaname="out1" offsetLabelX="0" offsetLabelY="0" source="tMap_1" target="tFileOutputDelimited_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="out1"/>
+  </connection>
+  <connection connectorName="COMPONENT_OK" label="OnComponentOk" lineStyle="3" metaname="tFileOutputDelimited_1" offsetLabelX="0" offsetLabelY="0" source="tFileOutputDelimited_1" target="tJava_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnComponentOk3"/>
+  </connection>
+  <connection connectorName="FLOW" label="row2" lineStyle="8" metaname="tMysqlInput_2" offsetLabelX="0" offsetLabelY="0" source="tMysqlInput_2" target="tMap_1">
+    <elementParameter field="CHECK" name="MONITOR_CONNECTION" value="false"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="row2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tMysqlClose_1" offsetLabelX="0" offsetLabelY="0" source="tMysqlClose_1" target="tJava_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tDie_1"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Error"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlConnection_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Information"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_3"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Information"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlInput_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="CHECK" name="SHOW_SUBJOB_TITLE" value="true"/>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_4"/>
+    <elementParameter field="TEXT" name="SUBJOB_TITLE" value="Information"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tMysqlClose_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_4f631f00-1237-42b6-95c3-6fdb4c6ada57"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>TjPy+wMfxDc9D029xEHLKr3yuxht2sjhDEUShIbPgTaI6Cn9BGIdUG3ZJ0GdTQIygOV4d7iz+prE&#13;
+kIEBDdbSZQ==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_ae867565-c9db-4472-afa5-15364a7975ad"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>k+poksfv5nzH3kOlGGxR1KHrsoFciMMlXPAjE+dzPpLOAEnFWaUF/kypGKzgHijvztH6a10cMhZF&#13;
+ZAGeFCIfpg==</DigestValue></Reference></SignedInfo><SignatureValue>HV2Gam6FhC+CRqs+iVCXaygJT9SqRzKtxO+ALRzfmV1Ibh5y9WtwLBcwARBYKnqcUD1b+ImeK9GC&#13;
+VDmhVwcnbF6i+5i5WG4lLqNd9icqWzv5WsZmauBjP/a2i+P33cFiJAOoHYUNU+bC4dT1CTWKCo3n&#13;
+RnuZM3uDHbNAmtt8IijqxV7ICqCq5chMubzKZM6A2SgGRhIEQHHYdfaNU6dZJ48fjNm/KmtMvxQU&#13;
+CbCpRkC7EoKXJQBUxcGrCbPJdzwE5AO7JzThXjmczuOU+7hA5oHzf0EYep1eA8H51Xzw0udg5Vho&#13;
+2SEvHYGKspb+jQm9Us48dtt9oFSbgtCNMWunpA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_ae867565-c9db-4472-afa5-15364a7975ad" Target="#_4f631f00-1237-42b6-95c3-6fdb4c6ada57"><Timestamp>2022-02-15 12:30:31</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>

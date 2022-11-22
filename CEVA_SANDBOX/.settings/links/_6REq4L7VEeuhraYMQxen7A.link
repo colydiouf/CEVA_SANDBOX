@@ -1,0 +1,106 @@
+{
+  "itemId" : "_6REq4L7VEeuhraYMQxen7A",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_BS5IAJCYEeune-aFDNn0Qg",
+    "parameterList" : [ {
+      "id" : "_M6nKIKZyEeuI9OfVZbK2dg",
+      "name" : "file_ALICIA_ABS"
+    }, {
+      "id" : "_HflX4Km_EeuB0ObLRpbRdg",
+      "name" : "file_importGTA"
+    }, {
+      "id" : "_MmJHRDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_F_50Eb7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisALICIAABSRemoteDir"
+    }, {
+      "id" : "_F_50Er7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPHost"
+    }, {
+      "id" : "_F_50Fb7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPassword"
+    }, {
+      "id" : "_F_50E77XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPort"
+    }, {
+      "id" : "_F_50Fr7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPPKFile"
+    }, {
+      "id" : "_F_50FL7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPUser"
+    }, {
+      "id" : "_F_50EL7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisimportGTARemoteDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_BS5IAJCYEeune-aFDNn0Qg",
+    "parameterList" : [ {
+      "id" : "_M6nKIqZyEeuI9OfVZbK2dg",
+      "name" : "file_ALICIA_ABS"
+    }, {
+      "id" : "_HflX4qm_EeuB0ObLRpbRdg",
+      "name" : "file_importGTA"
+    }, {
+      "id" : "_MmJHgDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_F_7COL7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisALICIAABSRemoteDir"
+    }, {
+      "id" : "_F_7COb7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPHost"
+    }, {
+      "id" : "_F_7CPL7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPassword"
+    }, {
+      "id" : "_F_7COr7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPort"
+    }, {
+      "id" : "_F_7CPb7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPPKFile"
+    }, {
+      "id" : "_F_7CO77XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPUser"
+    }, {
+      "id" : "_F_7CN77XEeuhraYMQxen7A",
+      "name" : "UploadEquatisimportGTARemoteDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_BS5IAJCYEeune-aFDNn0Qg",
+    "parameterList" : [ {
+      "id" : "_M6nKIaZyEeuI9OfVZbK2dg",
+      "name" : "file_ALICIA_ABS"
+    }, {
+      "id" : "_HflX4am_EeuB0ObLRpbRdg",
+      "name" : "file_importGTA"
+    }, {
+      "id" : "_MmJHYjibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_F_7CMb7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisALICIAABSRemoteDir"
+    }, {
+      "id" : "_F_7CMr7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPHost"
+    }, {
+      "id" : "_F_7CNb7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPassword"
+    }, {
+      "id" : "_F_7CM77XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPort"
+    }, {
+      "id" : "_F_7CNr7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPPPKFile"
+    }, {
+      "id" : "_F_7CNL7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisFTPUser"
+    }, {
+      "id" : "_F_7CML7XEeuhraYMQxen7A",
+      "name" : "UploadEquatisimportGTARemoteDir"
+    } ]
+  } ]
+}

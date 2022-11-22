@@ -1,0 +1,151 @@
+{
+  "itemId" : "_Byy4wPAdEemMCOG_v1gngg",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_t7IDAPKfEeqbEfS9Biw9DQ",
+    "parameterList" : [ {
+      "id" : "_MlsbYzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MlsbaDibEeuQIYwLt3bWGw",
+      "name" : "CountryRef"
+    }, {
+      "id" : "_MlsbYTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MlsbbTibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_MlsbaTibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MlsbajibEeuQIYwLt3bWGw",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_MlsbbzibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MlsbbjibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_MlsbazibEeuQIYwLt3bWGw",
+      "name" : "FileScope"
+    }, {
+      "id" : "_MlsbbDibEeuQIYwLt3bWGw",
+      "name" : "FileToTreat"
+    }, {
+      "id" : "_MlsbZzibEeuQIYwLt3bWGw",
+      "name" : "OriginDir"
+    }, {
+      "id" : "_MlsbZjibEeuQIYwLt3bWGw",
+      "name" : "RefDir"
+    }, {
+      "id" : "_MlsbZTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MlsbZDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MlsbYjibEeuQIYwLt3bWGw",
+      "name" : "tempDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_t7IDAPKfEeqbEfS9Biw9DQ",
+    "parameterList" : [ {
+      "id" : "_MlsbczibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MlsbeDibEeuQIYwLt3bWGw",
+      "name" : "CountryRef"
+    }, {
+      "id" : "_MlsbcTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MlsbfTibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_MlsbeTibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MlsbejibEeuQIYwLt3bWGw",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_MlsbfzibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MlsbfjibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_MlsbezibEeuQIYwLt3bWGw",
+      "name" : "FileScope"
+    }, {
+      "id" : "_MlsbfDibEeuQIYwLt3bWGw",
+      "name" : "FileToTreat"
+    }, {
+      "id" : "_MlsbdzibEeuQIYwLt3bWGw",
+      "name" : "OriginDir"
+    }, {
+      "id" : "_MlsbdjibEeuQIYwLt3bWGw",
+      "name" : "RefDir"
+    }, {
+      "id" : "_MlsbdTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MlsbdDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MlsbcjibEeuQIYwLt3bWGw",
+      "name" : "tempDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_t7IDAPKfEeqbEfS9Biw9DQ",
+    "parameterList" : [ {
+      "id" : "_MlsbgzibEeuQIYwLt3bWGw",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_MlsbiDibEeuQIYwLt3bWGw",
+      "name" : "CountryRef"
+    }, {
+      "id" : "_MlsbgTibEeuQIYwLt3bWGw",
+      "name" : "FileConfig"
+    }, {
+      "id" : "_MlsbjTibEeuQIYwLt3bWGw",
+      "name" : "FileConfigSeparator"
+    }, {
+      "id" : "_MlsbiTibEeuQIYwLt3bWGw",
+      "name" : "FilecsvDelimiter"
+    }, {
+      "id" : "_MlsbijibEeuQIYwLt3bWGw",
+      "name" : "FileEncoding"
+    }, {
+      "id" : "_MlsbjzibEeuQIYwLt3bWGw",
+      "name" : "FileFieldSeparator"
+    }, {
+      "id" : "_MlsbjjibEeuQIYwLt3bWGw",
+      "name" : "FileRowSeparator"
+    }, {
+      "id" : "_MlsbizibEeuQIYwLt3bWGw",
+      "name" : "FileScope"
+    }, {
+      "id" : "_MlsbjDibEeuQIYwLt3bWGw",
+      "name" : "FileToTreat"
+    }, {
+      "id" : "_MlsbhzibEeuQIYwLt3bWGw",
+      "name" : "OriginDir"
+    }, {
+      "id" : "_MlsbhjibEeuQIYwLt3bWGw",
+      "name" : "RefDir"
+    }, {
+      "id" : "_MlsbhTibEeuQIYwLt3bWGw",
+      "name" : "SourceDir"
+    }, {
+      "id" : "_MlsbhDibEeuQIYwLt3bWGw",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_MlsbgjibEeuQIYwLt3bWGw",
+      "name" : "tempDir"
+    } ]
+  } ]
+}

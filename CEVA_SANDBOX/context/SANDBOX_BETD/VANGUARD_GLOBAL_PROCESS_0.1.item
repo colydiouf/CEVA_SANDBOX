@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_p3EwcOPeEeutf-rhfFOl_g">
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="NO" xmi:id="_p3EwcePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_GLOBAL_PROCESS\config\" xmi:id="_p3EwcuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewc-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_GLOBAL_PROCESS\Tmp\" xmi:id="_p3EwdOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="UTF-8" xmi:id="_p3EwdePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value=";" xmi:id="_p3EwduPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="NameTargetFile" prompt="NameTargetFile?" promptNeeded="false" type="id_String" value="VANGUARD_GLOBAL_PROCESS" xmi:id="_p3Ewd-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ExtensionTargetFile" prompt="ExtensionTargetFile?" promptNeeded="false" type="id_String" value=".csv" xmi:id="_p3EweOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EweePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="remy.denoyer@ceva.com" xmi:id="_p3EweuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewe-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwfOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="smtp.ceva.com" xmi:id="_p3EwfePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="Vanguard Interface Started" xmi:id="_p3EwfuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="helene.despons@ceva.com" xmi:id="_p3Ewf-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileDir" prompt="SMTPFileDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwgOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileName" prompt="SMTPFileName?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwgePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileMessage" prompt="SMTPFileMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwguPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="DataCollectorDir" prompt="DataCollectorDir?" promptNeeded="false" type="id_String" value="\\Et10lib1ema\data_collector\INTERFACE_SORTANTE\" xmi:id="_BLe8AOPoEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="JobStatut" prompt="JobStatut?" promptNeeded="false" type="id_String" value="" xmi:id="_RdhbIORsEeu87qp-lDL8WA"/>
+    <contextParameter comment="" name="Schema_BI_INDUS_SRC" prompt="Schema_BI_INDUS_SRC?" promptNeeded="false" type="id_String" value="DW" xmi:id="_wVLOQOU8Eeu6M-Us18ZOEQ"/>
+    <contextParameter comment="" name="FileNameVanguardSales" prompt="FileNameVanguardSales?" promptNeeded="false" type="id_String" value="VANGUARD_SALES_FILE.csv" xmi:id="_ViQhUOYsEeugQbDOqk3beg"/>
+    <contextParameter comment="" name="FileNameVanguardBudget" prompt="FileNameVanguardBudget?" promptNeeded="false" type="id_String" value="VANGUARD_BUDGET.csv" xmi:id="_jexfgOYsEeugQbDOqk3beg"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_GLOBAL_RPOCESS.ini" xmi:id="_5jYLgOhjEeuebubv-l6Akg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="DEV" xmi:id="_p3Ewg-PeEeutf-rhfFOl_g">
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwhOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-dev-exec1\project_resources\VANGUARD\ALIM_GLOBAL_PROCESS\config\" xmi:id="_p3EwhePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwhuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewh-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="UTF-8" xmi:id="_p3EwiOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value=";" xmi:id="_p3EwiePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="NameTargetFile" prompt="NameTargetFile?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwiuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ExtensionTargetFile" prompt="ExtensionTargetFile?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewi-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwjOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwjePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwjuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewj-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwkOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwkePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwkuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileDir" prompt="SMTPFileDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewk-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileName" prompt="SMTPFileName?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwlOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileMessage" prompt="SMTPFileMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwlePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="DataCollectorDir" prompt="DataCollectorDir?" promptNeeded="false" type="id_String" value="" xmi:id="_BLe8AePoEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="JobStatut" prompt="JobStatut?" promptNeeded="false" type="id_String" value="" xmi:id="_RdiCMORsEeu87qp-lDL8WA"/>
+    <contextParameter comment="" name="Schema_BI_INDUS_SRC" prompt="Schema_BI_INDUS_SRC?" promptNeeded="false" type="id_String" value="" xmi:id="_wVLOQeU8Eeu6M-Us18ZOEQ"/>
+    <contextParameter comment="" name="FileNameVanguardSales" prompt="FileNameVanguardSales?" promptNeeded="false" type="id_String" value="" xmi:id="_ViQhUeYsEeugQbDOqk3beg"/>
+    <contextParameter comment="" name="FileNameVanguardBudget" prompt="FileNameVanguardBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_jexfgeYsEeugQbDOqk3beg"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_GLOBAL_RPOCESS.ini" xmi:id="_5jYLgehjEeuebubv-l6Akg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="PROD" xmi:id="_p3EwluPeEeutf-rhfFOl_g">
+    <contextParameter comment="" name="FlagCommit" prompt="FlagCommit?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewl-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ConfigDir" prompt="ConfigDir?" promptNeeded="false" type="id_String" value="\\tld-prod-exec1\project_resources\VANGUARD\ALIM_GLOBAL_PROCESS\config\" xmi:id="_p3EwmOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ContextDir" prompt="ContextDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwmePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="tmpDir" prompt="tmpDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwmuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="FileEncoding" prompt="FileEncoding?" promptNeeded="false" type="id_String" value="UTF-8" xmi:id="_p3Ewm-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="FileFieldSeparator" prompt="FileFieldSeparator?" promptNeeded="false" type="id_String" value=";" xmi:id="_p3EwnOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="NameTargetFile" prompt="NameTargetFile?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwnePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="ExtensionTargetFile" prompt="ExtensionTargetFile?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwnuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPBcc" prompt="SMTPBcc?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewn-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPCc" prompt="SMTPCc?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwoOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFrom" prompt="SMTPFrom?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwoePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPPort" prompt="SMTPPort?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwouPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPServer" prompt="SMTPServer?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewo-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPSubject" prompt="SMTPSubject?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwpOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPTo" prompt="SMTPTo?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwpePeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileDir" prompt="SMTPFileDir?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwpuPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileName" prompt="SMTPFileName?" promptNeeded="false" type="id_String" value="" xmi:id="_p3Ewp-PeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="SMTPFileMessage" prompt="SMTPFileMessage?" promptNeeded="false" type="id_String" value="" xmi:id="_p3EwqOPeEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="DataCollectorDir" prompt="DataCollectorDir?" promptNeeded="false" type="id_String" value="" xmi:id="_BLe8AuPoEeutf-rhfFOl_g"/>
+    <contextParameter comment="" name="JobStatut" prompt="JobStatut?" promptNeeded="false" type="id_String" value="" xmi:id="_RdiCMeRsEeu87qp-lDL8WA"/>
+    <contextParameter comment="" name="Schema_BI_INDUS_SRC" prompt="Schema_BI_INDUS_SRC?" promptNeeded="false" type="id_String" value="" xmi:id="_wVL1UOU8Eeu6M-Us18ZOEQ"/>
+    <contextParameter comment="" name="FileNameVanguardSales" prompt="FileNameVanguardSales?" promptNeeded="false" type="id_String" value="" xmi:id="_ViQhUuYsEeugQbDOqk3beg"/>
+    <contextParameter comment="" name="FileNameVanguardBudget" prompt="FileNameVanguardBudget?" promptNeeded="false" type="id_String" value="" xmi:id="_jexfguYsEeugQbDOqk3beg"/>
+    <contextParameter comment="" name="FileConfig" prompt="FileConfig?" promptNeeded="false" type="id_String" value="CONFIG_ALIM_GLOBAL_RPOCESS.ini" xmi:id="_5jYLguhjEeuebubv-l6Akg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_9fd565d3-afe7-4811-985f-bbf6c6c01274"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>bhQdzvL4XchkqVxWeNbrXb4SkBYrWCM19iyUdBQmSmDtrtpmCtnYOing4sUmBA6uzVtoKOD3fdAq&#13;
+q5gYFc2xSw==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_081d09b9-a617-4f61-a92d-916e9ad85a18"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>l/UI/LRzlfpn6udzV3RjLX42UG4m/moqyTQuMjeguIJjMVYJJtT+kgcFBrk9iXGcB23jk8dxYeLO&#13;
+q98Kj8K4ig==</DigestValue></Reference></SignedInfo><SignatureValue>EbS3M0RwkK9PeEZzchbD++ExSox728vyA1m+aiXNKhyiFNeesaRi8e3YJQAWks548aT5SXhLER/i&#13;
+Zm45OMU+nE1OeaW1XtgrV6m+tBKDbRLPB2x5dNRXTvmQE1GpVowuEejej5Cj7bY+ZFyasVTSTF3r&#13;
+RURmtSZTKbLo73hlkBYYS6T5WZz3jl6EfxK+LpK1oHrmgB5c7cyjavfgv/SSFM0RdqZM5FordvKP&#13;
+i00Ev5YvuzFa/FdLbcYZiR9i/gWsb0ENe3wo4Vf+0GSEtgCypmNBXSX4pJsv7w0B7+jrh+LIMXC0&#13;
+EM+QIVfjpSN2H0HW2G4YlEZBcpIet7WMpTq73w==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_081d09b9-a617-4f61-a92d-916e9ad85a18" Target="#_9fd565d3-afe7-4811-985f-bbf6c6c01274"><Timestamp>2022-01-04 14:37:16</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

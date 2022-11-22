@@ -1,0 +1,88 @@
+{
+  "itemId" : "_2wf7kKGTEeu5f7pkqG2Epw",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_MNoOsKGYEeu5f7pkqG2Epw",
+    "parameterList" : [ {
+      "id" : "_MNx_tqGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_fileMask"
+    }, {
+      "id" : "_MNx_t6GYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_flag_del_when_received"
+    }, {
+      "id" : "_MNx_sqGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_host"
+    }, {
+      "id" : "_MNx_taGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_localdir"
+    }, {
+      "id" : "_MNx_saGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_login"
+    }, {
+      "id" : "_MNx_uKGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_port"
+    }, {
+      "id" : "_MNx_s6GYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_ppk"
+    }, {
+      "id" : "_MNx_tKGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_remotedir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_MNoOsKGYEeu5f7pkqG2Epw",
+    "parameterList" : [ {
+      "id" : "_MNx_yKGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_fileMask"
+    }, {
+      "id" : "_MNx_yaGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_flag_del_when_received"
+    }, {
+      "id" : "_MNx_xKGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_host"
+    }, {
+      "id" : "_MNx_x6GYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_localdir"
+    }, {
+      "id" : "_MNx_w6GYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_login"
+    }, {
+      "id" : "_MNx_yqGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_port"
+    }, {
+      "id" : "_MNx_xaGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_ppk"
+    }, {
+      "id" : "_MNx_xqGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_remotedir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_MNoOsKGYEeu5f7pkqG2Epw",
+    "parameterList" : [ {
+      "id" : "_MNx_v6GYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_fileMask"
+    }, {
+      "id" : "_MNx_wKGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_flag_del_when_received"
+    }, {
+      "id" : "_MNx_u6GYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_host"
+    }, {
+      "id" : "_MNx_vqGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_localdir"
+    }, {
+      "id" : "_MNx_uqGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_login"
+    }, {
+      "id" : "_MNx_waGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_port"
+    }, {
+      "id" : "_MNx_vKGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_ppk"
+    }, {
+      "id" : "_MNx_vaGYEeu5f7pkqG2Epw",
+      "name" : "connSFTPAuthPPK_remotedir"
+    } ]
+  } ]
+}

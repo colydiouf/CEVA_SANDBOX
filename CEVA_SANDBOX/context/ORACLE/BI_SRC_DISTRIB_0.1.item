@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><xmi:XMI xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmi:version="2.0">
+  <talendfile:ContextType confirmationNeeded="false" name="Default" xmi:id="_amtW8LirEeuhp5yPT3CUVQ">
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Login" prompt="BI_SRC_DISTRIB_Login?" promptNeeded="false" type="id_String" value="BIHQ" xmi:id="_amtW8birEeuhp5yPT3CUVQ"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Port" prompt="BI_SRC_DISTRIB_Port?" promptNeeded="false" type="id_String" value="1622" xmi:id="_amtW8rirEeuhp5yPT3CUVQ"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_AdditionalParams" prompt="BI_SRC_DISTRIB_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_amtW87irEeuhp5yPT3CUVQ"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Server" prompt="BI_SRC_DISTRIB_Server?" promptNeeded="false" type="id_String" value="BI2DWHEU.ceva.net" xmi:id="_amtW9LirEeuhp5yPT3CUVQ"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Sid" prompt="BI_SRC_DISTRIB_Sid?" promptNeeded="false" type="id_String" value="DWHEUD" xmi:id="_amtW9birEeuhp5yPT3CUVQ"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Password" prompt="BI_SRC_DISTRIB_Password?" promptNeeded="false" type="id_Password" value="enc:system.encryption.key.v1:KMLOHw1q1FcDb2PPpN/rCWB+YBqJ3GirSeW+PPY8Ipp8h2K5AwX8" xmi:id="_amtW9rirEeuhp5yPT3CUVQ"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Schema" prompt="BI_SRC_DISTRIB_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_amtW97irEeuhp5yPT3CUVQ"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Dev" xmi:id="_f5dKIL1lEeuG6a6mWKqYsg">
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Login" prompt="BI_SRC_DISTRIB_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKIb1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Port" prompt="BI_SRC_DISTRIB_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKIr1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_AdditionalParams" prompt="BI_SRC_DISTRIB_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKI71lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Server" prompt="BI_SRC_DISTRIB_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKJL1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Sid" prompt="BI_SRC_DISTRIB_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKJb1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Password" prompt="BI_SRC_DISTRIB_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_f5dKJr1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Schema" prompt="BI_SRC_DISTRIB_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKJ71lEeuG6a6mWKqYsg"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType confirmationNeeded="false" name="Prod" xmi:id="_f5dKKL1lEeuG6a6mWKqYsg">
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Login" prompt="BI_SRC_DISTRIB_Login?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKKb1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Port" prompt="BI_SRC_DISTRIB_Port?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKKr1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_AdditionalParams" prompt="BI_SRC_DISTRIB_AdditionalParams?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKK71lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Server" prompt="BI_SRC_DISTRIB_Server?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKLL1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Sid" prompt="BI_SRC_DISTRIB_Sid?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKLb1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Password" prompt="BI_SRC_DISTRIB_Password?" promptNeeded="false" type="id_Password" value="" xmi:id="_f5dKLr1lEeuG6a6mWKqYsg"/>
+    <contextParameter comment="" name="BI_SRC_DISTRIB_Schema" prompt="BI_SRC_DISTRIB_Schema?" promptNeeded="false" type="id_String" value="" xmi:id="_f5dKL71lEeuG6a6mWKqYsg"/>
+  </talendfile:ContextType>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_1a9c8695-26ee-4355-9550-77bd8827372f"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>8mcFrS6/N/+7xUfrnrJIgnPOKgfO7n5/sV9VT4JfoPl1YFOycf92TIR72rTjtluuVnqrk0vx5VNk&#13;
+ZBwaMloadA==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_203737ab-8a71-4a11-ab14-6c979b3b2ae8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>X4IHt2ulGYz8NyjseNqLewBzmy50CTRALeNz1vtTmsjEtkzsWT/S2lhDGAQv8CP9GZahjomRSHvp&#13;
+5i3zqRHKTA==</DigestValue></Reference></SignedInfo><SignatureValue>HNxB9wdiRwFlzj5pWJ4Qw5OEymI+Ji7a+jCiw+my/fyqHnrmPVbexOe/1pZiUeaCKU7ByTdUDKJG&#13;
+Kl9Dnm2QaCwSq+u5tcUqvCr8MbzfYro5WHBDFkizFGmDHhuGMbNhJUxyR2OBfqugjqSU9Zo9gJ3u&#13;
+TYAs1+c+2PP/HqzOkvJSGhnztEJ8NKk2Ay4JjsiFD0R0z4UH9cGTmweCMqF4RAbNn2fbQu9sjKFP&#13;
+XJLNjTYyyCROVXkuFtO8oYuCeuJp2nhkRk3pyaivcGNp/Z1XtZGa8HR9T6BYu9rJ/meh3Vsd1X5V&#13;
+Lape3xo0nHALboeLMCdS6Str76q908FtQXf8kQ==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_203737ab-8a71-4a11-ab14-6c979b3b2ae8" Target="#_1a9c8695-26ee-4355-9550-77bd8827372f"><Timestamp>2022-01-04 13:56:39</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></xmi:XMI>

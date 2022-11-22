@@ -1,0 +1,70 @@
+{
+  "itemId" : "_oksxMOLvEeusVM_SzC1MQA",
+  "contextList" : [ {
+    "contextName" : "Default",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otuvYeMFEeusVM_SzC1MQA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_otuvYuMFEeusVM_SzC1MQA",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_otvWcuMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_otvWceMFEeusVM_SzC1MQA",
+      "name" : "ParamFileQB"
+    }, {
+      "id" : "_otvWcOMFEeusVM_SzC1MQA",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_otuvY-MFEeusVM_SzC1MQA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Dev",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWdOMFEeusVM_SzC1MQA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_otvWdeMFEeusVM_SzC1MQA",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_otvWeeMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_otvWeOMFEeusVM_SzC1MQA",
+      "name" : "ParamFileQB"
+    }, {
+      "id" : "_otvWd-MFEeusVM_SzC1MQA",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_otvWduMFEeusVM_SzC1MQA",
+      "name" : "tmpDir"
+    } ]
+  }, {
+    "contextName" : "Prod",
+    "repoId" : "_otkXUOMFEeusVM_SzC1MQA",
+    "parameterList" : [ {
+      "id" : "_otvWe-MFEeusVM_SzC1MQA",
+      "name" : "ConfigDir"
+    }, {
+      "id" : "_otvWfOMFEeusVM_SzC1MQA",
+      "name" : "ContextDir"
+    }, {
+      "id" : "_otvWgOMFEeusVM_SzC1MQA",
+      "name" : "FlagCommit"
+    }, {
+      "id" : "_otvWf-MFEeusVM_SzC1MQA",
+      "name" : "ParamFileQB"
+    }, {
+      "id" : "_otvWfuMFEeusVM_SzC1MQA",
+      "name" : "TargetDir"
+    }, {
+      "id" : "_otvWfeMFEeusVM_SzC1MQA",
+      "name" : "tmpDir"
+    } ]
+  } ]
+}

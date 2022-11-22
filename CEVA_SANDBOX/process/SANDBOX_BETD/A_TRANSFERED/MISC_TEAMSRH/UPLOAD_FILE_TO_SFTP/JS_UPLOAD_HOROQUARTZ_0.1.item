@@ -1,0 +1,1099 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><talendfile:ProcessType xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd" xmlns:xmi="http://www.omg.org/XMI" defaultContext="Default" jobType="Standard" xmi:version="2.0">
+  <context confirmationNeeded="false" name="Default">
+    <contextParameter comment="" internalId="_fW4RoG1mEey427K0e5AY1A" name="bypass_upload_horoquartz_other" prompt="bypass_upload_horoquartz_other?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="YES"/>
+    <contextParameter comment="" internalId="_fW4RoW1mEey427K0e5AY1A" name="file_echange" prompt="file_echange?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="echange.dat"/>
+    <contextParameter comment="" internalId="_fW4Rom1mEey427K0e5AY1A" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hoinaco.csv"/>
+    <contextParameter comment="" internalId="_fW4Ro21mEey427K0e5AY1A" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hoinaff.dat"/>
+    <contextParameter comment="" internalId="_fW44sG1mEey427K0e5AY1A" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hoinmco.csv"/>
+    <contextParameter comment="" internalId="_fW44sW1mEey427K0e5AY1A" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopaffb.csv"/>
+    <contextParameter comment="" internalId="_fW44sm1mEey427K0e5AY1A" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopcode.csv"/>
+    <contextParameter comment="" internalId="_fW44s21mEey427K0e5AY1A" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopctra.csv"/>
+    <contextParameter comment="" internalId="_fW44tG1mEey427K0e5AY1A" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopempl.csv"/>
+    <contextParameter comment="" internalId="_fW44tW1mEey427K0e5AY1A" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopsech.cv"/>
+    <contextParameter comment="" internalId="_fW44tm1mEey427K0e5AY1A" name="role_filename" prompt="role_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="role.csv"/>
+    <contextParameter comment="" internalId="_fW44t21mEey427K0e5AY1A" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfpflow.csv"/>
+    <contextParameter comment="" internalId="_fW44uG1mEey427K0e5AY1A" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfpgrps.csv"/>
+    <contextParameter comment="" internalId="_fW44uW1mEey427K0e5AY1A" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfphierd.csv"/>
+    <contextParameter comment="" internalId="_fW44um1mEey427K0e5AY1A" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="sfphierg.csv"/>
+    <contextParameter comment="" internalId="_fW44u21mEey427K0e5AY1A" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="hopmail.csv"/>
+    <contextParameter comment="" internalId="_fW44vG1mEey427K0e5AY1A" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\SANDBOX_BETD\MISC_TEAMSRH\Target\"/>
+    <contextParameter comment="" internalId="_fW44vW1mEey427K0e5AY1A" name="UploadHoroquartzechangeRemoteDir" prompt="UploadHoroquartzechangeRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44vm1mEey427K0e5AY1A" name="UploadHoroquartzFTPHost" prompt="UploadHoroquartzFTPHost?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="172.30.2.22"/>
+    <contextParameter comment="" internalId="_fW44v21mEey427K0e5AY1A" name="UploadHoroquartzFTPPassword" prompt="UploadHoroquartzFTPPassword?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44wG1mEey427K0e5AY1A" name="UploadHoroquartzFTPPort" prompt="UploadHoroquartzFTPPort?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="22345"/>
+    <contextParameter comment="" internalId="_fW44wW1mEey427K0e5AY1A" name="UploadHoroquartzFTPPPKFile" prompt="UploadHoroquartzFTPPPKFile?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="\\tld-dev-exec1\project_resources\talendtest@sftp1lib1fr.ppk"/>
+    <contextParameter comment="" internalId="_fW44wm1mEey427K0e5AY1A" name="UploadHoroquartzFTPUser" prompt="UploadHoroquartzFTPUser?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="talendtest"/>
+    <contextParameter comment="" internalId="_fW44w21mEey427K0e5AY1A" name="UploadHoroquartzhoinacoRemoteDir" prompt="UploadHoroquartzhoinacoRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44xG1mEey427K0e5AY1A" name="UploadHoroquartzhoinaffRemoteDir" prompt="UploadHoroquartzhoinaffRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44xW1mEey427K0e5AY1A" name="UploadHoroquartzhoinmcoRemoteDir" prompt="UploadHoroquartzhoinmcoRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44xm1mEey427K0e5AY1A" name="UploadHoroquartzhopaffbRemoteDir" prompt="UploadHoroquartzhopaffbRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44x21mEey427K0e5AY1A" name="UploadHoroquartzhopcodeRemoteDir" prompt="UploadHoroquartzhopcodeRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44yG1mEey427K0e5AY1A" name="UploadHoroquartzhopctraRemoteDir" prompt="UploadHoroquartzhopctraRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44yW1mEey427K0e5AY1A" name="UploadHoroquartzhopemplRemoteDir" prompt="UploadHoroquartzhopemplRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44ym1mEey427K0e5AY1A" name="UploadHoroquartzhopmailRemoteDir" prompt="UploadHoroquartzhopmailRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44y21mEey427K0e5AY1A" name="UploadHoroquartzhopsechRemoteDir" prompt="UploadHoroquartzhopsechRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44zG1mEey427K0e5AY1A" name="UploadHoroquartzroleRemoteDir" prompt="UploadHoroquartzroleRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44zW1mEey427K0e5AY1A" name="UploadHoroquartzsfpflowRemoteDir" prompt="UploadHoroquartzsfpflowRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44zm1mEey427K0e5AY1A" name="UploadHoroquartzsfpgrpsRemoteDir" prompt="UploadHoroquartzsfpgrpsRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW44z21mEey427K0e5AY1A" name="UploadHoroquartzsfphierdRemoteDir" prompt="UploadHoroquartzsfphierdRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+    <contextParameter comment="" internalId="_fW440G1mEey427K0e5AY1A" name="UploadHoroquartzsfphiergRemoteDir" prompt="UploadHoroquartzsfphiergRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value="/talendtest"/>
+  </context>
+  <context confirmationNeeded="false" name="Prod">
+    <contextParameter comment="" internalId="_fW440W1mEey427K0e5AY1A" name="bypass_upload_horoquartz_other" prompt="bypass_upload_horoquartz_other?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW440m1mEey427K0e5AY1A" name="file_echange" prompt="file_echange?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44021mEey427K0e5AY1A" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW441G1mEey427K0e5AY1A" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW441W1mEey427K0e5AY1A" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW441m1mEey427K0e5AY1A" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44121mEey427K0e5AY1A" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW442G1mEey427K0e5AY1A" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW442W1mEey427K0e5AY1A" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW442m1mEey427K0e5AY1A" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44221mEey427K0e5AY1A" name="role_filename" prompt="role_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW443G1mEey427K0e5AY1A" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW443W1mEey427K0e5AY1A" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW443m1mEey427K0e5AY1A" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44321mEey427K0e5AY1A" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW444G1mEey427K0e5AY1A" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW444W1mEey427K0e5AY1A" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW444m1mEey427K0e5AY1A" name="UploadHoroquartzechangeRemoteDir" prompt="UploadHoroquartzechangeRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44421mEey427K0e5AY1A" name="UploadHoroquartzFTPHost" prompt="UploadHoroquartzFTPHost?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW445G1mEey427K0e5AY1A" name="UploadHoroquartzFTPPassword" prompt="UploadHoroquartzFTPPassword?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW445W1mEey427K0e5AY1A" name="UploadHoroquartzFTPPort" prompt="UploadHoroquartzFTPPort?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW445m1mEey427K0e5AY1A" name="UploadHoroquartzFTPPPKFile" prompt="UploadHoroquartzFTPPPKFile?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44521mEey427K0e5AY1A" name="UploadHoroquartzFTPUser" prompt="UploadHoroquartzFTPUser?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW446G1mEey427K0e5AY1A" name="UploadHoroquartzhoinacoRemoteDir" prompt="UploadHoroquartzhoinacoRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW446W1mEey427K0e5AY1A" name="UploadHoroquartzhoinaffRemoteDir" prompt="UploadHoroquartzhoinaffRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW446m1mEey427K0e5AY1A" name="UploadHoroquartzhoinmcoRemoteDir" prompt="UploadHoroquartzhoinmcoRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44621mEey427K0e5AY1A" name="UploadHoroquartzhopaffbRemoteDir" prompt="UploadHoroquartzhopaffbRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW447G1mEey427K0e5AY1A" name="UploadHoroquartzhopcodeRemoteDir" prompt="UploadHoroquartzhopcodeRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW447W1mEey427K0e5AY1A" name="UploadHoroquartzhopctraRemoteDir" prompt="UploadHoroquartzhopctraRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW447m1mEey427K0e5AY1A" name="UploadHoroquartzhopemplRemoteDir" prompt="UploadHoroquartzhopemplRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44721mEey427K0e5AY1A" name="UploadHoroquartzhopmailRemoteDir" prompt="UploadHoroquartzhopmailRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW448G1mEey427K0e5AY1A" name="UploadHoroquartzhopsechRemoteDir" prompt="UploadHoroquartzhopsechRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW448W1mEey427K0e5AY1A" name="UploadHoroquartzroleRemoteDir" prompt="UploadHoroquartzroleRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW448m1mEey427K0e5AY1A" name="UploadHoroquartzsfpflowRemoteDir" prompt="UploadHoroquartzsfpflowRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44821mEey427K0e5AY1A" name="UploadHoroquartzsfpgrpsRemoteDir" prompt="UploadHoroquartzsfpgrpsRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW449G1mEey427K0e5AY1A" name="UploadHoroquartzsfphierdRemoteDir" prompt="UploadHoroquartzsfphierdRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW449W1mEey427K0e5AY1A" name="UploadHoroquartzsfphiergRemoteDir" prompt="UploadHoroquartzsfphiergRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+  </context>
+  <context confirmationNeeded="false" name="Dev">
+    <contextParameter comment="" internalId="_fW449m1mEey427K0e5AY1A" name="bypass_upload_horoquartz_other" prompt="bypass_upload_horoquartz_other?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44921mEey427K0e5AY1A" name="file_echange" prompt="file_echange?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44-G1mEey427K0e5AY1A" name="file_hoinaco" prompt="file_hoinaco?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44-W1mEey427K0e5AY1A" name="hoinaff_filename" prompt="hoinaff_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44-m1mEey427K0e5AY1A" name="hoinmco_filename" prompt="hoinmco_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44-21mEey427K0e5AY1A" name="hopaffb_filename" prompt="hopaffb_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44_G1mEey427K0e5AY1A" name="hopcodev2_filename" prompt="hopcodev2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44_W1mEey427K0e5AY1A" name="hopctra_filename" prompt="hopctra_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44_m1mEey427K0e5AY1A" name="hopempl_filename" prompt="hopempl_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW44_21mEey427K0e5AY1A" name="hopsechv2_filename" prompt="hopsechv2_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45AG1mEey427K0e5AY1A" name="role_filename" prompt="role_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45AW1mEey427K0e5AY1A" name="sfpflow_filename" prompt="sfpflow_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45Am1mEey427K0e5AY1A" name="sfpgrps_filename" prompt="sfpgrps_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45A21mEey427K0e5AY1A" name="sfphierd_filename" prompt="sfphierd_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45BG1mEey427K0e5AY1A" name="sfphierg_filename" prompt="sfphierg_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45BW1mEey427K0e5AY1A" name="sfphopmail_filename" prompt="sfphopmail_filename?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45Bm1mEey427K0e5AY1A" name="TargetDir" prompt="TargetDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45B21mEey427K0e5AY1A" name="UploadHoroquartzechangeRemoteDir" prompt="UploadHoroquartzechangeRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45CG1mEey427K0e5AY1A" name="UploadHoroquartzFTPHost" prompt="UploadHoroquartzFTPHost?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45CW1mEey427K0e5AY1A" name="UploadHoroquartzFTPPassword" prompt="UploadHoroquartzFTPPassword?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45Cm1mEey427K0e5AY1A" name="UploadHoroquartzFTPPort" prompt="UploadHoroquartzFTPPort?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45C21mEey427K0e5AY1A" name="UploadHoroquartzFTPPPKFile" prompt="UploadHoroquartzFTPPPKFile?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45DG1mEey427K0e5AY1A" name="UploadHoroquartzFTPUser" prompt="UploadHoroquartzFTPUser?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45DW1mEey427K0e5AY1A" name="UploadHoroquartzhoinacoRemoteDir" prompt="UploadHoroquartzhoinacoRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45Dm1mEey427K0e5AY1A" name="UploadHoroquartzhoinaffRemoteDir" prompt="UploadHoroquartzhoinaffRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45D21mEey427K0e5AY1A" name="UploadHoroquartzhoinmcoRemoteDir" prompt="UploadHoroquartzhoinmcoRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45EG1mEey427K0e5AY1A" name="UploadHoroquartzhopaffbRemoteDir" prompt="UploadHoroquartzhopaffbRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45EW1mEey427K0e5AY1A" name="UploadHoroquartzhopcodeRemoteDir" prompt="UploadHoroquartzhopcodeRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45Em1mEey427K0e5AY1A" name="UploadHoroquartzhopctraRemoteDir" prompt="UploadHoroquartzhopctraRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45E21mEey427K0e5AY1A" name="UploadHoroquartzhopemplRemoteDir" prompt="UploadHoroquartzhopemplRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45FG1mEey427K0e5AY1A" name="UploadHoroquartzhopmailRemoteDir" prompt="UploadHoroquartzhopmailRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45FW1mEey427K0e5AY1A" name="UploadHoroquartzhopsechRemoteDir" prompt="UploadHoroquartzhopsechRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45Fm1mEey427K0e5AY1A" name="UploadHoroquartzroleRemoteDir" prompt="UploadHoroquartzroleRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45F21mEey427K0e5AY1A" name="UploadHoroquartzsfpflowRemoteDir" prompt="UploadHoroquartzsfpflowRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45GG1mEey427K0e5AY1A" name="UploadHoroquartzsfpgrpsRemoteDir" prompt="UploadHoroquartzsfpgrpsRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45GW1mEey427K0e5AY1A" name="UploadHoroquartzsfphierdRemoteDir" prompt="UploadHoroquartzsfphierdRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+    <contextParameter comment="" internalId="_fW45Gm1mEey427K0e5AY1A" name="UploadHoroquartzsfphiergRemoteDir" prompt="UploadHoroquartzsfphiergRemoteDir?" promptNeeded="false" repositoryContextId="_BS5IAJCYEeune-aFDNn0Qg" type="id_String" value=""/>
+  </context>
+  <parameters>
+    <elementParameter field="CLOSED_LIST" name="LOG4J_RUN_LEVEL" show="false" value="Info"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
+    <elementParameter field="TEXT" name="SCREEN_OFFSET_Y" show="false" value="64"/>
+    <elementParameter field="TEXT" name="REPOSITORY_CONNECTION_ID" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_PROPERTY_TYPENAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_DISTRIBUTION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_HADOOP_VERSION" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USERNAME" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_GROUP" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_USE_KEYTAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KT_PRINCIPAL" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_KEY_TAB" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_ENABLE_OO_KERBEROS" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_NAME_NODE_END_POINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_JOB_TRACKER_ENDPOINT" show="false" value=""/>
+    <elementParameter field="TEXT" name="OOZIE_END_POINT" show="false" value=""/>
+    <elementParameter field="CHECK" name="IMPLICITCONTEXT_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="STATANDLOG_USE_PROJECT_SETTINGS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="MULTI_THREAD_EXECATION" value="false"/>
+    <elementParameter field="TEXT" name="PARALLELIZE_UNIT_SIZE" value="25000"/>
+    <elementParameter field="CHECK" name="IMPLICIT_TCONTEXTLOAD" value="false"/>
+    <elementParameter field="RADIO" name="FROM_FILE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="RADIO" name="FROM_DATABASE_FLAG_IMPLICIT_CONTEXT" show="false" value="false"/>
+    <elementParameter field="FILE" name="IMPLICIT_TCONTEXTLOAD_FILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="FIELDSEPARATOR" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="OVERRIDE_ENCODING_FLAG" show="false" value="false"/>
+    <elementParameter field="ENCODING_TYPE" name="OVERRIDE_ENCODING_IN_EXTRA" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="OVERRIDE_ENCODING_IN_EXTRA:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION_IMPLICIT_CONTEXT" show="false" value=""/>
+    <elementParameter field="TEXT" name="URL_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR_IMPLICIT_CONTEXT" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS_IMPLICIT_CONTEXT" show="false" value="enc:system.encryption.key.v1:YFD6/8LfdQGN6ohUFgHB9NTAenpOkQgBGyNRY0U+"/>
+    <elementParameter field="FILE" name="DBFILE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="DBTABLE_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="QUERY_CONDITION_IMPLICIT_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CLOSED_LIST" name="LOAD_NEW_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CLOSED_LIST" name="NOT_LOAD_OLD_VARIABLE" show="false" value="Warning"/>
+    <elementParameter field="CHECK" name="PRINT_OPERATIONS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_ERROR" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_WARNINGS" show="false" value="false"/>
+    <elementParameter field="CHECK" name="DISABLE_INFO" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_STATCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_LOGCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_METERCATCHER_FLAG" value="false"/>
+    <elementParameter field="CHECK" name="ON_CONSOLE_FLAG" show="false" value="false"/>
+    <elementParameter field="CHECK" name="ON_FILES_FLAG" show="false" value="false"/>
+    <elementParameter field="DIRECTORY" name="FILE_PATH" show="false" value="&quot;C:/talend/7.3.1/workspace_ep/.metadata&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_STATS" show="false" value="&quot;stats_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_LOGS" show="false" value="&quot;logs_file.txt&quot;"/>
+    <elementParameter field="TEXT" name="FILENAME_METTER" show="false" value="&quot;meter_file.txt&quot;"/>
+    <elementParameter field="ENCODING_TYPE" name="ENCODING" show="false" value="ISO-8859-15"/>
+    <elementParameter field="TECHNICAL" name="ENCODING:ENCODING_TYPE" show="false" value="ISO-8859-15"/>
+    <elementParameter field="CHECK" name="ON_DATABASE_FLAG" show="false" value="false"/>
+    <elementParameter field="CLOSED_LIST" name="DB_TYPE" show="false" value="tJDBCOutput"/>
+    <elementParameter field="CLOSED_LIST" name="DB_VERSION" show="false" value="ORACLE_12"/>
+    <elementParameter field="TEXT" name="URL" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TABLE" name="DRIVER_JAR" show="false"/>
+    <elementParameter field="TEXT" name="DRIVER_CLASS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="HOST" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PORT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DATASOURCE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="DBNAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LOCAL_SERVICE_NAME" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="PROPERTIES" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="SCHEMA_DB" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="USER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="PASSWORD" name="PASS" show="false" value="enc:system.encryption.key.v1:iz8d8bpbgYqoeCTTfKzlHOrtlMm8rFn7CRymsbzI"/>
+    <elementParameter field="FILE" name="DBFILE" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_STATS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_LOGS" show="false" value="&quot;&quot;"/>
+    <elementParameter field="DBTABLE" name="TABLE_METER" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="CATCH_RUNTIME_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_ERRORS" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_USER_WARNING" show="false" value="true"/>
+    <elementParameter field="CHECK" name="CATCH_REALTIME_STATS" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_HEADERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="HEADER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="HEADER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADER_IMPORT" show="false" value=""/>
+    <elementParameter field="TEXT" name="HEADERFOOTER_FOOTERID" show="false" value=""/>
+    <elementParameter field="CHECK" name="FOOTER_ENABLED" show="false" value="false"/>
+    <elementParameter field="TEXT" name="FOOTER_LIBRARY" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_CODE" show="false" value=""/>
+    <elementParameter field="TEXT" name="FOOTER_IMPORT" show="false" value=""/>
+    <routinesParameter id="_tTLSACW_EeuC8ZitBQrV9g" name="DQTechnical"/>
+    <routinesParameter id="_tS4XGCW_EeuC8ZitBQrV9g" name="DataMasking"/>
+    <routinesParameter id="_tSbrKCW_EeuC8ZitBQrV9g" name="DataOperation"/>
+    <routinesParameter id="_tTCIFCW_EeuC8ZitBQrV9g" name="DataQualityDependencies"/>
+    <routinesParameter id="_tTCIECW_EeuC8ZitBQrV9g" name="DataQuality"/>
+    <routinesParameter id="_tTCIGiW_EeuC8ZitBQrV9g" name="DqStringHandling"/>
+    <routinesParameter id="_tSlcIyW_EeuC8ZitBQrV9g" name="Mathematical"/>
+    <routinesParameter id="_tSlcJyW_EeuC8ZitBQrV9g" name="Numeric"/>
+    <routinesParameter id="_tSlcKyW_EeuC8ZitBQrV9g" name="Relational"/>
+    <routinesParameter id="_tSbrJCW_EeuC8ZitBQrV9g" name="SQLike"/>
+    <routinesParameter id="_tSlcLyW_EeuC8ZitBQrV9g" name="StringHandling"/>
+    <routinesParameter id="_tSumECW_EeuC8ZitBQrV9g" name="TalendDataGenerator"/>
+    <routinesParameter id="_tSumFCW_EeuC8ZitBQrV9g" name="TalendDate"/>
+    <routinesParameter id="_tS4XFCW_EeuC8ZitBQrV9g" name="TalendStringUtil"/>
+    <routinesParameter id="_tS4XECW_EeuC8ZitBQrV9g" name="TalendString"/>
+  </parameters>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="0">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;Start job : &quot;+ jobName);&#10;System.out.println(&quot;Version: &quot; + jobVersion);&#10;System.out.println(&quot;Start Execution &quot; + TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="StartJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_1"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="128">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.hopcodev2_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhopcodeRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hopcode"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_1"/>
+  </node>
+  <node componentName="tJava" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="2368">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="MEMO_JAVA" name="CODE" value="System.out.println(&quot;*****************************************************&quot;);&#10;System.out.println(&quot;End job : &quot;+ jobName);&#10;System.out.println(&quot;End Execution &quot;+TalendDate.formatDate(&quot;dd-MM-yyyy HH:mm:ss&quot;, TalendDate.getCurrentDate()));&#10;System.out.println(&quot;*****************************************************&quot;);"/>
+    <elementParameter field="MEMO_IMPORT" name="IMPORT" value="//import java.util.List;"/>
+    <elementParameter field="TEXT" name="LABEL" value="EndJob"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tJava_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="256">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.hopsechv2_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhopsechRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hopsech"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_2"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="384">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.role_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzroleRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_role"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_3"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="512">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_4"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.sfpflow_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzsfpflowRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_sfpflow"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_4"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="672">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_5"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.sfpgrps_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzsfpgrpsRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_sfpgrps"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_5"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="768">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_6"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.sfphierg_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzsfphiergRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_sfphierg"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_6"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="896">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_7"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.sfphopmail_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhopmailRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hopmail"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_7"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="1056">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_8"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.hopaffb_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhopaffbRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hopaffb"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_8"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="1184">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_9"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.hoinaff_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhoinaffRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hoinaff"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_9"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="1312">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_10"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.hopempl_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhopemplRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hopempl"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_10"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="1440">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_11"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.hopctra_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhopctraRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hopctra"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_11"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="1632">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_12"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.sfphierd_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzsfphierdRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_sfphierd"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_12"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="2080">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_14"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.file_echange"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzechangeRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_echange"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_14"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="2240">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_15"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.file_hoinaco"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhoinacoRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="&quot;NO&quot;"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hoinaco"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_15"/>
+  </node>
+  <node componentName="tRunJob" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="1888">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_16"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_JOB" value="false"/>
+    <elementParameter field="TEXT" name="CONTEXT_JOB" show="false" value=""/>
+    <elementParameter field="PROCESS_TYPE" name="PROCESS" value="CEVA_MASTER:JS_SFTP_KEY_AUTH_PUSH"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_CONTEXT" value="Default"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_PROCESS" value="_ImiGU21mEey427K0e5AY1A"/>
+    <elementParameter field="TECHNICAL" name="PROCESS:PROCESS_TYPE_VERSION" value="Latest"/>
+    <elementParameter field="TEXT" name="CONTEXT_NAME" show="false" value="Default"/>
+    <elementParameter field="CHECK" name="USE_INDEPENDENT_PROCESS" value="false"/>
+    <elementParameter field="CHECK" name="DIE_ON_CHILD_ERROR" value="true"/>
+    <elementParameter field="CHECK" name="TRANSMIT_WHOLE_CONTEXT" value="true"/>
+    <elementParameter field="TABLE" name="CONTEXTPARAMS">
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_host_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPHost"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_login_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPUser"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_password_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPassword"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_ppk_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzFTPPPKFile"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_port_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="Integer.parseInt(context.UploadHoroquartzFTPPort)"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_localdir_upoad"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.TargetDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_fileMask_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.hoinmco_filename"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_remotedir_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.UploadHoroquartzhoinmcoRemoteDir"/>
+      <elementValue elementRef="PARAM_NAME_COLUMN" value="connSFTPAuthPPK_Bypass_upload"/>
+      <elementValue elementRef="PARAM_VALUE_COLUMN" value="context.bypass_upload_horoquartz_other"/>
+    </elementParameter>
+    <elementParameter field="CHECK" name="PROPAGATE_CHILD_RESULT" value="false"/>
+    <elementParameter field="CHECK" name="PRINT_PARAMETER" value="false"/>
+    <elementParameter field="CHECK" name="TRANSMIT_ORIGINAL_CONTEXT" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CHILD_JVM_SETTING" show="false" value="true"/>
+    <elementParameter field="RADIO" name="USE_CUSTOM_JVM_SETTING" show="false" value="false"/>
+    <elementParameter field="TABLE" name="JVM_ARGUMENTS" show="false"/>
+    <elementParameter field="CHECK" name="USE_DYNAMIC_CONTEXT" value="false"/>
+    <elementParameter field="TEXT" name="DYNAMIC_CONTEXT" show="false" value="&quot;&quot;"/>
+    <elementParameter field="CHECK" name="USE_EXTRA_CLASSPATH" show="false" value="false"/>
+    <elementParameter field="TEXT" name="EXTRA_CLASSPATH" show="false" value="&quot;&quot;"/>
+    <elementParameter field="TEXT" name="LABEL" value="__UNIQUE_NAME__TRansfert_Horoquartz_hoinmco"/>
+    <elementParameter field="TEXT" name="CONNECTION_FORMAT" value="row"/>
+    <metadata connector="FLOW" name="tRunJob_16"/>
+  </node>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tJava_1" offsetLabelX="0" offsetLabelY="0" source="tJava_1" target="tRunJob_1">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk1"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_1" offsetLabelX="0" offsetLabelY="0" source="tRunJob_1" target="tRunJob_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk2"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_2" offsetLabelX="0" offsetLabelY="0" source="tRunJob_2" target="tRunJob_3">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk3"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_3" offsetLabelX="0" offsetLabelY="0" source="tRunJob_3" target="tRunJob_4">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk4"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_4" offsetLabelX="0" offsetLabelY="0" source="tRunJob_4" target="tRunJob_5">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk5"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_5" offsetLabelX="0" offsetLabelY="0" source="tRunJob_5" target="tRunJob_6">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk6"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_6" offsetLabelX="0" offsetLabelY="0" source="tRunJob_6" target="tRunJob_7">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk7"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_7" offsetLabelX="0" offsetLabelY="0" source="tRunJob_7" target="tRunJob_8">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk8"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_8" offsetLabelX="0" offsetLabelY="0" source="tRunJob_8" target="tRunJob_9">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk9"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_9" offsetLabelX="0" offsetLabelY="0" source="tRunJob_9" target="tRunJob_10">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk10"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_10" offsetLabelX="0" offsetLabelY="0" source="tRunJob_10" target="tRunJob_11">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk11"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_11" offsetLabelX="0" offsetLabelY="0" source="tRunJob_11" target="tRunJob_12">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk12"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_12" offsetLabelX="0" offsetLabelY="0" source="tRunJob_12" target="tRunJob_16">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk13"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_14" offsetLabelX="0" offsetLabelY="0" source="tRunJob_14" target="tRunJob_15">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk15"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_15" offsetLabelX="0" offsetLabelY="0" source="tRunJob_15" target="tJava_2">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk16"/>
+  </connection>
+  <connection connectorName="SUBJOB_OK" label="OnSubjobOk" lineStyle="1" metaname="tRunJob_16" offsetLabelX="0" offsetLabelY="0" source="tRunJob_16" target="tRunJob_14">
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="OnSubjobOk17"/>
+  </connection>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_1"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tJava_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_2"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_3"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_4"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_5"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_6"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_7"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_8"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_9"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_10"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_11"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_12"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_14"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_15"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+  <subjob>
+    <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tRunJob_16"/>
+    <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
+    <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
+  </subjob>
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7c61c99f-dd8f-4196-9e05-41e956810494"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>qg9J/1bSbVgSQL2fgsif5fO15/AoKCEbLKQZAsg0jRFEw13G+0KNecU4mBJ9snpsWyvr4hDJ0C8X&#13;
+WQ9p/QO7Jg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_860a9930-f597-48a5-83a3-8474230ec36c"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>vFdFuxnPuL++nkjeUk5HQFCFUO29AwBXuX5OfC7ExzJd9aO1QKyELBvIkHWaxMEoLXO1of1ByUxN&#13;
+19AoNEFDZw==</DigestValue></Reference></SignedInfo><SignatureValue>eEJy0AiWdkpsQUgSsQYapLa3NYx1ScCDG3x/eBV5fWfYufNG4ifw+wmfUKnxwLlkWtWzRlbhtZmh&#13;
+Q4LFJcSX2ou75ekKhcXZbJYC9vDO7ifZAiCrSHPHPMLJOYQ+YXfrzYyftZtnrJ9LDAPDHRDcCbt/&#13;
+xlRXKeo/gTtF6M4GRSJQLQF+WS3VDvErwQulJ2JbkSbraJkd1hu0oqWa4/2gBQ5SDULcDXGK0a2f&#13;
+fyBZMtcm3RlD6u3j4cX/nBpOisK5uH0NN2fZisZEXm+rnfhzDfMctoQH9FqYeYFEFsyePS6515Sv&#13;
+Zh/99wwWgg0zvbMiFPlp2Yzi0dMk1h5BZg8FFA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w&#13;
+DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD&#13;
+VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5&#13;
+QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U&#13;
+YWxlbmQgQ29kZSBTaWduaW5nIGNlcnRpZmljYXRlMQwwCgYDVQQLDANSJkQxFDASBgNVBAoTC1Rh&#13;
+bGVuZCBJbmMuMQ4wDAYDVQQHEwVQYXJpczEOMAwGA1UECBMFUGFyaXMxCzAJBgNVBAYTAkZSMIIB&#13;
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAp5TMF8BmRt8dY51t9kIDdDkoOKVVytJN2gn2&#13;
+DhMGi8hzpUofNDykJDhe9SPqyJdGZ6o/h7laTA0/CivKyPT1OJQ9E2gMHKs8cTZM/cO2w0Atlqkl&#13;
+alIxepol0DNnUtmECVBqdnVsJesfmdoeptxgJAtxYbquFsTsrATNY2cscXpwmOca/Ewip48WQLFx&#13;
+e5s067jaIsAQGRIqpIup3bOtWBySrtImJ40lQCPeEcl96qzkv3utaVaNc3ukkhYkCDbMbK8NVd1B&#13;
+CVeeIBAe+n/SdpHH20o+6eIiZecsBGDLwlTYrFvuVqAa6xI7y8Vdz6irjPAVBEtG/iOc782aJ/lZ&#13;
+TwIDAQABo3UwczAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEF&#13;
+BQcDAzAdBgNVHQ4EFgQUGdfzQEbjQnANq28sfhEMTx+rsOcwHwYDVR0jBBgwFoAU530Lcvy1gZnG&#13;
+gCvZLOyCczK1qPcwDQYJKoZIhvcNAQELBQADggIBAEr22wnaQwZm2dhbUCqD+qZpTq2AF/tzxqAM&#13;
+eL/CiTjPbTblS4SNNwCKvTgMe9ucpUbenXmK7xE+DU9dN4om+t3VHbkOLQVyuLcd2WGsy7ZGwRvA&#13;
+f+TFwLbwjyTukOGm6Sd1qyZgvCPzBsKnft6vscvGy2yEpmFCeHJyBP8pvchg607zguRdNbkGYZXw&#13;
+G6jNipAbTtzdPTFKKr1bEf0sUGqMrlZIMPjflh2Vewu8ImNdX5IZdvBD6DdFVOC5wqV6u+W9ukE/&#13;
+mXZxDBYNl2AF7FTh04ucEVN3mHv7m2L0uFvUlhxchcagJhJsdQG+A0LVCemHbp6CSNQJx02KxqUG&#13;
+hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/&#13;
+WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW&#13;
+gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+&#13;
+qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg&#13;
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_860a9930-f597-48a5-83a3-8474230ec36c" Target="#_7c61c99f-dd8f-4196-9e05-41e956810494"><Timestamp>2022-02-15 12:30:34</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
